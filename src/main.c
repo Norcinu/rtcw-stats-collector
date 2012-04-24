@@ -1,5 +1,17 @@
 #include <stdio.h>
-#include <mongo.h>
+#include "parser.h"
+
+int main(int argc, char **argv) {
+	int result = open_file(argv[1]);
+	if (result == 1) {
+		printf ("ok\n");
+	} else {
+		printf ("error");
+	}
+
+	return 0;
+}
+/*#include <mongo.h>
 
 void insert_data(mongo * conn);
 
@@ -64,4 +76,4 @@ void insert_data(mongo * conn) {
         printf("insert_data != ok\n");
     }
     bson_destroy(b);
-}
+}*/
