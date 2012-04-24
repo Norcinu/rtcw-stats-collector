@@ -1,0 +1,1700 @@
+logfile opened on Mon Apr 23 21:36:40 2012
+
+...detecting CPU, found AMD w/ 3DNow!
+Bypassing CD checks
+----- Client Initialization -----
+----- Initializing Renderer ----
+-------------------------------
+Loaded 714 translation strings from scripts/translation.cfg
+Loaded 97 translation strings from translations/rocket.cfg
+Loaded 86 translation strings from translations/dam.cfg
+Loaded 114 translation strings from translations/tram.cfg
+Loaded 57 translation strings from translations/chateau.cfg
+Loaded 54 translation strings from translations/keep.cfg
+Loaded 73 translation strings from translations/icelab.cfg
+Loaded 6 translation strings from translations/translation-1_4.cfg
+----- Client Initialization Complete -----
+----- R_Init -----
+Initializing OpenGL subsystem
+...initializing QGL
+...calling LoadLibrary( 'C:\Windows\system32\opengl32.dll' ): succeeded
+...setting mode 6: 1024 768 FS
+...using colorsbits of 32
+...calling CDS: ok
+...registered window class
+...created window@0,0 (1024x768)
+Initializing OpenGL driver
+...getting DC: succeeded
+...GLW_ChoosePFD( 32, 24, 0 )
+...133 PFDs found
+...hardware acceleration found
+...PIXELFORMAT 7 selected
+...creating GL context: succeeded
+...making context current: succeeded
+Initializing OpenGL extensions
+...using GL_EXT_texture_compression_s3tc
+...using GL_EXT_texture_env_add
+...using WGL_EXT_swap_control
+...using GL_ARB_multitexture
+...using GL_EXT_compiled_vertex_array
+...WGL_3DFX_gamma_control not found
+...ignoring GL_NV_fog_distance
+
+GL_VENDOR: NVIDIA Corporation
+GL_RENDERER: GeForce GTX 460/PCIe/SSE2
+GL_VERSION: 4.2.0
+GL_EXTENSIONS: GL_ARB_color_buffer_float GL_ARB_compatibility GL_ARB_copy_buffer GL_ARB_depth_buffer_float GL_ARB_depth_texture GL_ARB_draw_buffers GL_ARB_draw_instanced GL_ARB_fragment_program GL_ARB_fragment_program_shadow GL_ARB_fragment_shader GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_geometry_shader4 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_imaging GL_ARB_map_buffer_range GL_ARB_multisample GL_ARB_multitexture GL_ARB_occlusion_query GL_ARB_pixel_buffer_object GL_ARB_point_parameters GL_ARB_point_sprite GL_ARB_shader_objects GL_ARB_shading_language_100 GL_ARB_shadow GL_ARB_texture_border_clamp GL_ARB_texture_buffer_object GL_ARB_texture_compression GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map GL_ARB_texture_env_add GL_ARB_texture_env_combine GL_ARB_texture_env_crossbar GL_ARB_texture_env_dot3 GL_ARB_texture_float GL_ARB_texture_mirrored_repeat GL_ARB_texture_non_power_of_two GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_transpose_matrix GL_ARB_vertex_array_object GL_ARB_vertex_buffer_object GL_ARB_vertex_program GL_ARB_vertex_shader GL_ARB_window_pos GL_ATI_draw_buffers GL_ATI_texture_float GL_ATI_texture_mirror_once GL_S3_s3tc GL_EXT_texture_env_add GL_EXT_abgr GL_EXT_bgra GL_EXT_bindable_uniform GL_EXT_blend_color GL_EXT_blend_equation_separate GL_EXT_blend_func_separate GL_EXT_blend_minmax GL_EXT_blend_subtract GL_EXT_compiled_vertex_array GL_EXT_Cg_shader GL_EXT_depth_bounds_test GL_EXT_direct_state_access GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_draw_range_elements GL_EXT_fog_coord GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXTX_framebuffer_mixed_formats GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_geometry_shader4 GL_EXT_gpu_program_parameters GL_EXT_gpu_shader4 GL_EXT_multi_draw_arrays GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_packed_pixels GL_EXT_pixel_buffer_object GL_EXT_point_parameters GL_EXT_provoking_vertex GL_EXT_rescale_normal GL_EXT_secondary_color GL_EXT_separate_specular_color GL_EXT_shadow_funcs GL_EXT_stencil_two_side GL_EXT_stencil_wrap GL_EXT_texture3D GL_EXT_texture_array GL_EXT_texture_buffer_object GL_EXT_texture_compression_latc GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_cube_map GL_EXT_texture_edge_clamp GL_EXT_texture_env_combine GL_EXT_texture_env_dot3 GL_EXT_texture_filter_anisotropic GL_EXT_texture_integer GL_EXT_texture_lod GL_EXT_texture_lod_bias GL_EXT_texture_mirror_clamp GL_EXT_texture_object GL_EXT_texture_shared_exponent GL_EXT_texture_sRGB GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_vertex_array GL_EXT_vertex_array_bgra GL_IBM_rasterpos_clip GL_IBM_texture_mirrored_repeat GL_KTX_buffer_region GL_NV_blend_square GL_NV_conditional_render GL_NV_copy_depth_to_color GL_NV_depth_buffer_float GL_NV_depth_clamp GL_NV_explicit_multisample GL_NV_fence GL_NV_float_buffer GL_NV_fog_distance GL_NV_fragment_program GL_NV_fragment_program_option GL_NV_fragment_program2 GL_NV_framebuffer_multisample_coverage GL_NV_geometry_shader4 GL_NV_gpu_program4 GL_NV_gpu_program4_1 GL_NV_gpu_program5 GL_NV_gpu_program_fp64 GL_NV_half_float GL_NV_light_max_exponent GL_NV_multisample_coverage GL_NV_multisample_filter_hint GL_NV_occlusion_query GL_NV_packed_depth_stencil GL_NV_parameter_buffer_object GL_NV_pixel_data_range GL_NV_point_sprite GL_NV_primitive_restart GL_NV_register_combiners GL_NV_register_combiners2 GL_NV_shader_buffer_load GL_NV_texgen_reflection GL_NV_texture_compression_vtc GL_NV_texture_env_combine4 GL_NV_texture_expand_normal GL_NV_texture_rectangle GL_NV_texture_shader GL_NV_texture_shader2 GL_NV_texture_shader3 GL_NV_transform_feedback GL_NV_transform_feedback2 GL_NV_vertex_array_range GL_NV_vertex_array_range2 GL_NV_vertex_buffer_unified_memory GL_NV_vertex_program GL_NV_vertex_program1_1 GL_NV_vertex_program2 GL_NV_vertex_program2_option GL_NV_vertex_program3 GL_NVX_conditional_render GL_SGIS_generate_mipmap GL_SGIS_texture_lod GL_SGIX_depth_texture GL_SGIX_shadow GL_SUN_slice_accum GL_WIN_swap_hint WGL_EXT_swap_control 
+GL_MAX_TEXTURE_SIZE: 16384
+GL_MAX_ACTIVE_TEXTURES_ARB: 4
+
+PIXELFORMAT: color(32-bits) Z(24-bit) stencil(0-bits)
+MODE: 6, 1024 x 768 fullscreen hz:60
+GAMMA: software w/ 0 overbright bits
+CPU: AMD w/ 3DNow!
+rendering primitives: single glDrawElements
+texturemode: GL_LINEAR_MIPMAP_NEAREST
+picmip: 1
+texture bits: 32
+multitexture: enabled
+compiled vertex arrays: enabled
+texenv add: enabled
+compressed textures: enabled
+NV distance fog: disabled
+Initializing Shaders
+^3WARNING: unknown general shader parameter 'map' in 'projectionShadow'
+^3WARNING: expecting '{', found 'surfaceparm' instead in shader 'flareShader'
+----- finished R_Init -----
+
+------- sound initialization -------
+Initializing DirectSound
+DirectSound initialized successfully
+------------------------------------
+----- Sound Info -----
+sound system is muted
+    1 stereo
+32768 samples
+   16 samplebits
+    1 submission_chunk
+22050 speed
+0x2f3f0050 dma buffer
+No background file.
+----------------------
+Sound memory manager started
+--- Common Initialization Complete ---
+Winsock Initialized
+Opening IP socket: localhost:27960
+Hostname: Steven-PC
+IP: 192.168.1.65
+IP: 192.168.56.1
+Working directory: C:\Program Files (x86)\Return to Castle Wolfenstein
+^5PunkBuster Client: Changing (Vista) homepath to [C:\Users\Steven\AppData\Local\PunkBuster\RTCW\pb\]
+^5PunkBuster Client: Error: Failed to locate resource (A)
+^5PunkBuster Client: Attempting to resolve master1.evenbalance.com
+^5PunkBuster Client: Resolved to [66.36.231.175] (16)
+^5PunkBuster Client: PunkBuster Client (v2.164 | A0) Enabled
+Resolving wolfmotd.idsoftware.com
+wolfmotd.idsoftware.com resolved to 199.107.64.171:27951
+69.65.113.18:27960 resolved to 69.65.113.18:27960
+Resolving wolfauthorize.idsoftware.com
+wolfauthorize.idsoftware.com resolved to 199.107.64.171:27952
+^5PunkBuster Client: Game Version [Wolf 1.41b-MP win-x86 May  8 2006]
+^5PunkBuster Client: Connected to Server 69.65.113.18:27960
+^5PunkBuster Client: Error: Unable to set cl_guid
+^5PunkBuster Client: PB Services socket initialized
+Current search path:
+C:\Program Files (x86)\Return to Castle Wolfenstein\main\mp_pakmaps6.pk3 (81 files)
+    on the pure list
+C:\Program Files (x86)\Return to Castle Wolfenstein\main\mp_pakmaps5.pk3 (35 files)
+    on the pure list
+C:\Program Files (x86)\Return to Castle Wolfenstein\main\mp_pakmaps4.pk3 (52 files)
+    on the pure list
+C:\Program Files (x86)\Return to Castle Wolfenstein\main\mp_pakmaps3.pk3 (83 files)
+    on the pure list
+C:\Program Files (x86)\Return to Castle Wolfenstein\main\mp_pakmaps2.pk3 (47 files)
+    on the pure list
+C:\Program Files (x86)\Return to Castle Wolfenstein\main\mp_pakmaps1.pk3 (34 files)
+    on the pure list
+C:\Program Files (x86)\Return to Castle Wolfenstein\main\mp_pakmaps0.pk3 (21 files)
+    on the pure list
+C:\Program Files (x86)\Return to Castle Wolfenstein\main\mp_pak5.pk3 (77 files)
+    on the pure list
+C:\Program Files (x86)\Return to Castle Wolfenstein\main\mp_pak4.pk3 (5 files)
+    on the pure list
+C:\Program Files (x86)\Return to Castle Wolfenstein\main\mp_pak3.pk3 (76 files)
+    on the pure list
+C:\Program Files (x86)\Return to Castle Wolfenstein\main\mp_pak2.pk3 (3 files)
+    on the pure list
+C:\Program Files (x86)\Return to Castle Wolfenstein\main\mp_pak1.pk3 (308 files)
+    on the pure list
+C:\Program Files (x86)\Return to Castle Wolfenstein\main\mp_pak0.pk3 (783 files)
+    on the pure list
+C:\Program Files (x86)\Return to Castle Wolfenstein\main\mp_bin.pk3 (4 files)
+    on the pure list
+C:\Program Files (x86)\Return to Castle Wolfenstein\main\te_ufo.pk3 (32 files)
+    on the pure list
+C:\Program Files (x86)\Return to Castle Wolfenstein\main\te_frostbite.pk3 (99 files)
+    on the pure list
+C:\Program Files (x86)\Return to Castle Wolfenstein\main\pak0.pk3 (4775 files)
+    on the pure list
+C:\Program Files (x86)\Return to Castle Wolfenstein/shrubmod
+C:\Program Files (x86)\Return to Castle Wolfenstein\main\mp_theriver.pk3 (49 files)
+    not on the pure list
+C:\Program Files (x86)\Return to Castle Wolfenstein\main\mp_skin_xmashelm.pk3 (15 files)
+    not on the pure list
+C:\Program Files (x86)\Return to Castle Wolfenstein\main\te_escape2.pk3 (11 files)
+    not on the pure list
+C:\Program Files (x86)\Return to Castle Wolfenstein/main
+
+handle 1: rtcwconsole.log
+----------------------
+13180 files in pk3 files
+RE_Shutdown( 0 )
+Hunk_Clear: reset the hunk ok
+----- R_Init -----
+
+GL_VENDOR: NVIDIA Corporation
+GL_RENDERER: GeForce GTX 460/PCIe/SSE2
+GL_VERSION: 4.2.0
+GL_EXTENSIONS: GL_ARB_color_buffer_float GL_ARB_compatibility GL_ARB_copy_buffer GL_ARB_depth_buffer_float GL_ARB_depth_texture GL_ARB_draw_buffers GL_ARB_draw_instanced GL_ARB_fragment_program GL_ARB_fragment_program_shadow GL_ARB_fragment_shader GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_geometry_shader4 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_imaging GL_ARB_map_buffer_range GL_ARB_multisample GL_ARB_multitexture GL_ARB_occlusion_query GL_ARB_pixel_buffer_object GL_ARB_point_parameters GL_ARB_point_sprite GL_ARB_shader_objects GL_ARB_shading_language_100 GL_ARB_shadow GL_ARB_texture_border_clamp GL_ARB_texture_buffer_object GL_ARB_texture_compression GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map GL_ARB_texture_env_add GL_ARB_texture_env_combine GL_ARB_texture_env_crossbar GL_ARB_texture_env_dot3 GL_ARB_texture_float GL_ARB_texture_mirrored_repeat GL_ARB_texture_non_power_of_two GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_transpose_matrix GL_ARB_vertex_array_object GL_ARB_vertex_buffer_object GL_ARB_vertex_program GL_ARB_vertex_shader GL_ARB_window_pos GL_ATI_draw_buffers GL_ATI_texture_float GL_ATI_texture_mirror_once GL_S3_s3tc GL_EXT_texture_env_add GL_EXT_abgr GL_EXT_bgra GL_EXT_bindable_uniform GL_EXT_blend_color GL_EXT_blend_equation_separate GL_EXT_blend_func_separate GL_EXT_blend_minmax GL_EXT_blend_subtract GL_EXT_compiled_vertex_array GL_EXT_Cg_shader GL_EXT_depth_bounds_test GL_EXT_direct_state_access GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_draw_range_elements GL_EXT_fog_coord GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXTX_framebuffer_mixed_formats GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_geometry_shader4 GL_EXT_gpu_program_parameters GL_EXT_gpu_shader4 GL_EXT_multi_draw_arrays GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_packed_pixels GL_EXT_pixel_buffer_object GL_EXT_point_parameters GL_EXT_provoking_vertex GL_EXT_rescale_normal GL_EXT_secondary_color GL_EXT_separate_specular_color GL_EXT_shadow_funcs GL_EXT_stencil_two_side GL_EXT_stencil_wrap GL_EXT_texture3D GL_EXT_texture_array GL_EXT_texture_buffer_object GL_EXT_texture_compression_latc GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_cube_map GL_EXT_texture_edge_clamp GL_EXT_texture_env_combine GL_EXT_texture_env_dot3 GL_EXT_texture_filter_anisotropic GL_EXT_texture_integer GL_EXT_texture_lod GL_EXT_texture_lod_bias GL_EXT_texture_mirror_clamp GL_EXT_texture_object GL_EXT_texture_shared_exponent GL_EXT_texture_sRGB GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_vertex_array GL_EXT_vertex_array_bgra GL_IBM_rasterpos_clip GL_IBM_texture_mirrored_repeat GL_KTX_buffer_region GL_NV_blend_square GL_NV_conditional_render GL_NV_copy_depth_to_color GL_NV_depth_buffer_float GL_NV_depth_clamp GL_NV_explicit_multisample GL_NV_fence GL_NV_float_buffer GL_NV_fog_distance GL_NV_fragment_program GL_NV_fragment_program_option GL_NV_fragment_program2 GL_NV_framebuffer_multisample_coverage GL_NV_geometry_shader4 GL_NV_gpu_program4 GL_NV_gpu_program4_1 GL_NV_gpu_program5 GL_NV_gpu_program_fp64 GL_NV_half_float GL_NV_light_max_exponent GL_NV_multisample_coverage GL_NV_multisample_filter_hint GL_NV_occlusion_query GL_NV_packed_depth_stencil GL_NV_parameter_buffer_object GL_NV_pixel_data_range GL_NV_point_sprite GL_NV_primitive_restart GL_NV_register_combiners GL_NV_register_combiners2 GL_NV_shader_buffer_load GL_NV_texgen_reflection GL_NV_texture_compression_vtc GL_NV_texture_env_combine4 GL_NV_texture_expand_normal GL_NV_texture_rectangle GL_NV_texture_shader GL_NV_texture_shader2 GL_NV_texture_shader3 GL_NV_transform_feedback GL_NV_transform_feedback2 GL_NV_vertex_array_range GL_NV_vertex_array_range2 GL_NV_vertex_buffer_unified_memory GL_NV_vertex_program GL_NV_vertex_program1_1 GL_NV_vertex_program2 GL_NV_vertex_program2_option GL_NV_vertex_program3 GL_NVX_conditional_render GL_SGIS_generate_mipmap GL_SGIS_texture_lod GL_SGIX_depth_texture GL_SGIX_shadow GL_SUN_slice_accum GL_WIN_swap_hint WGL_EXT_swap_control 
+GL_MAX_TEXTURE_SIZE: 16384
+GL_MAX_ACTIVE_TEXTURES_ARB: 4
+
+PIXELFORMAT: color(32-bits) Z(24-bit) stencil(0-bits)
+MODE: 6, 1024 x 768 fullscreen hz:60
+GAMMA: software w/ 0 overbright bits
+CPU: AMD w/ 3DNow!
+rendering primitives: single glDrawElements
+texturemode: GL_LINEAR_MIPMAP_NEAREST
+picmip: 1
+texture bits: 32
+multitexture: enabled
+compiled vertex arrays: enabled
+texenv add: enabled
+compressed textures: enabled
+NV distance fog: disabled
+Initializing Shaders
+----- finished R_Init -----
+LOADING... collision map
+LOADING... sounds
+voice chat memory size = 0
+
+.........................
+Initializing Sound Scripts
+...loading 'sound/scripts/cutscene1.sounds'
+...loading 'sound/scripts/cutscene6.sounds'
+...loading 'sound/scripts/cutscene9.sounds'
+...loading 'sound/scripts/cutscene11.sounds'
+...loading 'sound/scripts/cutscene14.sounds'
+...loading 'sound/scripts/cutscene19.sounds'
+...loading 'sound/scripts/escape1.sounds'
+...loading 'sound/scripts/escape2.sounds'
+...loading 'sound/scripts/tram.sounds'
+...loading 'sound/scripts/village1.sounds'
+...loading 'sound/scripts/crypt1.sounds'
+...loading 'sound/scripts/crypt2.sounds'
+...loading 'sound/scripts/church.sounds'
+...loading 'sound/scripts/boss1.sounds'
+...loading 'sound/scripts/forest.sounds'
+...loading 'sound/scripts/rocket.sounds'
+...loading 'sound/scripts/assault.sounds'
+...loading 'sound/scripts/sfm.sounds'
+...loading 'sound/scripts/factory.sounds'
+...loading 'sound/scripts/trainyard.sounds'
+...loading 'sound/scripts/swf.sounds'
+...loading 'sound/scripts/norway.sounds'
+...loading 'sound/scripts/xlabs.sounds'
+...loading 'sound/scripts/boss2.sounds'
+...loading 'sound/scripts/dam.sounds'
+...loading 'sound/scripts/village2.sounds'
+...loading 'sound/scripts/chateau.sounds'
+...loading 'sound/scripts/dark.sounds'
+...loading 'sound/scripts/castle.sounds'
+...loading 'sound/scripts/end.sounds'
+...loading 'sound/scripts/ai.sounds'
+...loading 'sound/scripts/general.sounds'
+...loading 'sound/scripts/combat.sounds'
+...loading 'sound/scripts/movers.sounds'
+done.
+LOADING... graphics
+LOADING... maps/mp_beach.bsp
+^3WARNING: expecting '{', found 'surfaceparm' instead in shader 'flareShader'
+stitched 0 LoD cracks
+...loaded 5432 faces, 264 meshes, 259 trisurfs, 168 flares
+LOADING... entities
+LOADING... game media
+LOADING...  - textures
+LOADING...  - models
+LOADING...  - weapons
+LOADING...  - items
+LOADING...  - inline models
+LOADING...  - server models
+LOADING...  - particles
+LOADING...  - game media done
+LOADING... flamechunks
+LOADING... clients
+LOADING... soulreaper|P0W|
+LOADING... [[[Mad.Soapytits]]]
+LOADING... (.Y.)MsB
+LOADING... Doctor_Iskembe
+LOADING... wTh-SShooter
+LOADING... newarman
+LOADING... Capone
+LOADING... jon0
+LOADING... noxadox@rtcw.edu :0)
+LOADING... kanibal(k)
+LOADING... Bubba
+LOADING... Mr.Dogday
+LOADING... discomachinegun
+LOADING... *OF*James Bundy
+LOADING... -xTc][Diesel-
+LOADING... Bighi V boi!
+LOADING... tim&3g
+LOADING... m@$73ry
+LOADING... HACKNEY MAN DEM E8
+LOADING... grom
+LOADING... o==>MrD
+LOADING... froKONG
+LOADING... DroiD>:*/
+LOADING... spaztik
+LOADING... DeX_ME!N_FURY
+LOADING... Powerhour
+UI menu load time = 2 milli seconds
+CL_InitCGame:  1.65 seconds
+8 msec to draw all images
+Com_TouchMemory: 0 msec
+execing wolfconfig_mp.cfg
+usage: seta <variable> <value>
+^5PunkBuster Client: PnkBstrA successfully loaded PnkBstrB
+^5PunkBuster Client: WARNING: ^7PB Kicks for Name Spamming and Name Stealing and Level 1 PB Restrictions on this Server
+^5PunkBuster Client: PB Server assigned guid = 924c8873f1a14c3363a4456cf3605df5
+^5PunkBuster Client: Receiving from PB Server (l v1.730 | A1345 C2.164)
+[skipnotify]^7[[[Mad.^6Soapytits^7]]]^7 was killed by ^4o^0==^4>^0Mr^4D^7's MP40
+^5PunkBuster Client: rate = "25000" : must be INSIDE 15000 to 25000 (OK)
+^5PunkBuster Client: snaps = "20" : must be INSIDE 20 to 40 (OK)
+^5PunkBuster Client: pmove_fixed = "0" : must be EQUAL to 0 (OK)
+^5PunkBuster Client: cg_bobpitch = "0" : must be INSIDE 0 to 0.002 (OK)
+^5PunkBuster Client: cg_bobroll = "0" : must be INSIDE 0 to 0.002 (OK)
+^5PunkBuster Client: cg_bobup = "0" : must be INSIDE 0 to 0.005 (OK)
+^5PunkBuster Client: cg_errordecay = "100" : must be EQUAL to 100 (OK)
+^5PunkBuster Client: cg_fov = "110" : must be INSIDE 90 to 120 (OK)
+^5PunkBuster Client: cg_shadows = "1" : must be INSIDE 0 to 1 (OK)
+^5PunkBuster Client: cg_thirdperson = "0" : must be EQUAL to 0 (OK)
+^5PunkBuster Client: 0 Current Cvar Violations
+^5PunkBuster Client: CvarList truncated; Use pb_cvarlist to see entire list
+^5PunkBuster Client: PnkBstrB service installed and started successfully
+[skipnotify]m@$73ry^7 was killed by ^ddiscomachinegun^7's MP40
+[skipnotify]soul^8reaper^7|^8P^70^8W^7|^7 was ventilated by ^0spaztik^7's Venom
+[skipnotify]^!kanibal(k)^7 was killed by ^8jo^7n^10^7's Thompson
+[skipnotify]^8wTh^7-^8SShooter^7 was killed by ^0grom^7's MP40
+[skipnotify]Capone^7 was ventilated by ^0spaztik^7's Venom
+[skipnotify]^8wTh^7-^8SShooter^7 was gibbed by ^0grom^7
+[skipnotify]soul^8reaper^7|^8P^70^8W^7|^7 was gibbed by ^ddiscomachinegun^7
+[skipnotify]^8jo^7n^10^7 was killed by ^4o^0==^4>^0Mr^4D^7's MP40
+[skipnotify]Capone^7 was gibbed by ^0spaztik^7
+[skipnotify]^8jo^7n^10^7 was gibbed by ^4o^0==^4>^0Mr^4D^7
+[skipnotify]^2Chat with us on IRC...#ecgn on EnterTheGame
+[skipnotify]^4-^7xTc^4][^7Diesel^4-^7 was gibbed by noxadox@rtcw.edu :0)^7
+[skipnotify]^3Bighi V boi!^7 was killed by ^0grom^7's MP40
+[skipnotify]^3Bighi V boi!^7 was gibbed by ^6froKONG^7
+[skipnotify]^7[[[Mad.^6Soapytits^7]]]^7 was ventilated by ^0spaztik^7's Venom
+[skipnotify]noxadox@rtcw.edu :0)^7 was killed by ^2Doctor_^3Iskembe^7's Thompson
+[skipnotify]DeX_ME!N_FURY^7 was killed by ^0grom^7's MP40
+[skipnotify]^2Doctor_^3Iskembe^7 was killed by ^4o^0==^4>^0Mr^4D^7's Thompson
+[skipnotify]Capone^7 was gibbed by tim&3g^7
+[skipnotify]Capone^7 was blasted by tim&3g^7's support fire
+[skipnotify]^3Allies left: 10, Axis left: 10
+[skipnotify]m@$73ry^7 was killed by ^6HACKNEY MAN DEM E8^7's MP40
+[skipnotify]: ^7[[[Mad.^6Soapytits^7]]] ^3(unknown): ^2Hi.
+[skipnotify]^35:30: ^7Axis reclaims the Forward Bunker!
+[skipnotify]soul^8reaper^7|^8P^70^8W^7|^7 was exploded by ^0spaztik^7's grenade
+[skipnotify]: newarman ^3(unknown): ^2Hello.
+[skipnotify]: (^ddiscomachinegun)^3(Radio Room): ^5Danke.
+[skipnotify]^3Allies left: 10, Axis left: 11
+[skipnotify]^0grom^7 was killed by ^4-^7xTc^4][^7Diesel^4-^7's Sten
+[skipnotify]: (noxadox@rtcw.edu :0))^3(Upper Bunker): ^5Medic!
+[skipnotify]^4-^7xTc^4][^7Diesel^4-^7 was ventilated by ^0spaztik^7's Venom
+[skipnotify]m@$73ry^7: ^2wow really 
+[skipnotify]DeX_ME!N_FURY^7 was killed by ^6HACKNEY MAN DEM E8^7's MP40
+[skipnotify]^4-^7xTc^4][^7Diesel^4-^7 was gibbed by ^0spaztik^7
+[skipnotify]^0grom^7 was revived by ^4o^0==^4>^0Mr^4D
+[skipnotify]^0spaztik^7 was exploded by ^2Doctor_^3Iskembe^7's grenade
+[skipnotify]: ^0spaztik ^3(Upper Base): ^2Heh heh.
+[skipnotify]newarman^7 was killed by ^7[[[Mad.^6Soapytits^7]]]^7's Thompson
+[skipnotify]Stats for ^6HACKNEY MAN DEM E8 ^7this round:
+[skipnotify]^3Kills:^7 2, ^3Deaths:^7 0, ^3Kill Ratio: ^72.00, ^3Gibs:^7 0
+[skipnotify]^3Revived:^7 0, ^3Packs Given:^7 0 Health, 0 Ammo
+[skipnotify]^3Accuracy:^7 56.67 (17/30), ^3Headshots: ^71
+[skipnotify]^3Binoculars:^7 0, ^3Property Damage:^7 $0.00
+[skipnotify]^3Bighi V boi!^7 was gibbed by newarman^7
+[skipnotify]^3Bighi V boi!^7 was exploded by newarman^7's grenade
+[skipnotify]^0grom^7 was killed by ^2Doctor_^3Iskembe^7's Thompson
+[skipnotify](noxadox@rtcw.edu :0)^7) (Upper Bunker): ^5i've got a sten i don't want to give up
+[skipnotify]^2Doctor_^3Iskembe^7 was killed by tim&3g^7's Sten
+^3[^5 DEFAULT ^3] 
+[skipnotify]: (noxadox@rtcw.edu :0))^3(Upper Bunker): ^5Danke.
+^3[^5 FORWARD BUNKER ^3] 
+^3[^5 LOWER BUNKER ^3] 
+[skipnotify]noxadox@rtcw.edu :0)^7 was revived by ^4o^0==^4>^0Mr^4D
+[skipnotify]^35:10: ^7Allies capture the Forward Bunker!
+[skipnotify](^0grom^7) (Upper Base): ^5I'll respawn as a ^0Medic
+[skipnotify]^0spaztik^7 was killed by ^8jo^7n^10^7's MP40
+^3[^5 AXIS BARRACKS ^3] 
+[skipnotify](^0spaztik^7) (Upper Base): ^5^0Spaztik ^tmedic
+^3[^5 ALLIED SNIPER HILL ^3] 
+^3[^5 DEFAULT ^3] 
+^3[^5 FORWARD BUNKER ^3] 
+[skipnotify]^7[[[Mad.^6Soapytits^7]]]^7 was exploded by newarman^7's grenade
+^3[^5 LOWER BUNKER ^3] 
+[skipnotify]: ^0spaztik ^3(Upper Base): ^2YES!
+[skipnotify]: (^ddiscomachinegun)^3(Radio Room): ^5Sorry.
+^3[^5 AXIS BARRACKS ^3] 
+[skipnotify]^8jo^7n^10^7 was killed by noxadox@rtcw.edu :0)^7's Sten
+[skipnotify]: (^6HACKNEY MAN DEM E8)^3(unknown): ^5You're welcome.
+[skipnotify]^0grom^7 was revived by ^4o^0==^4>^0Mr^4D
+[skipnotify]: (^6froKONG)^3(Upper Base): ^5I need ammo!
+[skipnotify]^2Doctor_^3Iskembe^7 was exploded by ^!kanibal(k)^7's grenade
+[skipnotify]^7[[[Mad.^6Soapytits^7]]]^7 was revived by Capone
+[skipnotify]^3Knives left:^7 5
+[skipnotify]: (newarman)^3(Upper Base): ^5I'm a lieutenant.
+[skipnotify]^7[[[Mad.^6Soapytits^7]]]^7 was killed by ^6froKONG^7's MP40
+[skipnotify]: (tim&3g)^3(Upper Base): ^5I'm a lieutenant.
+[skipnotify]soul^8reaper^7|^8P^70^8W^7|^7 was exploded by ^0spaztik^7's grenade
+[skipnotify]^7[[[Mad.^6Soapytits^7]]]^7 was revived by Capone
+[skipnotify]: (^6HACKNEY MAN DEM E8)^3(unknown): ^5Danke.
+[skipnotify]: (noxadox@rtcw.edu :0))^3(Upper Base): ^5Fire in the hole!
+[skipnotify]^2Check the RTCW forum @ http://forums.powervs.com
+[skipnotify]^0grom^7 was killed by ^2Doctor_^3Iskembe^7's Thompson
+[skipnotify]soul^8reaper^7|^8P^70^8W^7|^7 was revived by Capone
+[skipnotify]^0grom^7 was gibbed by ^2Doctor_^3Iskembe^7
+[skipnotify]: (^6froKONG)^3(Upper Base): ^5I need ammo!
+[skipnotify]^7[[[Mad.^6Soapytits^7]]]^7 was killed by ^0spaztik^7's MP40
+[skipnotify]^0spaztik^7 was killed by ^8wTh^7-^8SShooter^7's Thompson
+[skipnotify]: (^6froKONG)^3(Upper Base): ^5Danke.
+[skipnotify]^0spaztik^7 was gibbed by ^4-^7xTc^4][^7Diesel^4-^7
+[skipnotify]^7[[[Mad.^6Soapytits^7]]]^7 was revived by Capone
+[skipnotify]Stats for ^6HACKNEY MAN DEM E8 ^7this round:
+[skipnotify]^3Kills:^7 2, ^3Deaths:^7 0, ^3Kill Ratio: ^72.00, ^3Gibs:^7 0
+[skipnotify]^3Revived:^7 0, ^3Packs Given:^7 0 Health, 0 Ammo
+[skipnotify]^3Accuracy:^7 50.00 (25/50), ^3Headshots: ^72
+[skipnotify]^3Binoculars:^7 0, ^3Property Damage:^7 $71.00
+[skipnotify]m@$73ry^7 was killed by ^0grom^7's MP40
+[skipnotify]^4-^7xTc^4][^7Diesel^4-^7 was killed by tim&3g^7's Sten
+[skipnotify]tim&3g^7 was killed by Capone^7's Thompson
+[skipnotify]^0grom^7 was killed by ^8jo^7n^10^7's Thompson
+[skipnotify]DeX_ME!N_FURY^7 ^1WAS KILLED BY TEAMMATE^7 ^8wTh^7-^8SShooter^7
+[skipnotify]^4-^7xTc^4][^7Diesel^4-^7 was revived by ^7[[[Mad.^6Soapytits^7]]]
+[skipnotify]m@$73ry^7 was revived by ^8jo^7n^10
+[skipnotify]DeX_ME!N_FURY^7 was revived by ^8wTh^7-^8SShooter
+[skipnotify]: (^0grom)^3(unknown): ^5Incoming!
+[skipnotify](tim&3g^7) (Upper Base): ^5^1[^q+^1] ^3=^q=^3= ^3Enemy spotted: ^1 5
+[skipnotify]^8jo^7n^10^7 was killed by ^ddiscomachinegun^7's MP40
+[skipnotify](^0spaztik^7) (Upper Base): ^5sidestairs
+[skipnotify]m@$73ry^7 was killed by ^ddiscomachinegun^7's MP40
+[skipnotify](^0spaztik^7) (Upper Base): ^5tons
+[skipnotify]: (^0grom)^3(unknown): ^5Danke.
+[skipnotify]tim&3g^7 was gibbed by ^4-^7xTc^4][^7Diesel^4-^7
+[skipnotify]^0grom^7 was revived by ^ddiscomachinegun
+[skipnotify]soul^8reaper^7|^8P^70^8W^7|^7 was killed by ^6HACKNEY MAN DEM E8^7's MP40
+[skipnotify]^8jo^7n^10^7 was gibbed by ^ddiscomachinegun^7
+[skipnotify]: (noxadox@rtcw.edu :0))^3(Upper Base): ^5I need ammo!
+[skipnotify]^!kanibal(k)^7 was blasted by ^4-^7xTc^4][^7Diesel^4-^7's support fire
+[skipnotify]^!kanibal(k)^7 was gibbed by ^4-^7xTc^4][^7Diesel^4-^7
+[skipnotify]soul^8reaper^7|^8P^70^8W^7|^7 was revived by ^7[[[Mad.^6Soapytits^7]]]
+[skipnotify]^6HACKNEY MAN DEM E8^7 was killed by Capone^7's Thompson
+[skipnotify]Capone^7 ^1WAS KILLED BY TEAMMATE^7 ^7[[[Mad.^6Soapytits^7]]]^7
+[skipnotify]DeX_ME!N_FURY^7 was killed by ^4o^0==^4>^0Mr^4D^7's Thompson
+[skipnotify]soul^8reaper^7|^8P^70^8W^7|^7 was exploded by ^6froKONG^7's grenade
+[skipnotify]^4-^7xTc^4][^7Diesel^4-^7 was killed by noxadox@rtcw.edu :0)^7's Luger 9mm
+[skipnotify]Capone^7 was revived by ^7[[[Mad.^6Soapytits^7]]]
+[skipnotify]soul^8reaper^7|^8P^70^8W^7|^7 was revived by ^2Doctor_^3Iskembe
+[skipnotify]^7[[[Mad.^6Soapytits^7]]]^7 was killed by ^4o^0==^4>^0Mr^4D^7's Thompson
+[skipnotify]^4-^7xTc^4][^7Diesel^4-^7 was gibbed by noxadox@rtcw.edu :0)^7
+[skipnotify]DeX_ME!N_FURY^7 disconnected
+[skipnotify]Capone^7 ^1WAS KILLED BY TEAMMATE^7 ^2Doctor_^3Iskembe^7
+[skipnotify]^4o^0==^4>^0Mr^4D^7 was killed by ^2Doctor_^3Iskembe^7's Thompson
+[skipnotify]soul^8reaper^7|^8P^70^8W^7|^7 was killed by ^6HACKNEY MAN DEM E8^7's MP40
+[skipnotify]^2Doctor_^3Iskembe^7 was killed by ^6HACKNEY MAN DEM E8^7's MP40
+[skipnotify]: (noxadox@rtcw.edu :0))^3(Upper Base): ^5Danke.
+[skipnotify]^4o^0==^4>^0Mr^4D^7 was revived by ^6HACKNEY MAN DEM E8
+[skipnotify]: (^4o^0==^4>^0Mr^4D)^3(Upper Base): ^5Danke.
+[skipnotify]^3Allies left: 9, Axis left: 11
+[skipnotify]^2Doctor_^3Iskembe^7 was gibbed by ^6HACKNEY MAN DEM E8^7
+[skipnotify]soul^8reaper^7|^8P^70^8W^7|^7 was gibbed by ^0spaztik^7
+[skipnotify]Capone^7 was gibbed by ^4o^0==^4>^0Mr^4D^7
+[skipnotify]^3Knives left:^7 5
+[skipnotify]: ^0spaztik ^3(Upper Base): ^2Heh heh.
+[skipnotify]^3Bighi V boi!^7 was exploded by ^0grom^7's grenade
+[skipnotify]^8wTh^7-^8SShooter^7 was killed by tim&3g^7's Sten
+[skipnotify]^3Bighi V boi!^7 was revived by m@$73ry
+[skipnotify]: (Mr.Dogday)^3(War Room): ^5Danke.
+[skipnotify]Stats for ^6HACKNEY MAN DEM E8 ^7this round:
+[skipnotify]^3Kills:^7 5, ^3Deaths:^7 1, ^3Kill Ratio: ^75.00, ^3Gibs:^7 1
+[skipnotify]^3Revived:^7 1, ^3Packs Given:^7 0 Health, 0 Ammo
+[skipnotify]^3Accuracy:^7 38.26 (44/115), ^3Headshots: ^73
+[skipnotify]^3Binoculars:^7 3, ^3Property Damage:^7 $71.00
+[skipnotify]^ddiscomachinegun^7 was killed by ^8jo^7n^10^7's Thompson
+[skipnotify]: (newarman)^3(Basement): ^5You're welcome.
+[skipnotify]^3Bighi V boi!^7 was killed by noxadox@rtcw.edu :0)^7's Sten
+[skipnotify]tim&3g^7 was killed by ^4-^7xTc^4][^7Diesel^4-^7's Sten
+[skipnotify]^ddiscomachinegun^7 was gibbed by ^8jo^7n^10^7
+[skipnotify]^3Bighi V boi!^7 was gibbed by ^0grom^7
+[skipnotify]: (newarman)^3(Basement): ^5Incoming!
+[skipnotify]^4-^7xTc^4][^7Diesel^4-^7 was killed by ^6froKONG^7's MP40
+[skipnotify]tim&3g^7 was revived by ^6froKONG
+[skipnotify]: (tim&3g)^3(Upper Base): ^5Danke.
+[skipnotify]^2Anti-TK system active - watch your fire
+[skipnotify](^ddiscomachinegun^7) (Radio Stairway): ^5jono short
+[skipnotify]soul^8reaper^7|^8P^70^8W^7|^7 was killed by noxadox@rtcw.edu :0)^7's Sten
+[skipnotify]: (newarman)^3(Radio Stairway): ^5Incoming!
+[skipnotify]soul^8reaper^7|^8P^70^8W^7|^7 was revived by Capone
+[skipnotify]: (noxadox@rtcw.edu :0))^3(Upper Base): ^5Affirmative.
+[skipnotify]: (^0grom)^3(unknown): ^5I need ammo!
+[skipnotify]soul^8reaper^7|^8P^70^8W^7|^7 was killed by tim&3g^7's Sten
+[skipnotify]soul^8reaper^7|^8P^70^8W^7|^7 was revived by ^2Doctor_^3Iskembe
+[skipnotify]^8jo^7n^10^7 was killed by ^4o^0==^4>^0Mr^4D^7's Thompson
+[skipnotify]Capone^7 was killed by ^6froKONG^7's MP40
+[skipnotify]Capone^7 was revived by ^2Doctor_^3Iskembe
+[skipnotify]^4o^0==^4>^0Mr^4D^7 renamed to ^1!^0CarpetClay^1<^0ASC^1>
+[skipnotify]tim&3g^7 was killed by ^4-^7xTc^4][^7Diesel^4-^7 's .45ACP 1911
+[skipnotify]newarman^7 was killed by ^7[[[Mad.^6Soapytits^7]]]^7's Thompson
+[skipnotify]tim&3g^7 was gibbed by ^4-^7xTc^4][^7Diesel^4-^7
+[skipnotify]: (^1!^0CarpetClay^1<^0ASC^1>)^3(War Room): ^5Incoming!
+[skipnotify]: (newarman)^3(Basement): ^5Incoming!
+[skipnotify]: (^0grom)^3(unknown): ^5I need ammo!
+[skipnotify]^3Bighi V boi!^7 was killed by ^0spaztik^7's MP40
+[skipnotify]: (^0grom)^3(unknown): ^5You're welcome.
+[skipnotify]^33:17: ^7Allies have stolen the War Documents!
+[skipnotify]: (newarman)^3(Basement): ^5Incoming!
+[skipnotify]^1!^0CarpetClay^1<^0ASC^1>^7 renamed to ^4o^0==^4>^0Mr^4D
+[skipnotify]^0spaztik^7 ^1WAS KILLED BY TEAMMATE^7 ^6froKONG^7
+[skipnotify]^3Bighi V boi!^7 ^3WAS GIBBED BY TEAMMATE ^7Capone^7
+[skipnotify]^6froKONG^7 was gibbed by Capone^7
+[skipnotify]^6froKONG^7 was exploded by Capone^7's grenade
+[skipnotify]Mr.Dogday^7 vaporized himself.
+[skipnotify]: (^0grom)^3(unknown): ^5Danke.
+[skipnotify]: ^0spaztik ^3(Upper Base): ^2Yes!
+[skipnotify]Mr.Dogday^7 was gibbed by ^7[[[Mad.^6Soapytits^7]]]^7
+[skipnotify]^7[[[Mad.^6Soapytits^7]]]^7 was killed by ^4o^0==^4>^0Mr^4D^7's MP40
+[skipnotify]^4-^7xTc^4][^7Diesel^4-^7 ^1WAS KILLED BY TEAMMATE^7 ^8jo^7n^10^7
+[skipnotify]Capone^7 was killed by noxadox@rtcw.edu :0)^7's Sten
+[skipnotify]^4-^7xTc^4][^7Diesel^4-^7 was revived by ^8jo^7n^10
+[skipnotify]^33:12: ^7Axis have returned the War Documents!
+[skipnotify]Capone^7 was revived by ^8jo^7n^10
+[skipnotify]^8wTh^7-^8SShooter^7 was killed by newarman^7's MP40
+[skipnotify]^7[[[Mad.^6Soapytits^7]]]^7 was gibbed by ^4o^0==^4>^0Mr^4D^7
+[skipnotify]: (^0spaztik)^3(Upper Base): ^5Medic!
+[skipnotify]^3Knives left:^7 5
+[skipnotify]^4-^7xTc^4][^7Diesel^4-^7 was killed by noxadox@rtcw.edu :0)^7's Sten
+[skipnotify]^0spaztik^7 was revived by ^6froKONG
+[skipnotify]soul^8reaper^7|^8P^70^8W^7|^7 ^1WAS KILLED BY TEAMMATE^7 ^8jo^7n^10^7
+[skipnotify]soul^8reaper^7|^8P^70^8W^7|^7 was revived by ^8jo^7n^10
+[skipnotify]^0spaztik^7 was killed by ^3Bighi V boi!^7's Thompson
+[skipnotify]: ^0spaztik ^3(Upper Base): ^2YES!
+[skipnotify]Capone^7 was killed by ^!kanibal(k)^7's Sten
+[skipnotify]: (noxadox@rtcw.edu :0))^3(Upper Base): ^5Incoming!
+[skipnotify]Stats for ^6HACKNEY MAN DEM E8 ^7this round:
+[skipnotify]^3Kills:^7 5, ^3Deaths:^7 1, ^3Kill Ratio: ^75.00, ^3Gibs:^7 1
+[skipnotify]^3Revived:^7 1, ^3Packs Given:^7 0 Health, 0 Ammo
+[skipnotify]^3Accuracy:^7 38.26 (44/115), ^3Headshots: ^73
+[skipnotify]^3Binoculars:^7 3, ^3Property Damage:^7 $71.00
+[skipnotify]^0spaztik^7 was revived by ^0grom
+[skipnotify]^!kanibal(k)^7 was exploded by soul^8reaper^7|^8P^70^8W^7|^7's grenade
+[skipnotify]: (^4o^0==^4>^0Mr^4D)^3(Basement): ^5Where to?
+[skipnotify]^3Bighi V boi!^7 was killed by ^0grom^7's MP40
+[skipnotify]: (newarman)^3(Basement): ^5Path is cleared.
+[skipnotify]^!kanibal(k)^7 was revived by noxadox@rtcw.edu :0)
+[skipnotify]^0grom^7 was killed by ^8jo^7n^10^7's Thompson
+[skipnotify]^8wTh^7-^8SShooter^7 was killed by tim&3g^7's Sten
+[skipnotify]Capone^7 was gibbed by ^6HACKNEY MAN DEM E8^7
+[skipnotify]Stats for ^6HACKNEY MAN DEM E8 ^7this round:
+[skipnotify]^3Kills:^7 5, ^3Deaths:^7 1, ^3Kill Ratio: ^75.00, ^3Gibs:^7 2
+[skipnotify]^3Revived:^7 1, ^3Packs Given:^7 0 Health, 0 Ammo
+[skipnotify]^3Accuracy:^7 39.23 (51/130), ^3Headshots: ^73
+[skipnotify]^3Binoculars:^7 3, ^3Property Damage:^7 $71.00
+[skipnotify]^7[[[Mad.^6Soapytits^7]]]^7 was gibbed by ^ddiscomachinegun^7
+[skipnotify]^7[[[Mad.^6Soapytits^7]]]^7 was exploded by ^ddiscomachinegun^7's grenade
+[skipnotify]soul^8reaper^7|^8P^70^8W^7|^7 was killed by ^0spaztik^7's MP40
+[skipnotify]^0grom^7 was revived by ^6froKONG
+[skipnotify]: ^7[[[Mad.^6Soapytits^7]]] ^3(unknown): ^2Great shot.
+[skipnotify]: (^4o^0==^4>^0Mr^4D)^3(War Room): ^5Danke.
+[skipnotify]soul^8reaper^7|^8P^70^8W^7|^7 was gibbed by ^0spaztik^7
+[skipnotify]: (noxadox@rtcw.edu :0))^3(Upper Bunker): ^5Fire in the hole!
+[skipnotify]^3Bighi V boi!^7 was revived by ^8jo^7n^10
+[skipnotify]^2Type /s_stop in console to restore lost sound
+[skipnotify]^3Bighi V boi!^7 was killed by ^0grom^7's MP40
+[skipnotify]^8jo^7n^10^7 was killed by ^0spaztik^7's MP40
+[skipnotify]^3Bighi V boi!^7 was gibbed by ^0grom^7
+[skipnotify]^2Doctor_^3Iskembe^7 was exploded by tim&3g^7's grenade
+[skipnotify]^8jo^7n^10^7 was gibbed by ^0spaztik^7
+[skipnotify]^2Doctor_^3Iskembe^7 was gibbed by noxadox@rtcw.edu :0)^7
+[skipnotify]^4-^7xTc^4][^7Diesel^4-^7 was stabbed by ^0spaztik^7's knife
+[skipnotify]tim&3g^7 was killed by Capone^7's Thompson
+[skipnotify]: (noxadox@rtcw.edu :0))^3(Upper Base): ^5Danke.
+[skipnotify]: ^0spaztik ^3(Upper Base): ^2Hello.
+[skipnotify]Stats for ^6HACKNEY MAN DEM E8 ^7this round:
+[skipnotify]^3Kills:^7 5, ^3Deaths:^7 1, ^3Kill Ratio: ^75.00, ^3Gibs:^7 2
+[skipnotify]^3Revived:^7 1, ^3Packs Given:^7 0 Health, 0 Ammo
+[skipnotify]^3Accuracy:^7 38.78 (57/147), ^3Headshots: ^73
+[skipnotify]^3Binoculars:^7 3, ^3Property Damage:^7 $71.00
+[skipnotify]Capone^7 ^3WAS GIBBED BY TEAMMATE ^7^7[[[Mad.^6Soapytits^7]]]^7
+[skipnotify]Capone^7 ^1WAS KILLED BY TEAMMATE^7 ^7[[[Mad.^6Soapytits^7]]]^7
+[skipnotify]: (^6froKONG)^3(Upper Base): ^5I need ammo!
+[skipnotify]^0spaztik^7 was killed by ^8jo^7n^10^7's Thompson
+[skipnotify]: (newarman)^3(Upper Base): ^5I'm a lieutenant.
+[skipnotify]tim&3g^7 was revived by ^4o^0==^4>^0Mr^4D
+[skipnotify]^0spaztik^7 was gibbed by ^8jo^7n^10^7
+[skipnotify]: (tim&3g)^3(Upper Base): ^5Danke.
+[skipnotify]^4o^0==^4>^0Mr^4D^7 was killed by ^3Bighi V boi!^7's Thompson
+[skipnotify]^!kanibal(k)^7 ^1WAS KILLED BY TEAMMATE^7 noxadox@rtcw.edu :0)^7
+[skipnotify]tim&3g^7 was killed by ^8jo^7n^10^7's Thompson
+[skipnotify]^!kanibal(k)^7 was revived by noxadox@rtcw.edu :0)
+[skipnotify]: (^!kanibal(k))^3(Upper Bunker): ^5Danke.
+[skipnotify]: (noxadox@rtcw.edu :0))^3(Upper Base): ^5Danke.
+[skipnotify]^8jo^7n^10^7 was killed by ^0grom^7's Thompson
+^5PunkBuster Client: Master Query Sent to (MASTER3.EVENBALANCE.COM) 216.240.146.139
+[skipnotify]^2Doctor_^3Iskembe^7 was killed by ^4o^0==^4>^0Mr^4D^7's MP40
+[skipnotify]^3Bighi V boi!^7 was killed by ^6froKONG^7's MP40
+[skipnotify]^!kanibal(k)^7 was exploded by soul^8reaper^7|^8P^70^8W^7|^7's grenade
+[skipnotify]: (noxadox@rtcw.edu :0))^3(Upper Base): ^5Sorry.
+[skipnotify]: (^!kanibal(k))^3(Upper Bunker): ^5Danke.
+[skipnotify]^3Bighi V boi!^7 was revived by ^7[[[Mad.^6Soapytits^7]]]
+[skipnotify]^8jo^7n^10^7 was revived by m@$73ry
+[skipnotify]m@$73ry^7 was killed by ^0spaztik^7's MP40
+[skipnotify]^!kanibal(k)^7 was revived by ^6HACKNEY MAN DEM E8
+[skipnotify]^7[[[Mad.^6Soapytits^7]]]^7 was killed by ^0spaztik^7's MP40
+[skipnotify]^0grom^7 ^1WAS KILLED BY TEAMMATE^7 ^6froKONG^7
+[skipnotify]^7[[[Mad.^6Soapytits^7]]]^7 was gibbed by ^0spaztik^7
+[skipnotify]m@$73ry^7 was revived by ^8jo^7n^10
+[skipnotify]^4o^0==^4>^0Mr^4D^7 was killed by ^4-^7xTc^4][^7Diesel^4-^7's Sten
+[skipnotify]soul^8reaper^7|^8P^70^8W^7|^7 was killed by ^6HACKNEY MAN DEM E8^7's MP40
+[skipnotify]^8jo^7n^10^7 was exploded by ^6froKONG^7's grenade
+[skipnotify]newarman^7 was killed by ^3Bighi V boi!^7's Thompson
+[skipnotify]^0grom^7 was revived by ^6froKONG
+[skipnotify](^4o^0==^4>^0Mr^4D^7) (Upper Bunker): ^5mh
+[skipnotify]newarman^7 was revived by ^6HACKNEY MAN DEM E8
+[skipnotify]^3Bighi V boi!^7 was killed by ^6froKONG^7's MP40
+[skipnotify]: (noxadox@rtcw.edu :0))^3(Upper Bunker): ^5Fire in the hole!
+[skipnotify]^6froKONG^7 ^1WAS KILLED BY TEAMMATE^7 ^0grom^7
+[skipnotify]soul^8reaper^7|^8P^70^8W^7|^7 was revived by Capone
+[skipnotify]^0spaztik^7 was killed by m@$73ry^7's Thompson
+[skipnotify]m@$73ry^7 was killed by ^0grom^7's Thompson
+[skipnotify]: (^6HACKNEY MAN DEM E8)^3(Upper Base): ^5Move!
+[skipnotify]soul^8reaper^7|^8P^70^8W^7|^7 fell to his death.
+[skipnotify]soul^8reaper^7|^8P^70^8W^7|^7: ^2^8l^70^1L
+[skipnotify]^2Doctor_^3Iskembe^7 was killed by noxadox@rtcw.edu :0)^7's Sten
+[skipnotify]Capone^7 was killed by ^6froKONG^7's MP40
+[skipnotify]^4-^7xTc^4][^7Diesel^4-^7 was killed by ^0spaztik^7's MP40
+[skipnotify]^0spaztik^7 was killed by ^8jo^7n^10^7's Thompson
+[skipnotify]: (^0spaztik)^3(Murder Hole): ^5Move!
+[skipnotify]^4-^7xTc^4][^7Diesel^4-^7 was revived by ^8wTh^7-^8SShooter
+[skipnotify]^2Try !stats to view your live player stats
+[skipnotify]noxadox@rtcw.edu :0)^7 was killed by ^8jo^7n^10^7's Thompson
+[skipnotify]^8jo^7n^10^7 was killed by ^4o^0==^4>^0Mr^4D^7's MP40
+[skipnotify]: (noxadox@rtcw.edu :0))^3(Upper Bunker): ^5Incoming!
+[skipnotify](^0spaztik^7) (Murder Hole): ^5lots coming
+[skipnotify]^7[[[Mad.^6Soapytits^7]]]^7 was killed by tim&3g^7's Sten
+[skipnotify](^0spaztik^7) (Murder Hole): ^5mh
+[skipnotify]tim&3g^7 was exploded by soul^8reaper^7|^8P^70^8W^7|^7's grenade
+[skipnotify]^2Doctor_^3Iskembe^7 was killed by ^0grom^7's Thompson
+[skipnotify]: (noxadox@rtcw.edu :0))^3(Upper Bunker): ^5Danke.
+[skipnotify]tim&3g^7 was gibbed by ^4-^7xTc^4][^7Diesel^4-^7
+[skipnotify]noxadox@rtcw.edu :0)^7 was revived by ^4o^0==^4>^0Mr^4D
+[skipnotify]^3Bighi V boi!^7 was killed by ^0grom^7's Thompson
+[skipnotify]^4-^7xTc^4][^7Diesel^4-^7 was killed by ^0spaztik^7's MP40
+[skipnotify]^7[[[Mad.^6Soapytits^7]]]^7 was revived by ^8wTh^7-^8SShooter
+[skipnotify]soul^8reaper^7|^8P^70^8W^7|^7 was killed by ^0grom^7's Thompson
+[skipnotify]^3Bighi V boi!^7 was revived by ^8jo^7n^10
+[skipnotify]soul^8reaper^7|^8P^70^8W^7|^7 was gibbed by ^0grom^7
+[skipnotify]^7[[[Mad.^6Soapytits^7]]]^7 was killed by ^0spaztik^7's MP40
+[skipnotify]m@$73ry^7 was killed by ^0spaztik^7's MP40
+[skipnotify]: noxadox@rtcw.edu :0) ^3(Upper Bunker): ^2Hello.
+[skipnotify]^3Bighi V boi!^7 was killed by ^6HACKNEY MAN DEM E8^7's MP40
+[skipnotify]Capone^7 was killed by newarman^7's MP40
+[skipnotify]: (^ddiscomachinegun)^3(Radio Room): ^5Danke.
+[skipnotify]newarman^7 was killed by ^4-^7xTc^4][^7Diesel^4-^7's Sten
+[skipnotify]noxadox@rtcw.edu :0)^7 was killed by ^8wTh^7-^8SShooter^7's Thompson
+[skipnotify]^8jo^7n^10^7 was killed by ^6HACKNEY MAN DEM E8^7's MP40
+[skipnotify]: (tim&3g)^3(Upper Bunker): ^5You're welcome.
+[skipnotify]: noxadox@rtcw.edu :0) ^3(Upper Bunker): ^2Oops.
+[skipnotify]Capone^7 was gibbed.
+[skipnotify]m@$73ry^7 was revived by ^8wTh^7-^8SShooter
+[skipnotify]Stats for ^6HACKNEY MAN DEM E8 ^7this round:
+[skipnotify]^3Kills:^7 8, ^3Deaths:^7 1, ^3Kill Ratio: ^78.00, ^3Gibs:^7 2
+[skipnotify]^3Revived:^7 3, ^3Packs Given:^7 0 Health, 0 Ammo
+[skipnotify]^3Accuracy:^7 35.83 (67/187), ^3Headshots: ^73
+[skipnotify]^3Binoculars:^7 3, ^3Property Damage:^7 $71.00
+[skipnotify]newarman^7 was revived by ^0grom
+[skipnotify]: newarman ^3(Trenches): ^2YES!
+[skipnotify]: ^6HACKNEY MAN DEM E8 ^3(Upper Base): ^2Heh heh.
+[skipnotify]noxadox@rtcw.edu :0)^7 was revived by ^0spaztik
+[skipnotify]Stats for ^6HACKNEY MAN DEM E8 ^7this round:
+[skipnotify]^3Kills:^7 8, ^3Deaths:^7 1, ^3Kill Ratio: ^78.00, ^3Gibs:^7 2
+[skipnotify]^3Revived:^7 3, ^3Packs Given:^7 0 Health, 0 Ammo
+[skipnotify]^3Accuracy:^7 35.26 (67/190), ^3Headshots: ^73
+[skipnotify]^3Binoculars:^7 3, ^3Property Damage:^7 $71.00
+[skipnotify]Stats for ^6HACKNEY MAN DEM E8 ^7this round:
+[skipnotify]^3Kills:^7 8, ^3Deaths:^7 1, ^3Kill Ratio: ^78.00, ^3Gibs:^7 2
+[skipnotify]^3Revived:^7 3, ^3Packs Given:^7 0 Health, 0 Ammo
+[skipnotify]^3Accuracy:^7 35.26 (67/190), ^3Headshots: ^73
+[skipnotify]^3Binoculars:^7 3, ^3Property Damage:^7 $71.00
+[skipnotify]^4-^7xTc^4][^7Diesel^4-^7 was killed by ^6froKONG^7's MP40
+[skipnotify]noxadox@rtcw.edu :0)^7 ^1WAS KILLED BY TEAMMATE^7 ^ddiscomachinegun^7
+[skipnotify]^4-^7xTc^4][^7Diesel^4-^7 was gibbed by ^0spaztik^7
+[skipnotify]: noxadox@rtcw.edu :0) ^3(Upper Bunker): ^2Oops.
+[skipnotify]noxadox@rtcw.edu :0)^7 was revived by ^ddiscomachinegun
+[skipnotify]soul^8reaper^7|^8P^70^8W^7|^7 was killed by ^0grom^7's Thompson
+[skipnotify]soul^8reaper^7|^8P^70^8W^7|^7 was gibbed by newarman^7
+[skipnotify]tim&3g^7 was killed by m@$73ry^7's Thompson
+[skipnotify]: (^ddiscomachinegun)^3(Upper Bunker): ^5Sorry.
+[skipnotify]: (^0grom)^3(Upper Base): ^5I need ammo!
+[skipnotify]tim&3g^7 was gibbed by m@$73ry^7
+[skipnotify]: (noxadox@rtcw.edu :0))^3(Upper Bunker): ^5Affirmative.
+[skipnotify]^4o^0==^4>^0Mr^4D^7 was killed by ^8wTh^7-^8SShooter^7's Thompson
+[skipnotify]m@$73ry^7 was killed by ^0grom^7's Thompson
+[skipnotify]^0grom^7 was killed by ^4-^7xTc^4][^7Diesel^4-^7's Sten
+[skipnotify]m@$73ry^7 was revived by ^8wTh^7-^8SShooter
+[skipnotify]^4o^0==^4>^0Mr^4D^7 was revived by ^0spaztik
+[skipnotify]: (^0grom)^3(Upper Base): ^5Medic!
+[skipnotify]^6froKONG^7 was killed by ^4-^7xTc^4][^7Diesel^4-^7's Sten
+[skipnotify]m@$73ry^7 was killed by ^4o^0==^4>^0Mr^4D^7's MP40
+[skipnotify]newarman^7 was killed by ^2Doctor_^3Iskembe^7's Thompson
+[skipnotify]m@$73ry^7 was gibbed by ^0spaztik^7
+[skipnotify]^6froKONG^7 was revived by ^6HACKNEY MAN DEM E8
+[skipnotify]tim&3g^7 was killed by ^8jo^7n^10^7's Thompson
+[skipnotify]: (^6froKONG)^3(Upper Base): ^5I need ammo!
+[skipnotify](^ddiscomachinegun^7) (Upper Bunker): ^52 short
+[skipnotify]soul^8reaper^7|^8P^70^8W^7|^7 was killed by noxadox@rtcw.edu :0)^7's Sten
+[skipnotify]^2 Type /cl_allowdownload 1 to auto-download custom maps
+[skipnotify]soul^8reaper^7|^8P^70^8W^7|^7 was revived by m@$73ry
+[skipnotify]^!kanibal(k)^7 was exploded by Capone^7's grenade
+[skipnotify]^0grom^7 was revived by ^6HACKNEY MAN DEM E8
+[skipnotify]Capone^7 was killed by ^4o^0==^4>^0Mr^4D^7's Thompson
+[skipnotify]newarman^7 was revived by ^0spaztik
+[skipnotify]: ^!kanibal(k) ^3(Upper Bunker): ^2Hello.
+[skipnotify]Capone^7 poisoned ^4o^0==^4>^0Mr^4D^7.
+[skipnotify]^!kanibal(k)^7 was revived by ^6HACKNEY MAN DEM E8
+[skipnotify]^7[[[Mad.^6Soapytits^7]]]^7 was gibbed by Mr.Dogday^7
+[skipnotify]^7[[[Mad.^6Soapytits^7]]]^7 was blasted by Mr.Dogday^7's Panzerfaust
+[skipnotify]: ^4o^0==^4>^0Mr^4D ^3(Trenches): ^2Hello.
+[skipnotify]^30:37: ^7Allies have stolen the War Documents!
+[skipnotify]: (noxadox@rtcw.edu :0))^3(Upper Bunker): ^5Sorry.
+[skipnotify]Mr.Dogday^7 was killed by ^3Bighi V boi!^7's Thompson
+[skipnotify]: (^6froKONG)^3(Upper Base): ^5I need ammo!
+[skipnotify]: Capone ^3(unknown): ^2Great shot.
+[skipnotify]: (noxadox@rtcw.edu :0))^3(Upper Bunker): ^5Defend our objective!
+[skipnotify]^0grom^7 was killed by ^2Doctor_^3Iskembe^7's Thompson
+[skipnotify]m@$73ry^7 was killed by ^ddiscomachinegun^7's MP40
+[skipnotify]^3Bighi V boi!^7 was killed by ^4o^0==^4>^0Mr^4D^7's MP40
+[skipnotify]^30:23: ^7Axis have returned the War Documents!
+[skipnotify]^0grom^7 was revived by noxadox@rtcw.edu :0)
+[skipnotify]^8wTh^7-^8SShooter^7 was exploded by ^6froKONG^7's grenade
+[skipnotify]soul^8reaper^7|^8P^70^8W^7|^7 was killed by ^ddiscomachinegun^7's MP40
+[skipnotify]^3Bighi V boi!^7 was revived by ^8jo^7n^10
+[skipnotify]^8jo^7n^10^7 ^3WAS GIBBED BY TEAMMATE ^7^3Bighi V boi!^7
+[skipnotify]^8jo^7n^10^7 was exploded by ^0spaztik^7's grenade
+[skipnotify]Stats for ^6HACKNEY MAN DEM E8 ^7this round:
+[skipnotify]^3Kills:^7 8, ^3Deaths:^7 1, ^3Kill Ratio: ^78.00, ^3Gibs:^7 2
+[skipnotify]^3Revived:^7 6, ^3Packs Given:^7 0 Health, 0 Ammo
+[skipnotify]^3Accuracy:^7 35.18 (70/199), ^3Headshots: ^74
+[skipnotify]^3Binoculars:^7 3, ^3Property Damage:^7 $71.00
+[skipnotify]Stats for ^6HACKNEY MAN DEM E8 ^7this round:
+[skipnotify]^3Kills:^7 8, ^3Deaths:^7 1, ^3Kill Ratio: ^78.00, ^3Gibs:^7 2
+[skipnotify]^3Revived:^7 6, ^3Packs Given:^7 0 Health, 0 Ammo
+[skipnotify]^3Accuracy:^7 35.18 (70/199), ^3Headshots: ^74
+[skipnotify]^3Binoculars:^7 3, ^3Property Damage:^7 $71.00
+[skipnotify]Capone^7 ^3WAS GIBBED BY TEAMMATE ^7^4-^7xTc^4][^7Diesel^4-^7
+[skipnotify]tim&3g^7 was gibbed by ^7[[[Mad.^6Soapytits^7]]]^7
+[skipnotify]tim&3g^7 was exploded by ^7[[[Mad.^6Soapytits^7]]]^7's grenade
+[skipnotify]^!kanibal(k)^7 was exploded by ^7[[[Mad.^6Soapytits^7]]]^7's grenade
+[skipnotify]^3Bighi V boi!^7 was killed by ^0spaztik^7's MP40
+[skipnotify]^8wTh^7-^8SShooter^7 was gibbed by ^6froKONG^7
+[skipnotify]^4-^7xTc^4][^7Diesel^4-^7 was killed by ^0grom^7's Thompson
+[skipnotify]: ^!kanibal(k) ^3(Upper Bunker): ^2Hello.
+[skipnotify]^3Bighi V boi!^7 was gibbed by ^0spaztik^7
+[skipnotify]^7[[[Mad.^6Soapytits^7]]]^7 was killed by noxadox@rtcw.edu :0)^7's Sten
+[skipnotify]^4-^7xTc^4][^7Diesel^4-^7 was gibbed by ^0grom^7
+[skipnotify]^!kanibal(k)^7 was revived by noxadox@rtcw.edu :0)
+[skipnotify]: ^6HACKNEY MAN DEM E8 ^3(Basement): ^2Hello.
+[skipnotify]: (^!kanibal(k))^3(Upper Bunker): ^5Danke.
+[skipnotify]: soul^8reaper^7|^8P^70^8W^7| ^3(unknown): ^2Hi.
+[skipnotify]soul^8reaper^7|^8P^70^8W^7|^7 was revived by m@$73ry
+[skipnotify]: noxadox@rtcw.edu :0) ^3(Upper Bunker): ^2Affirmative.
+[skipnotify]noxadox@rtcw.edu :0)^7 was exploded by ^8wTh^7-^8SShooter^7's grenade
+[skipnotify]m@$73ry^7 was killed by ^0grom^7's Thompson
+[skipnotify]soul^8reaper^7|^8P^70^8W^7|^7 was killed by ^6froKONG^7's Thompson
+[skipnotify]^8wTh^7-^8SShooter^7 was gibbed by ^!kanibal(k)^7
+[skipnotify]^8wTh^7-^8SShooter^7 was blasted by ^!kanibal(k)^7's support fire
+[skipnotify]: noxadox@rtcw.edu :0) ^3(Upper Bunker): ^2Good game.
+[skipnotify]Timelimit hit.
+[skipnotify](^0grom^7) (Upper Base): ^5I'll respawn as a ^0Lieutenant
+[skipnotify]: Mr.Dogday ^3(War Room): ^2Yes!
+[skipnotify]: Mr.Dogday ^3(War Room): ^2YES!
+[skipnotify]^!kanibal(k)^7 disconnected
+[skipnotify]: (Mr.Dogday)^3(War Room): ^5The enemy is weakened.
+[skipnotify](^6froKONG^7) (Upper Base): ^5^1> ^0Soldier ^1- ^0Mauser
+[skipnotify]: (Mr.Dogday)^3(War Room): ^5The enemy is weakened.
+[skipnotify]^3Stats for this round:
+[skipnotify]^3-----------------------------------------------------------------------------
+[skipnotify]^1Axis Team
+[skipnotify]^3T Name        |  K  D   KR T |  G  R  H  A |   DG  TD  TDR    DR |  B PD     
+[skipnotify]^3-----------------------------------------------------------------------------
+[skipnotify]^1R^7 spaztik     ^3|^7 24 10 2.40 0 ^3|^7 10  6  5  0 ^3|^7 5730 168 0.03  3380 ^3|^7 19 $0.00
+[skipnotify]^1R^7 froKONG     ^3|^7 20  3 6.67 2 ^3|^7  3  4  6  0 ^3|^7 4749 439 0.08  1507 ^3|^7  8 $0.00
+[skipnotify]^1R^7 grom        ^3|^7 19  9 2.11 2 ^3|^7  5  2  7  2 ^3|^7 4689 482 0.09  2204 ^3|^7  6 $71.00
+[skipnotify]^1R^7 o==>MrD     ^3|^7 14  9 1.56 0 ^3|^7  3  5  6  0 ^3|^7 3210  64 0.02  1965 ^3|^7  5 $0.00
+[skipnotify]^1R^7 noxadox@rtc ^3|^7 12  9 1.33 1 ^3|^7  3  4 19  0 ^3|^7 2657 106 0.04  2620 ^3|^7  5 $200.00
+[skipnotify]^1R^7 tim&3g      ^3|^7 11 11 1.00 0 ^3|^7  1  0  0 21 ^3|^7 2569   0 0.00  2883 ^3|^7  3 $0.00
+[skipnotify]^1R^7 discomachin ^3|^7 10  2 5.00 2 ^3|^7  4  7 11  0 ^3|^7 2430 192 0.07  1341 ^3|^7  3 $182.00
+[skipnotify]^1R^7 HACKNEY MAN ^3|^7  8  1 8.00 0 ^3|^7  2  6  2  0 ^3|^7 1544  42 0.03   533 ^3|^7  3 $71.00
+[skipnotify]^1R^7 newarman    ^3|^7  4  5 0.80 0 ^3|^7  2  0  0 19 ^3|^7  790  48 0.06   794 ^3|^7  4 $182.00
+[skipnotify]^1R^7 Mr.Dogday   ^3|^7  2  2 1.00 1 ^3|^7  2  0  0  0 ^3|^7  703   0 0.00   633 ^3|^7  1 $254.00
+[skipnotify]^3-----------------------------------------------------------------------------
+[skipnotify]^4Allied Team
+[skipnotify]^3T Name        |  K  D   KR T |  G  R  H  A |   DG  TD  TDR    DR |  B PD     
+[skipnotify]^3-----------------------------------------------------------------------------
+[skipnotify]^4B^7 -xTc][Diese ^3|^7 10 17 0.59 0 ^3|^7  6  1  1  2 ^3|^7 3058 287 0.09  4236 ^3|^7  9 $250.00
+[skipnotify]^4B^7 [[[Mad.Soap ^3|^7  8 15 0.53 2 ^3|^7  5  5  3  0 ^3|^7 2643 261 0.09  4106 ^3|^7  5 $152.00
+[skipnotify]^4B^7 m@$73ry     ^3|^7 10 14 0.71 2 ^3|^7  1  4  1  0 ^3|^7 2623  18 0.01  3145 ^3|^7  5 $0.00
+[skipnotify]^4B^7 jon0        ^3|^7 12 14 0.86 2 ^3|^7  2 13 14  0 ^3|^7 2436 218 0.08  4158 ^3|^7  7 $180.00
+[skipnotify]^4B^7 wTh-SShoote ^3|^7  6  7 0.86 2 ^3|^7  0  6 13  0 ^3|^7 1955 126 0.06  2197 ^3|^7  3 $0.00
+[skipnotify]^4B^7 Doctor_Iske ^3|^7  7 10 0.70 1 ^3|^7  1  3  5  0 ^3|^7 1387  90 0.06  2854 ^3|^7  1 $0.00
+[skipnotify]^4B^7 Bighi V boi ^3|^7  6 19 0.32 0 ^3|^7  0  1  2  0 ^3|^7 1345 272 0.17  4428 ^3|^7  3 $0.00
+[skipnotify]^4B^7 soulreaper| ^3|^7  4 19 0.21 0 ^3|^7  1  0  0 29 ^3|^7 1003 148 0.13 13476 ^3|^7  3 $75.00
+[skipnotify]^4B^7 Capone      ^3|^7  6 10 0.60 0 ^3|^7  1  8  9  1 ^3|^7  974 164 0.14  3719 ^3|^7  2 $0.00
+[skipnotify]^3-----------------------------------------------------------------------------
+[skipnotify]
+Type ^3/? stats^7 for info on column labels
+
+[skipnotify]Server: timelimit changed to 25
+[skipnotify]Server: g_warmup changed to 48
+[skipnotify]: ^0spaztik ^3(Upper Base): ^2YES!
+[skipnotify]: Mr.Dogday ^3(Forward Bunker): ^2Good game.
+^5PunkBuster Client: Server's local PB Log File /home/beach/.wolf/pb/svlogs/00000038.log has MD5 of F589E785AE89C6A502C17B8F77F8DFF2 (2032 bytes)
+[skipnotify]: (noxadox@rtcw.edu :0))^3(Upper Bunker): ^5Danke.
+[skipnotify]m@$73ry^7: ^2!shuffle
+[skipnotify]^2ECGN Public Ventrilo - 69.65.113.18:3784
+[skipnotify]soul^8reaper^7|^8P^70^8W^7|^7 ^1WAS KILLED BY TEAMMATE^7 ^8jo^7n^10^7
+[skipnotify]^7[[[Mad.^6Soapytits^7]]]^7 ^1WAS KILLED BY TEAMMATE^7 ^3Bighi V boi!^7
+[skipnotify]Mr.Dogday^7: ^2bye guys!!!
+[skipnotify]^6HACKNEY MAN DEM E8^7 dove on his own grenade.
+[skipnotify]^6froKONG^7 was gibbed.
+[skipnotify]^6froKONG^7 dove on his own grenade.
+[skipnotify]: ^0spaztik ^3(Upper Base): ^2Bye.
+[skipnotify]: Mr.Dogday ^3(Forward Bunker): ^2Bye.
+[skipnotify](^0spaztik^7) (Upper Base): ^5^0Spaztik ^tPanzer
+[skipnotify]m@$73ry^7 was gibbed.
+[skipnotify]m@$73ry^7 dove on his own grenade.
+[skipnotify]^3Bighi V boi!^7 ^1WAS KILLED BY TEAMMATE^7 ^2Doctor_^3Iskembe^7
+[skipnotify]^ddiscomachinegun^7 was gibbed.
+[skipnotify]^ddiscomachinegun^7 dove on his own grenade.
+[skipnotify]newarman^7 ^1WAS KILLED BY TEAMMATE^7 ^ddiscomachinegun^7
+[skipnotify]noxadox@rtcw.edu :0)^7: ^2NO WAY DUDE, YOU CRAZY BRO
+[skipnotify]Mr.Dogday^7 was killed by ^7[[[Mad.^6Soapytits^7]]]^7's Thompson
+[skipnotify]^0spaztik^7 was gibbed.
+[skipnotify]^0spaztik^7 dove on his own grenade.
+[skipnotify]^3Knives left:^7 2
+[skipnotify]soul^8reaper^7|^8P^70^8W^7|^7 was killed by ^ddiscomachinegun^7's MP40
+[skipnotify]m@$73ry^7 dove on his own grenade.
+[skipnotify]: ^3Bighi V boi! ^3(unknown): ^2Bye.
+[skipnotify](^0spaztik^7) (Beach Landing): ^5^8Spaztik ^tSniper
+[skipnotify]Mr.Dogday^7 disconnected
+[skipnotify]^0grom^7 was gibbed.
+[skipnotify]^6HACKNEY MAN DEM E8^7 was killed by ^8jo^7n^10^7's Thompson
+[skipnotify]^0grom^7 dove on his own grenade.
+[skipnotify]^ddiscomachinegun^7 ^1WAS KILLED BY TEAMMATE^7 ^0grom^7
+[skipnotify]soul^8reaper^7|^8P^70^8W^7|^7 was killed by ^ddiscomachinegun^7's MP40
+[skipnotify]tim&3g^7 ^1WAS KILLED BY TEAMMATE^7 ^3Bighi V boi!^7
+[skipnotify]^8wTh^7-^8SShooter^7: ^2hmm spikes at same time as i had esterday
+[skipnotify]^ddiscomachinegun^7 was killed by soul^8reaper^7|^8P^70^8W^7|^7's MP40
+[skipnotify]^0spaztik^7 disconnected
+[skipnotify]^6froKONG^7 was gibbed.
+[skipnotify]^6froKONG^7 dove on his own grenade.
+[skipnotify]soul^8reaper^7|^8P^70^8W^7|^7 was killed by ^ddiscomachinegun^7's MP40
+[skipnotify]newarman^7 was exploded by m@$73ry^7's grenade
+[skipnotify]^ddiscomachinegun^7 was exploded by m@$73ry^7's grenade
+[skipnotify]tim&3g^7 was gibbed by Capone^7
+[skipnotify]tim&3g^7 was exploded by Capone^7's grenade
+[skipnotify]^1^^3HECKLER^2und^3KOCH^7 disconnected
+[skipnotify]: noxadox@rtcw.edu :0) ^3(Beach Landing): ^2Yeah!
+[skipnotify]soul^8reaper^7|^8P^70^8W^7|^7 was killed by ^4o^0==^4>^0Mr^4D^7's sniper rifle
+[skipnotify]: (noxadox@rtcw.edu :0))^3(Beach): ^5Fire in the hole!
+[skipnotify]tim&3g^7 was killed by ^4-^7xTc^4][^7Diesel^4-^7's Sten
+[skipnotify]^3Allies left: 7, Axis left: 8
+[skipnotify]^2Chat with us on IRC...#ecgn on EnterTheGame
+[skipnotify]^ddiscomachinegun^7 was exploded by ^6HACKNEY MAN DEM E8^7's grenade
+^4[ ^2LT ^7/ ^2Thompson ^4] 
+^4[ ^2Soldier ^7/ ^2Flame Thrower ^4] 
+^4[ ^2Soldier ^7/ ^2Flame Thrower ^4] 
+^4[ ^2Soldier ^7/ ^2Panzerfaust ^4] 
+^4[ ^2Soldier ^7/ ^2Mauser ^4] 
+[skipnotify]^4o^0==^4>^0Mr^4D^7 was killed by ^4-^7xTc^4][^7Diesel^4-^7's Sten
+^4[ ^2Medic with a ^2Thompson ^4] 
+[skipnotify]: (^8jo^7n^10)^3(Sea Wall): ^5We need an engineer!
+[skipnotify]: (noxadox@rtcw.edu :0))^3(Sea Wall): ^5Affirmative.
+[skipnotify]: (noxadox@rtcw.edu :0))^3(Forward Bunker): ^5Follow me.
+[skipnotify]^6froKONG^7 was killed by ^4o^0==^4>^0Mr^4D^7's sniper rifle
+[skipnotify]tim&3g^7 was killed by m@$73ry^7's sniper rifle
+[skipnotify]^8jo^7n^10^7 was exploded by newarman^7's grenade
+[skipnotify]^8jo^7n^10^7 was revived by noxadox@rtcw.edu :0)
+[skipnotify]: (noxadox@rtcw.edu :0))^3(Forward Bunker): ^5Fire in the hole!
+[skipnotify]: (^2Doctor_^3Iskembe)^3(Beach): ^5Taking fire!
+[skipnotify]tim&3g^7 was killed by m@$73ry^7's sniper rifle
+[skipnotify]: (noxadox@rtcw.edu :0))^3(Beach): ^5Follow me.
+[skipnotify]^8wTh^7-^8SShooter^7: ^2and now its gone
+[skipnotify]^8wTh^7-^8SShooter^7: ^2wierd
+[skipnotify]^324:03: ^7Allies capture the Forward Bunker!
+[skipnotify]newarman^7 was killed by ^8jo^7n^10^7's Thompson
+[skipnotify]: noxadox@rtcw.edu :0) ^3(Forward Bunker): ^2Yeah!
+[skipnotify]^3Bighi V boi!^7 was killed by ^7[[[Mad.^6Soapytits^7]]]^7's Thompson
+[skipnotify]^324:00: ^7Axis reclaims the Forward Bunker!
+[skipnotify]newarman^7 was revived by ^ddiscomachinegun
+[skipnotify]^323:58: ^7Allies capture the Forward Bunker!
+[skipnotify]: noxadox@rtcw.edu :0) ^3(Forward Bunker): ^2Negative.
+[skipnotify]^4-^7xTc^4][^7Diesel^4-^7 was killed by ^8jo^7n^10^7 's .45ACP 1911
+[skipnotify]^323:57: ^7Dynamite planted near the Sea Wall breach!
+[skipnotify]^323:54: ^7Axis reclaims the Forward Bunker!
+[skipnotify]^8jo^7n^10^7 was killed by newarman^7's MP40
+[skipnotify]^4-^7xTc^4][^7Diesel^4-^7 was revived by ^ddiscomachinegun
+[skipnotify]^3Bighi V boi!^7 was gibbed by ^6HACKNEY MAN DEM E8^7
+[skipnotify]^4-^7xTc^4][^7Diesel^4-^7 was killed by ^6HACKNEY MAN DEM E8^7's Thompson
+[skipnotify]Stats for ^6HACKNEY MAN DEM E8 ^7this round:
+[skipnotify]^3Kills:^7 2 (^12^7), ^3Deaths:^7 0, ^3Kill Ratio: ^72.00, ^3Gibs:^7 1
+[skipnotify]^3Revived:^7 0, ^3Packs Given:^7 0 Health, 0 Ammo
+[skipnotify]^3Accuracy:^7 25.00 (3/12), ^3Headshots: ^72
+[skipnotify]^3Binoculars:^7 0, ^3Property Damage:^7 $0.00
+[skipnotify]^4o^0==^4>^0Mr^4D^7 was killed by ^6froKONG^7's sniper rifle
+[skipnotify]: noxadox@rtcw.edu :0) ^3(Sea Wall): ^2YEE-HAW!
+[skipnotify]^4-^7xTc^4][^7Diesel^4-^7 was gibbed by ^6HACKNEY MAN DEM E8^7
+[skipnotify]^2Check the RTCW forum @ http://forums.powervs.com
+[skipnotify]newarman^7 ^1WAS KILLED BY TEAMMATE^7 ^ddiscomachinegun^7
+[skipnotify]^ddiscomachinegun^7 ^3WAS GIBBED BY TEAMMATE ^7newarman^7
+[skipnotify]newarman^7 was gibbed.
+[skipnotify]^ddiscomachinegun^7 ^1WAS KILLED BY TEAMMATE^7 newarman^7
+[skipnotify]Capone^7 was exploded by ^6HACKNEY MAN DEM E8^7's grenade
+[skipnotify]^6HACKNEY MAN DEM E8^7 was exploded by ^0grom^7's grenade
+[skipnotify]^323:27: ^7The Sea Wall has been breached!
+[skipnotify]^3Bighi V boi!^7 was killed by tim&3g^7's Sten
+[skipnotify]^3Bighi V boi!^7 was gibbed by noxadox@rtcw.edu :0)^7
+[skipnotify]^6HACKNEY MAN DEM E8^7 was killed by ^6froKONG^7's sniper rifle
+^3[^5 ALLIED SNIPER HILL ^3] 
+^3[^5 DEFAULT ^3] 
+[skipnotify]noxadox@rtcw.edu :0)^7 was killed by ^ddiscomachinegun^7's MP40
+[skipnotify]^7[[[Mad.^6Soapytits^7]]]^7 was killed by ^0grom^7's MP40
+[skipnotify]: noxadox@rtcw.edu :0) ^3(Trenches): ^2Yeah!
+[skipnotify]^7[[[Mad.^6Soapytits^7]]]^7 was gibbed by ^ddiscomachinegun^7
+[skipnotify]: (^6HACKNEY MAN DEM E8)^3(Beach): ^5Medic!
+[skipnotify]: (^6HACKNEY MAN DEM E8)^3(Beach): ^5Medic!
+[skipnotify]^4o^0==^4>^0Mr^4D^7 was killed by ^0grom^7's MP40
+[skipnotify]^6HACKNEY MAN DEM E8^7 was revived by ^2Doctor_^3Iskembe
+[skipnotify]: (^6HACKNEY MAN DEM E8)^3(Beach): ^5Thanks.
+[skipnotify]newarman^7 was killed by ^8jo^7n^10^7's Thompson
+[skipnotify]tim&3g^7 was killed by ^6froKONG^7's sniper rifle
+[skipnotify]newarman^7 was revived by Capone
+[skipnotify]tim&3g^7 was gibbed by ^ddiscomachinegun^7
+[skipnotify]^6HACKNEY MAN DEM E8^7 was exploded by ^0grom^7's grenade
+[skipnotify]: (^6HACKNEY MAN DEM E8)^3(Forward Bunker Door): ^5Thanks.
+[skipnotify]^6HACKNEY MAN DEM E8^7 was revived by ^2Doctor_^3Iskembe
+[skipnotify]^2Doctor_^3Iskembe^7 was exploded by ^0grom^7's grenade
+[skipnotify]^2Doctor_^3Iskembe^7 was revived by ^7[[[Mad.^6Soapytits^7]]]
+[skipnotify]^322:47: ^7Dynamite planted near the Sea Wall door!
+[skipnotify]noxadox@rtcw.edu :0)^7 was killed by newarman^7's MP40
+[skipnotify]noxadox@rtcw.edu :0)^7 was revived by ^8jo^7n^10
+[skipnotify]: (noxadox@rtcw.edu :0))^3(Sea Wall Breach): ^5Thanks.
+[skipnotify]^ddiscomachinegun^7 was exploded by ^7[[[Mad.^6Soapytits^7]]]^7's grenade
+[skipnotify]: (noxadox@rtcw.edu :0))^3(Sea Wall): ^5Fire in the hole!
+[skipnotify]tim&3g^7 was killed by ^3Bighi V boi!^7's Thompson
+[skipnotify]^2Anti-TK system active - watch your fire
+[skipnotify]^3Bighi V boi!^7 was killed by ^8jo^7n^10^7's Thompson
+[skipnotify]: (^6HACKNEY MAN DEM E8)^3(Beach): ^5Thanks.
+^4[ ^2Soldier ^7/ ^2Mauser ^4] 
+^4[ ^2Soldier ^7/ ^2Mauser ^4] 
+[skipnotify]^3Bighi V boi!^7 was revived by Capone
+^4[ ^2LT ^7/ ^4MP40 ^4] 
+^4[ ^2Medic with a ^2Thompson ^4] 
+[skipnotify]^2Doctor_^3Iskembe^7 was exploded by ^0grom^7's grenade
+[skipnotify]^3Bighi V boi!^7 was killed by noxadox@rtcw.edu :0)^7's Thompson
+[skipnotify]m@$73ry^7 was killed by tim&3g^7's Sten
+[skipnotify]^3Bighi V boi!^7 was revived by Capone
+[skipnotify]Capone^7 was exploded by ^8jo^7n^10^7's grenade
+[skipnotify]: ^8jo^7n^10 ^3(Beach): ^2Yeah!
+[skipnotify]noxadox@rtcw.edu :0)^7 was killed by ^6froKONG^7's sniper rifle
+[skipnotify]noxadox@rtcw.edu :0)^7 was gibbed by ^4-^7xTc^4][^7Diesel^4-^7
+[skipnotify]^322:17: ^7The Sea Wall has been breached!
+[skipnotify]^6froKONG^7 was killed by tim&3g^7's Sten
+[skipnotify]^4-^7xTc^4][^7Diesel^4-^7 was killed by ^6HACKNEY MAN DEM E8^7's Thompson
+[skipnotify]^322:13: ^7Allies capture the Forward Bunker!
+[skipnotify]: noxadox@rtcw.edu :0) ^3(Beach Landing): ^2Negative.
+[skipnotify]^4-^7xTc^4][^7Diesel^4-^7 was revived by ^ddiscomachinegun
+[skipnotify]newarman^7 was killed by ^6HACKNEY MAN DEM E8^7's Thompson
+[skipnotify]^6HACKNEY MAN DEM E8^7 was killed by ^4-^7xTc^4][^7Diesel^4-^7's Sten
+[skipnotify]^0grom^7 was killed by ^4o^0==^4>^0Mr^4D^7's Thompson
+[skipnotify]: (noxadox@rtcw.edu :0))^3(Forward Bunker): ^5Fire in the hole!
+[skipnotify]^6froKONG^7 was killed by tim&3g^7's Sten
+[skipnotify]m@$73ry^7 fell to his death.
+[skipnotify]^2Doctor_^3Iskembe^7 was killed by ^ddiscomachinegun^7's MP40
+[skipnotify]^3Bighi V boi!^7 was killed by ^4o^0==^4>^0Mr^4D^7's Thompson
+[skipnotify]^7[[[Mad.^6Soapytits^7]]]^7 was killed by ^ddiscomachinegun^7's MP40
+[skipnotify]^2Doctor_^3Iskembe^7 was gibbed by ^0grom^7
+[skipnotify]tim&3g^7 was killed by ^4-^7xTc^4][^7Diesel^4-^7's Sten
+[skipnotify]^6HACKNEY MAN DEM E8^7 ^1WAS KILLED BY TEAMMATE^7 ^8jo^7n^10^7
+[skipnotify]tim&3g^7 was revived by noxadox@rtcw.edu :0)
+[skipnotify]: (tim&3g)^3(Sea Wall Breach): ^5Thanks.
+[skipnotify]m@$73ry^7 was killed by ^8jo^7n^10^7's MP40
+[skipnotify]^6HACKNEY MAN DEM E8^7 was revived by ^8jo^7n^10
+[skipnotify]: (noxadox@rtcw.edu :0))^3(Sea Wall Breach): ^5Fire in the hole!
+[skipnotify]: (^6HACKNEY MAN DEM E8)^3(Lower Bunker): ^5Thanks.
+[skipnotify]: (^8jo^7n^10)^3(Lower Bunker): ^5Sorry.
+[skipnotify]tim&3g^7 was killed by ^6froKONG^7's MP40
+[skipnotify]: (tim&3g)^3(Trenches): ^5Thanks.
+[skipnotify]tim&3g^7 was revived by noxadox@rtcw.edu :0)
+[skipnotify]^0grom^7 was killed by ^6HACKNEY MAN DEM E8^7's Thompson
+[skipnotify]^2Type /s_stop in console to restore lost sound
+[skipnotify]^6HACKNEY MAN DEM E8^7 was killed by ^4-^7xTc^4][^7Diesel^4-^7's Sten
+[skipnotify]^4o^0==^4>^0Mr^4D^7 was killed by ^6froKONG^7's MP40
+[skipnotify]^0grom^7 was revived by ^ddiscomachinegun
+[skipnotify]: (noxadox@rtcw.edu :0))^3(Trenches): ^5Fire in the hole!
+[skipnotify]: (tim&3g)^3(Sea Wall Breach): ^5Fire in the hole!
+[skipnotify]^6HACKNEY MAN DEM E8^7 was revived by ^8jo^7n^10
+[skipnotify]: ^3Bighi V boi! ^3(unknown): ^2Bye.
+[skipnotify]: (^6HACKNEY MAN DEM E8)^3(Upper Bunker): ^5Thanks.
+[skipnotify]^3Knives left:^7 5
+[skipnotify]: ^3Bighi V boi! ^3(unknown): ^2Bye.
+[skipnotify]^8jo^7n^10^7 was killed by ^0grom^7's MP40
+[skipnotify]: (tim&3g)^3(Upper Base): ^5Fire in the hole!
+[skipnotify]^0grom^7 ^3WAS GIBBED BY TEAMMATE ^7m@$73ry^7
+[skipnotify]^0grom^7 ^1WAS KILLED BY TEAMMATE^7 m@$73ry^7
+[skipnotify]tim&3g^7 was killed by ^ddiscomachinegun^7's MP40
+[skipnotify]^ddiscomachinegun^7 was gibbed by tim&3g^7
+[skipnotify]tim&3g^7 was gibbed.
+[skipnotify]^ddiscomachinegun^7 was blasted by tim&3g^7's support fire
+[skipnotify]noxadox@rtcw.edu :0)^7 ^3WAS GIBBED BY TEAMMATE ^7tim&3g^7
+[skipnotify]noxadox@rtcw.edu :0)^7 ^1WAS KILLED BY TEAMMATE^7 tim&3g^7
+[skipnotify]: ^8jo^7n^10 ^3(Murder Hole): ^2Woohooo!
+[skipnotify]^3Bighi V boi!^7 disconnected
+[skipnotify]: noxadox@rtcw.edu :0) ^3(Upper Base): ^2Oops.
+[skipnotify]: m@$73ry ^3(unknown): ^2Oops.
+[skipnotify]^7[[[Mad.^6Soapytits^7]]]^7 was killed by ^6froKONG^7's MP40
+[skipnotify]^6froKONG^7 was killed by ^2Doctor_^3Iskembe^7's Thompson
+[skipnotify]^3Allies left: 7, Axis left: 7
+[skipnotify]^7[[[Mad.^6Soapytits^7]]]^7 was revived by ^2Doctor_^3Iskembe
+[skipnotify]Capone^7 was killed by noxadox@rtcw.edu :0)^7's Thompson
+[skipnotify]^4o^0==^4>^0Mr^4D^7 was killed by m@$73ry^7's MP40
+[skipnotify]Capone^7 was gibbed by noxadox@rtcw.edu :0)^7
+[skipnotify]noxadox@rtcw.edu :0)^7 was killed by ^0grom^7's MP40
+[skipnotify]^0grom^7 was killed by ^4o^0==^4>^0Mr^4D^7's Thompson
+[skipnotify]: noxadox@rtcw.edu :0) ^3(Upper Base): ^2Woohooo!
+[skipnotify]noxadox@rtcw.edu :0)^7 was revived by ^4o^0==^4>^0Mr^4D
+[skipnotify]m@$73ry^7 was killed by ^8jo^7n^10^7's Thompson
+[skipnotify]^7[[[Mad.^6Soapytits^7]]]^7 was killed by ^6froKONG^7's MP40
+[skipnotify]^4o^0==^4>^0Mr^4D^7 was killed by ^ddiscomachinegun^7's MP40
+[skipnotify]^0grom^7 was revived by ^ddiscomachinegun
+[skipnotify]^4o^0==^4>^0Mr^4D^7 was revived by noxadox@rtcw.edu :0)
+[skipnotify]^4-^7xTc^4][^7Diesel^4-^7 was killed by ^6HACKNEY MAN DEM E8^7's Thompson
+[skipnotify]^3Allies left: 8, Axis left: 7
+[skipnotify]^4-^7xTc^4][^7Diesel^4-^7 was gibbed by ^6HACKNEY MAN DEM E8^7
+[skipnotify]^3Knives left:^7 5
+[skipnotify]: (^7[[[Mad.^6Soapytits^7]]])^3(War Room): ^5Incoming!
+[skipnotify]^0grom^7 was killed by noxadox@rtcw.edu :0)^7's Thompson
+[skipnotify]noxadox@rtcw.edu :0)^7 was killed by ^ddiscomachinegun^7's MP40
+[skipnotify]^320:52: ^7Allies have stolen the War Documents!
+[skipnotify]^6HACKNEY MAN DEM E8^7 was killed by m@$73ry^7's MP40
+[skipnotify]^2Doctor_^3Iskembe^7 was killed by newarman^7's Thompson
+[skipnotify]noxadox@rtcw.edu :0)^7 was gibbed by ^ddiscomachinegun^7
+[skipnotify]^0grom^7 was revived by Capone
+[skipnotify]^320:46: ^7Axis have returned the War Documents!
+[skipnotify]^6HACKNEY MAN DEM E8^7 was gibbed by m@$73ry^7
+[skipnotify]^ddiscomachinegun^7 was killed by ^4o^0==^4>^0Mr^4D^7's Thompson
+[skipnotify]^ddiscomachinegun^7 was gibbed by ^4o^0==^4>^0Mr^4D^7
+[skipnotify]m@$73ry^7 was killed by ^7[[[Mad.^6Soapytits^7]]]^7's Thompson
+[skipnotify]^7[[[Mad.^6Soapytits^7]]]^7 was killed by ^4-^7xTc^4][^7Diesel^4-^7's Sten
+[skipnotify]m@$73ry^7 was gibbed by ^8jo^7n^10^7
+[skipnotify]^2Try !stats to view your live player stats
+[skipnotify]^4o^0==^4>^0Mr^4D^7 was killed by ^6froKONG^7's MP40
+[skipnotify]: (tim&3g)^3(Forward Bunker): ^5Sorry.
+[skipnotify]^0K^5id^0S^5lug^7 was killed by ^0grom^7's MP40
+[skipnotify]^6HACKNEY MAN DEM E8^7 fell to his death.
+[skipnotify]^2Doctor_^3Iskembe^7 was killed by ^ddiscomachinegun^7's MP40
+[skipnotify]^8jo^7n^10^7 was killed by m@$73ry^7's MP40
+[skipnotify]^2Doctor_^3Iskembe^7 was gibbed by ^ddiscomachinegun^7
+[skipnotify]^ddiscomachinegun^7 was killed by noxadox@rtcw.edu :0)^7's Thompson
+[skipnotify]^ddiscomachinegun^7 was gibbed by noxadox@rtcw.edu :0)^7
+[skipnotify]^7[[[Mad.^6Soapytits^7]]]^7 was killed by Capone^7's MP40
+[skipnotify]: (noxadox@rtcw.edu :0))^3(Upper Base): ^5Affirmative.
+[skipnotify]^4-^7xTc^4][^7Diesel^4-^7 was killed by noxadox@rtcw.edu :0)^7's Thompson
+[skipnotify]^6HACKNEY MAN DEM E8^7 was killed by m@$73ry^7's MP40
+[skipnotify]m@$73ry^7 was killed by ^8jo^7n^10^7's Thompson
+[skipnotify]: (noxadox@rtcw.edu :0))^3(Upper Base): ^5Incoming!
+[skipnotify]^2Doctor_^3Iskembe^7 was killed by ^ddiscomachinegun^7's MP40
+[skipnotify]m@$73ry^7 was revived by newarman
+[skipnotify]^2Doctor_^3Iskembe^7 was gibbed by Capone^7
+[skipnotify]^ddiscomachinegun^7 was killed by noxadox@rtcw.edu :0)^7's Thompson
+[skipnotify]^ddiscomachinegun^7 was gibbed by noxadox@rtcw.edu :0)^7
+[skipnotify]^7[[[Mad.^6Soapytits^7]]]^7 was revived by ^8jo^7n^10
+[skipnotify]^6HACKNEY MAN DEM E8^7 was revived by ^8jo^7n^10
+[skipnotify]: (^6HACKNEY MAN DEM E8)^3(Trenches): ^5Thanks.
+[skipnotify]: (noxadox@rtcw.edu :0))^3(Upper Base): ^5Thanks.
+[skipnotify]m@$73ry^7 was killed by ^4o^0==^4>^0Mr^4D^7's Thompson
+[skipnotify]: (tim&3g)^3(Upper Base): ^5You're welcome.
+[skipnotify]tim&3g^7 was killed by Capone^7's MP40
+[skipnotify]Capone^7 was killed by noxadox@rtcw.edu :0)^7's Sten
+[skipnotify]: (tim&3g)^3(Upper Base): ^5Thanks.
+[skipnotify]Capone^7 was revived by ^6froKONG
+[skipnotify]tim&3g^7 was revived by noxadox@rtcw.edu :0)
+[skipnotify]^6HACKNEY MAN DEM E8^7 was killed by ^0grom^7's MP40
+[skipnotify]Capone^7 was stabbed by noxadox@rtcw.edu :0)^7's knife
+[skipnotify]noxadox@rtcw.edu :0)^7 ^1WAS KILLED BY TEAMMATE^7 ^4o^0==^4>^0Mr^4D^7
+^4[ ^2LT ^7/ ^2Thompson ^4] 
+^4[ ^2LT ^7/ ^2Thompson ^4] 
+[skipnotify]noxadox@rtcw.edu :0)^7 was revived by ^4o^0==^4>^0Mr^4D
+[skipnotify]: noxadox@rtcw.edu :0) ^3(Upper Base): ^2Yeah!
+^4[ ^2Soldier ^7/ ^2Flame Thrower ^4] 
+^4[ ^2Soldier ^7/ ^2Flame Thrower ^4] 
+^4[ ^2Soldier ^7/ ^2Panzerfaust ^4] 
+[skipnotify]^4o^0==^4>^0Mr^4D^7 was gibbed by ^6froKONG^7
+[skipnotify]Capone^7 ^3WAS GIBBED BY TEAMMATE ^7^6froKONG^7
+[skipnotify]^4o^0==^4>^0Mr^4D^7 was exploded by ^6froKONG^7's grenade
+^4[ ^2Soldier ^7/ ^2Mauser ^4] 
+[skipnotify]^6HACKNEY MAN DEM E8^7 was revived by ^2Doctor_^3Iskembe
+^4[ ^2Medic with a ^2Thompson ^4] 
+^4[ ^2Soldier ^7/ ^2Panzerfaust ^4] 
+[skipnotify]^7[[[Mad.^6Soapytits^7]]]^7 was killed by ^4-^7xTc^4][^7Diesel^4-^7's Sten
+^4[ ^2Soldier ^7/ ^2Panzerfaust ^4] 
+[skipnotify]tim&3g^7 was exploded by ^ddiscomachinegun^7's grenade
+[skipnotify]: (^7[[[Mad.^6Soapytits^7]]])^3(Upper Base): ^5Move!
+[skipnotify]^6HACKNEY MAN DEM E8^7 was gibbed by m@$73ry^7
+[skipnotify]^0K^5id^0S^5lug^7 was blasted by m@$73ry^7's Panzerfaust
+[skipnotify]^6HACKNEY MAN DEM E8^7 was blasted by m@$73ry^7's Panzerfaust
+[skipnotify]^7[[[Mad.^6Soapytits^7]]]^7 was gibbed by ^0grom^7
+[skipnotify]: (^7[[[Mad.^6Soapytits^7]]])^3(Upper Base): ^5Move!
+[skipnotify]: (^7[[[Mad.^6Soapytits^7]]])^3(Upper Base): ^5Move!
+[skipnotify]^ddiscomachinegun^7 was killed by ^8jo^7n^10^7's Thompson
+[skipnotify]^ddiscomachinegun^7 was gibbed.
+[skipnotify]: (tim&3g)^3(Upper Base): ^5Thanks.
+[skipnotify]tim&3g^7 was revived by ^8jo^7n^10
+[skipnotify]noxadox@rtcw.edu :0)^7 was killed by ^0grom^7's MP40
+[skipnotify]^0grom^7 ^1WAS KILLED BY TEAMMATE^7 ^6froKONG^7
+[skipnotify]: noxadox@rtcw.edu :0) ^3(Upper Base): ^2WOOHOOO!
+[skipnotify]^0grom^7 was revived by ^6froKONG
+[skipnotify]^4-^7xTc^4][^7Diesel^4-^7 fell to his death.
+[skipnotify]: Capone ^3(unknown): ^2Oops.
+[skipnotify]noxadox@rtcw.edu :0)^7 was gibbed by ^0grom^7
+[skipnotify]^2Doctor_^3Iskembe^7 was killed by ^6froKONG^7's MP40
+[skipnotify]^6froKONG^7 was killed by ^8jo^7n^10^7's Thompson
+[skipnotify]^2 Type /cl_allowdownload 1 to auto-download custom maps
+[skipnotify]^2Doctor_^3Iskembe^7 was revived by ^8jo^7n^10
+[skipnotify]noxadox@rtcw.edu :0)^7 was killed by ^4TEK^8_^5KILLA^1.QC^7's MP40
+[skipnotify]^7[[[Mad.^6Soapytits^7]]]^7 was killed by Capone^7's MP40
+[skipnotify]tim&3g^7 was killed by ^4-^7xTc^4][^7Diesel^4-^7's Sten
+[skipnotify]^4-^7xTc^4][^7Diesel^4-^7 was killed by ^2Doctor_^3Iskembe^7's Thompson
+[skipnotify]^3Allies left: 8, Axis left: 8
+[skipnotify]Stats for ^6HACKNEY MAN DEM E8 ^7this round:
+[skipnotify]^3Kills:^7 7 (^12^7), ^3Deaths:^7 9, ^3Kill Ratio: ^70.78, ^3Gibs:^7 3
+[skipnotify]^3Revived:^7 0, ^3Packs Given:^7 2 Health, 0 Ammo
+[skipnotify]^3Accuracy:^7 29.01 (38/131), ^3Headshots: ^76
+[skipnotify]^3Binoculars:^7 4, ^3Property Damage:^7 $0.00
+[skipnotify]: noxadox@rtcw.edu :0) ^3(Upper Base): ^2Oops.
+[skipnotify]tim&3g^7 was revived by ^8jo^7n^10
+[skipnotify]: (tim&3g)^3(Upper Base): ^5Thanks.
+[skipnotify]Stats for ^6HACKNEY MAN DEM E8 ^7this round:
+[skipnotify]^3Kills:^7 7 (^12^7), ^3Deaths:^7 9, ^3Kill Ratio: ^70.78, ^3Gibs:^7 3
+[skipnotify]^3Revived:^7 0, ^3Packs Given:^7 2 Health, 0 Ammo
+[skipnotify]^3Accuracy:^7 29.01 (38/131), ^3Headshots: ^76
+[skipnotify]^3Binoculars:^7 4, ^3Property Damage:^7 $0.00
+[skipnotify]^4-^7xTc^4][^7Diesel^4-^7 was revived by ^ddiscomachinegun
+[skipnotify]^2Doctor_^3Iskembe^7 was killed by ^0grom^7's MP40
+[skipnotify]tim&3g^7 was killed by ^4TEK^8_^5KILLA^1.QC^7's MP40
+[skipnotify]^2Doctor_^3Iskembe^7 was revived by ^4o^0==^4>^0Mr^4D
+[skipnotify](tim&3g^7) (Upper Base): ^5respawn as a ^2Lieutenant with a ^3MP40
+[skipnotify]^6HACKNEY MAN DEM E8^7 was gibbed by ^4-^7xTc^4][^7Diesel^4-^7
+[skipnotify]^6HACKNEY MAN DEM E8^7 was exploded by ^4-^7xTc^4][^7Diesel^4-^7's grenade
+[skipnotify]^4-^7xTc^4][^7Diesel^4-^7 was killed by ^0K^5id^0S^5lug^7's Sten
+[skipnotify]^0K^5id^0S^5lug^7 was killed by ^ddiscomachinegun^7's MP40
+[skipnotify]^0grom^7 was killed by ^4o^0==^4>^0Mr^4D^7's Thompson
+[skipnotify]Capone^7 was killed by noxadox@rtcw.edu :0)^7's Thompson
+^4[ ^2Medic with a ^2Thompson ^4] 
+^4[ ^2Soldier ^7/ ^2Panzerfaust ^4] 
+^4[ ^2Medic with a ^2Thompson ^4] 
+[skipnotify]^0grom^7 was gibbed by ^8jo^7n^10^7
+[skipnotify]Capone^7 was gibbed by ^7[[[Mad.^6Soapytits^7]]]^7
+[skipnotify]^4-^7xTc^4][^7Diesel^4-^7 was revived by ^ddiscomachinegun
+[skipnotify]^0K^5id^0S^5lug^7 was blasted by m@$73ry^7's Panzerfaust
+[skipnotify]m@$73ry^7 was killed by tim&3g^7's MP40
+[skipnotify]^4-^7xTc^4][^7Diesel^4-^7 was killed by noxadox@rtcw.edu :0)^7's Thompson
+[skipnotify]Stats for ^6HACKNEY MAN DEM E8 ^7this round:
+[skipnotify]^3Kills:^7 7 (^12^7), ^3Deaths:^7 10, ^3Kill Ratio: ^70.70, ^3Gibs:^7 3
+[skipnotify]^3Revived:^7 0, ^3Packs Given:^7 2 Health, 0 Ammo
+[skipnotify]^3Accuracy:^7 28.08 (41/146), ^3Headshots: ^76
+[skipnotify]^3Binoculars:^7 4, ^3Property Damage:^7 $0.00
+[skipnotify]^8jo^7n^10^7 was killed by ^6froKONG^7's MP40
+[skipnotify]noxadox@rtcw.edu :0)^7 was killed by m@$73ry^7's MP40
+[skipnotify]: noxadox@rtcw.edu :0) ^3(Upper Base): ^2Oops.
+[skipnotify]noxadox@rtcw.edu :0)^7 was gibbed by ^ddiscomachinegun^7
+[skipnotify]^6HACKNEY MAN DEM E8^7 was killed by ^0grom^7's MP40
+[skipnotify]^318:45: ^7Allies have stolen the War Documents!
+[skipnotify]^4TEK^8_^5KILLA^1.QC^7 was killed by ^7[[[Mad.^6Soapytits^7]]]^7's Thompson
+[skipnotify]Stats for ^6HACKNEY MAN DEM E8 ^7this round:
+[skipnotify]^3Kills:^7 7 (^12^7), ^3Deaths:^7 11, ^3Kill Ratio: ^70.64, ^3Gibs:^7 3
+[skipnotify]^3Revived:^7 0, ^3Packs Given:^7 2 Health, 0 Ammo
+[skipnotify]^3Accuracy:^7 25.00 (42/168), ^3Headshots: ^76
+[skipnotify]^3Binoculars:^7 5, ^3Property Damage:^7 $0.00
+[skipnotify]^6HACKNEY MAN DEM E8^7 was gibbed by ^ddiscomachinegun^7
+[skipnotify]tim&3g^7 was killed by m@$73ry^7's MP40
+[skipnotify]newarman^7 was killed by ^4o^0==^4>^0Mr^4D^7's Thompson
+[skipnotify]^4o^0==^4>^0Mr^4D^7 was killed by ^6froKONG^7's MP40
+[skipnotify]^7[[[Mad.^6Soapytits^7]]]^7 was killed by ^ddiscomachinegun^7's Thompson
+[skipnotify]^318:39: ^7Axis have returned the War Documents!
+[skipnotify]m@$73ry^7 was killed by ^0K^5id^0S^5lug^7's Sten
+[skipnotify]m@$73ry^7 was gibbed by noxadox@rtcw.edu :0)^7
+[skipnotify]newarman^7 was revived by ^6froKONG
+[skipnotify]^2ECGN Public Ventrilo - 69.65.113.18:3784
+[skipnotify]^4TEK^8_^5KILLA^1.QC^7 was revived by ^ddiscomachinegun
+[skipnotify]m@$73ry^7 was exploded by ^4o^0==^4>^0Mr^4D^7's grenade
+[skipnotify]^4-^7xTc^4][^7Diesel^4-^7 was killed by noxadox@rtcw.edu :0)^7's Thompson
+[skipnotify]^4o^0==^4>^0Mr^4D^7 was exploded by ^0grom^7's grenade
+[skipnotify]noxadox@rtcw.edu :0)^7 was killed by ^ddiscomachinegun^7's Thompson
+[skipnotify]m@$73ry^7 was revived by ^0grom
+[skipnotify]: noxadox@rtcw.edu :0) ^3(Upper Base): ^2Oops.
+[skipnotify]noxadox@rtcw.edu :0)^7 was gibbed by ^ddiscomachinegun^7
+[skipnotify]^318:16: ^7Allies have stolen the War Documents!
+[skipnotify]^4-^7xTc^4][^7Diesel^4-^7 was revived by ^ddiscomachinegun
+[skipnotify]newarman^7 was killed by ^8jo^7n^10^7's Thompson
+[skipnotify]tim&3g^7 was killed by ^6froKONG^7's MP40
+[skipnotify]newarman^7 was gibbed by ^8jo^7n^10^7
+[skipnotify]^4o^0==^4>^0Mr^4D^7 was killed by m@$73ry^7's MP40
+[skipnotify]m@$73ry^7 was killed by ^6HACKNEY MAN DEM E8^7's Thompson
+[skipnotify]: (noxadox@rtcw.edu :0))^3(Trenches): ^5Fire in the hole!
+[skipnotify]^4TEK^8_^5KILLA^1.QC^7 was killed by ^7[[[Mad.^6Soapytits^7]]]^7's Thompson
+[skipnotify]Stats for ^6HACKNEY MAN DEM E8 ^7this round:
+[skipnotify]^3Kills:^7 8 (^12^7), ^3Deaths:^7 11, ^3Kill Ratio: ^70.73, ^3Gibs:^7 3
+[skipnotify]^3Revived:^7 0, ^3Packs Given:^7 2 Health, 0 Ammo
+[skipnotify]^3Accuracy:^7 27.89 (53/190), ^3Headshots: ^77
+[skipnotify]^3Binoculars:^7 5, ^3Property Damage:^7 $0.00
+[skipnotify]^0grom^7 was killed by ^7[[[Mad.^6Soapytits^7]]]^7's Thompson
+[skipnotify]^0grom^7 was gibbed by ^7[[[Mad.^6Soapytits^7]]]^7
+[skipnotify]^4-^7xTc^4][^7Diesel^4-^7 was killed by ^2Doctor_^3Iskembe^7's Thompson
+[skipnotify]^4-^7xTc^4][^7Diesel^4-^7 was revived by Capone
+[skipnotify]noxadox@rtcw.edu :0)^7 was killed by ^6froKONG^7's MP40
+[skipnotify]: noxadox@rtcw.edu :0) ^3(Upper Base): ^2Oops.
+[skipnotify]^7[[[Mad.^6Soapytits^7]]]^7 was exploded by ^0grom^7's grenade
+[skipnotify]^0grom^7 was exploded by ^6HACKNEY MAN DEM E8^7's grenade
+[skipnotify]^4TEK^8_^5KILLA^1.QC^7 was exploded by ^6HACKNEY MAN DEM E8^7's grenade
+[skipnotify]newarman^7 ^1WAS KILLED BY TEAMMATE^7 ^4TEK^8_^5KILLA^1.QC^7
+[skipnotify]^4-^7xTc^4][^7Diesel^4-^7 was killed by ^8jo^7n^10^7's Thompson
+[skipnotify]^8jo^7n^10^7 was killed by ^ddiscomachinegun^7's Thompson
+[skipnotify]: ^4TEK^8_^5KILLA^1.QC ^3(unknown): ^2Oops.
+[skipnotify]^317:44: ^7Allies transmitted the documents!
+[skipnotify]: ^6froKONG ^3(unknown): ^2Affirmative.
+[skipnotify]: ^0K^5id^0S^5lug ^3(Trenches): ^2Yeah!
+[skipnotify]newarman^7 disconnected
+[skipnotify]^4TEK^8_^5KILLA^1.QC^7 disconnected
+[skipnotify]m@$73ry^7 disconnected
+[skipnotify]^4-^7xTc^4][^7Diesel^4-^7 disconnected
+[skipnotify]^3Stats for this round:
+[skipnotify]^3-----------------------------------------------------------------------------
+[skipnotify]^1Axis Team
+[skipnotify]^3T Name            |  K  D   KR T | G R  H A |   DG  TD  TDR    DR | B PD     
+[skipnotify]^3-----------------------------------------------------------------------------
+[skipnotify]^1R^7 discomachinegun ^3|^7 13  7 1.86 1 ^3|^7 7 9 20 0 ^3|^7 3363  56 0.02  2815 ^3|^7 7 $0.00
+[skipnotify]^1R^7 froKONG         ^3|^7 15  5 3.00 1 ^3|^7 1 3  1 0 ^3|^7 3124 428 0.12  1275 ^3|^7 5 $93.00
+[skipnotify]^1R^7 grom            ^3|^7 15  7 2.14 0 ^3|^7 3 1  0 1 ^3|^7 3115  14 0.00  1919 ^3|^7 4 $0.00
+[skipnotify]^1R^7 Capone          ^3|^7  3  6 0.50 0 ^3|^7 1 5  6 2 ^3|^7 1186   0 0.00  1930 ^3|^7 3 $300.00
+[skipnotify]^3-----------------------------------------------------------------------------
+[skipnotify]^4Allied Team
+[skipnotify]^3T Name            |  K  D   KR T | G R  H A |   DG  TD  TDR    DR | B PD     
+[skipnotify]^3-----------------------------------------------------------------------------
+[skipnotify]^4B^7 jon0            ^3|^7 12  6 2.00 1 ^3|^7 3 8  5 0 ^3|^7 2609  50 0.02  2671 ^3|^7 5 $220.00
+[skipnotify]^4B^7 noxadox@rtcw.ed ^3|^7 11 10 1.10 0 ^3|^7 5 5  8 0 ^3|^7 2357   0 0.00  3402 ^3|^7 7 $0.00
+[skipnotify]^4B^7 HACKNEY MAN DEM ^3|^7 10 11 0.91 2 ^3|^7 3 0  2 0 ^3|^7 2276  36 0.02  2869 ^3|^7 5 $0.00
+[skipnotify]^4B^7 [[[Mad.Soapytit ^3|^7  6 10 0.60 0 ^3|^7 2 1  3 0 ^3|^7 2041  54 0.03  2486 ^3|^7 5 $0.00
+[skipnotify]^4B^7 o==>MrD         ^3|^7 10 11 0.91 1 ^3|^7 1 3  1 0 ^3|^7 1921  36 0.02 12180 ^3|^7 3 $0.00
+[skipnotify]^4B^7 tim&3g          ^3|^7  6 14 0.43 1 ^3|^7 1 0  0 9 ^3|^7 1558 239 0.13  2493 ^3|^7 0 $0.00
+[skipnotify]^4B^7 Doctor_Iskembe  ^3|^7  3  8 0.38 0 ^3|^7 0 4 13 0 ^3|^7  577  72 0.11  1980 ^3|^7 4 $100.00
+[skipnotify]^4B^7 KidSlug         ^3|^7  2  4 0.50 0 ^3|^7 0 0  0 1 ^3|^7  494   0 0.00   748 ^3|^7 0 $0.00
+[skipnotify]^3-----------------------------------------------------------------------------
+[skipnotify]
+Type ^3/? stats^7 for info on column labels
+
+[skipnotify]Stats for ^6HACKNEY MAN DEM E8 ^7this round:
+[skipnotify]^3Kills:^7 10 (^12^7), ^3Deaths:^7 11, ^3Kill Ratio: ^70.91, ^3Gibs:^7 3
+[skipnotify]^3Revived:^7 0, ^3Packs Given:^7 2 Health, 0 Ammo
+[skipnotify]^3Accuracy:^7 28.27 (54/191), ^3Headshots: ^77
+[skipnotify]^3Binoculars:^7 5, ^3Property Damage:^7 $0.00
+[skipnotify]Server: timelimit changed to 7.255000
+[skipnotify]Server: g_warmup changed to 40
+[skipnotify]^2Chat with us on IRC...#ecgn on EnterTheGame
+[skipnotify]^6froKONG^7 disconnected
+^5PunkBuster Client: Server's local PB Log File /home/beach/.wolf/pb/svlogs/00000039.log has MD5 of 37EAF4F1FF54AD3E8D079BB5A6132F70 (1958 bytes)
+[skipnotify]^4Bubba^7 disconnected
+[skipnotify]Capone^7 was gibbed.
+[skipnotify]Capone^7 dove on his own grenade.
+[skipnotify]^0K^5id^0S^5lug^7 ^1WAS KILLED BY TEAMMATE^7 ^4o^0==^4>^0Mr^4D^7
+[skipnotify]tim&3g^7 disconnected
+[skipnotify]: ^0K^5id^0S^5lug ^3(Trenches): ^2Great shot.
+[skipnotify]: noxadox@rtcw.edu :0) ^3(Upper Bunker): ^2Good game.
+[skipnotify]noxadox@rtcw.edu :0)^7 disconnected
+[skipnotify]: ^ddiscomachinegun ^3(unknown): ^2The enemy is weakened.
+[skipnotify]: ^4o^0==^4>^0Mr^4D ^3(Axis Barracks): ^2Affirmative.
+[skipnotify]: ^4o^0==^4>^0Mr^4D ^3(Axis Barracks): ^2YES!
+[skipnotify]^6HACKNEY MAN DEM E8^7 was killed by ^0grom^7's Mauser
+[skipnotify]^4o^0==^4>^0Mr^4D^7 was killed by ^0grom^7's sniper rifle
+[skipnotify]^ddiscomachinegun^7: ^2none of you are going to even up?
+[skipnotify]^3Allies left: 3, Axis left: 6
+[skipnotify]: (^6HACKNEY MAN DEM E8)^3(Beach): ^5Danke.
+[skipnotify]^4o^0==^4>^0Mr^4D^7: ^2just had a shuffle
+[skipnotify]^2Check the RTCW forum @ http://forums.powervs.com
+[skipnotify]^0grom^7 was killed by ^6HACKNEY MAN DEM E8^7's MP40
+[skipnotify]^3Allies left: 4, Axis left: 5
+[skipnotify]^36:46: ^7Dynamite planted near the Sea Wall door!
+[skipnotify]Capone^7 was killed by ^2Doctor_^3Iskembe^7's MP40
+[skipnotify]^8jo^7n^10^7 was killed by ^6HACKNEY MAN DEM E8^7's MP40
+[skipnotify]^0K^5id^0S^5lug^7 was killed by ^0grom^7's sniper rifle
+[skipnotify]^2Doctor_^3Iskembe^7 was killed by ^8jo^7n^10^7's Thompson
+[skipnotify]^3Allies left: 5, Axis left: 5
+[skipnotify]^0K^5id^0S^5lug^7 was revived by ^7[[[Mad.^6Soapytits^7]]]
+[skipnotify]: (^0K^5id^0S^5lug)^3(Trenches): ^5Danke.
+[skipnotify]naveen+hedream^7 died.
+[skipnotify]^36:16: ^7The Sea Wall has been breached!
+[skipnotify]naveen+hedream^7 was revived by ^8jo^7n^10
+[skipnotify]^36:12: ^7Allies capture the Forward Bunker!
+[skipnotify]^4o^0==^4>^0Mr^4D^7 was killed by ^0grom^7's sniper rifle
+[skipnotify]^0K^5id^0S^5lug^7 was killed by ^ddiscomachinegun^7's Thompson
+[skipnotify]^ddiscomachinegun^7 was killed by ^6HACKNEY MAN DEM E8^7's MP40
+[skipnotify]^7[[[Mad.^6Soapytits^7]]]^7 was killed by Capone^7's Thompson
+[skipnotify]^0K^5id^0S^5lug^7 was gibbed by ^ddiscomachinegun^7
+[skipnotify]Stats for ^6HACKNEY MAN DEM E8 ^7this round:
+[skipnotify]^3Kills:^7 3 (^11^7), ^3Deaths:^7 0, ^3Kill Ratio: ^73.00, ^3Gibs:^7 0
+[skipnotify]^3Revived:^7 0, ^3Packs Given:^7 0 Health, 0 Ammo
+[skipnotify]^3Accuracy:^7 31.71 (13/41), ^3Headshots: ^71
+[skipnotify]^3Binoculars:^7 0, ^3Property Damage:^7 $0.00
+[skipnotify]BROKEDASS^7 disconnected
+[skipnotify]^7[[[Mad.^6Soapytits^7]]]^7 disconnected
+[skipnotify]^2Anti-TK system active - watch your fire
+[skipnotify]^35:49: ^7Axis reclaims the Forward Bunker!
+[skipnotify]Stats for ^6HACKNEY MAN DEM E8 ^7this round:
+[skipnotify]^3Kills:^7 3 (^11^7), ^3Deaths:^7 0, ^3Kill Ratio: ^73.00, ^3Gibs:^7 0
+[skipnotify]^3Revived:^7 0, ^3Packs Given:^7 0 Health, 0 Ammo
+[skipnotify]^3Accuracy:^7 33.33 (20/60), ^3Headshots: ^71
+[skipnotify]^3Binoculars:^7 0, ^3Property Damage:^7 $0.00
+[skipnotify]^2Doctor_^3Iskembe^7 was killed by Capone^7's Thompson
+[skipnotify]^35:39: ^7Dynamite planted near the Sea Wall breach!
+[skipnotify]^3Allies left: 5, Axis left: 6
+[skipnotify]Capone^7 was killed by ^6HACKNEY MAN DEM E8^7's MP40
+[skipnotify]^8jo^7n^10^7 was killed by ^7[Xt^1S]*^2ThraiN^7's MP40
+[skipnotify]^6HACKNEY MAN DEM E8^7 was killed by naveen+hedream^7's Thompson
+[skipnotify]Capone^7 was revived by naveen+hedream
+[skipnotify]Stats for ^6HACKNEY MAN DEM E8 ^7this round:
+[skipnotify]^3Kills:^7 4 (^11^7), ^3Deaths:^7 1, ^3Kill Ratio: ^74.00, ^3Gibs:^7 0
+[skipnotify]^3Revived:^7 0, ^3Packs Given:^7 0 Health, 0 Ammo
+[skipnotify]^3Accuracy:^7 39.47 (30/76), ^3Headshots: ^72
+[skipnotify]^3Binoculars:^7 0, ^3Property Damage:^7 $0.00
+[skipnotify]^35:26: ^7Allies capture the Forward Bunker!
+[skipnotify]^4o^0==^4>^0Mr^4D^7 was killed by naveen+hedream^7's Thompson
+[skipnotify]^7[Xt^1S]*^2ThraiN^7 was killed by ^0grom^7's sniper rifle
+[skipnotify]BROKEDASS^7 was killed by ^ddiscomachinegun^7's Thompson
+[skipnotify](^4o^0==^4>^0Mr^4D^7) (Upper Bunker): ^5long
+[skipnotify]^0K^5id^0S^5lug^7 was killed by ^8jo^7n^10^7's Thompson
+[skipnotify]: (^2Doctor_^3Iskembe)^3(Basement): ^5Affirmative.
+[skipnotify]^35:09: ^7The Sea Wall has been breached!
+[skipnotify]^7[Xt^1S]*^2ThraiN^7 was exploded by Capone^7's grenade
+[skipnotify]BROKEDASS^7 was killed by ^8jo^7n^10^7's Thompson
+[skipnotify]^4o^0==^4>^0Mr^4D^7 was killed by naveen+hedream^7's Thompson
+[skipnotify]naveen+hedream^7 was killed by ^2Doctor_^3Iskembe^7's MP40
+[skipnotify]^4o^0==^4>^0Mr^4D^7 was revived by ^6HACKNEY MAN DEM E8
+[skipnotify]: (^4o^0==^4>^0Mr^4D)^3(Basement Barracks): ^5Danke.
+[skipnotify]^2Doctor_^3Iskembe^7 was exploded by naveen+hedream^7's grenade
+[skipnotify]Capone^7 was killed by BROKEDASS^7's MP40
+[skipnotify]^2Doctor_^3Iskembe^7 was revived by ^4o^0==^4>^0Mr^4D
+[skipnotify]Capone^7 was gibbed by BROKEDASS^7
+[skipnotify]^2Type /s_stop in console to restore lost sound
+[skipnotify]BROKEDASS^7 was killed by ^0grom^7's sniper rifle
+[skipnotify]Stats for ^6HACKNEY MAN DEM E8 ^7this round:
+[skipnotify]^3Kills:^7 4 (^11^7), ^3Deaths:^7 1, ^3Kill Ratio: ^74.00, ^3Gibs:^7 0
+[skipnotify]^3Revived:^7 1, ^3Packs Given:^7 0 Health, 0 Ammo
+[skipnotify]^3Accuracy:^7 38.96 (30/77), ^3Headshots: ^72
+[skipnotify]^3Binoculars:^7 0, ^3Property Damage:^7 $0.00
+[skipnotify]: (^7[Xt^1S]*^2ThraiN)^3(Basement): ^5I need ammo!
+[skipnotify]: (^0K^5id^0S^5lug)^3(Basement): ^5I'm a lieutenant.
+[skipnotify]^3Allies left: 6, Axis left: 6
+[skipnotify]^8jo^7n^10^7 was killed by ^6HACKNEY MAN DEM E8^7's MP40
+[skipnotify]naveen+hedream^7 ^1WAS KILLED BY TEAMMATE^7 ^8jo^7n^10^7
+[skipnotify]^0K^5id^0S^5lug^7 was killed by ^ddiscomachinegun^7's Thompson
+[skipnotify]^4o^0==^4>^0Mr^4D^7 was killed by ^ddiscomachinegun^7's Thompson
+[skipnotify]^4o^0==^4>^0Mr^4D^7 was revived by ^7[Xt^1S]*^2ThraiN
+[skipnotify]^0K^5id^0S^5lug^7 was revived by ^7[Xt^1S]*^2ThraiN
+[skipnotify]^1[[[^7Hol^8age^1]]]^7 renamed to ^2On.offense
+[skipnotify]^6HACKNEY MAN DEM E8^7 was killed by ^7Old^2:^7Geezer^7's Thompson
+[skipnotify]^7[Xt^1S]*^2ThraiN^7 was exploded by ^ddiscomachinegun^7's grenade
+[skipnotify]^6HACKNEY MAN DEM E8^7 was revived by ^2Doctor_^3Iskembe
+[skipnotify]: (^7[Xt^1S]*^2ThraiN)^3(War Room): ^5Medic!
+[skipnotify]^ddiscomachinegun^7 was killed by ^4o^0==^4>^0Mr^4D^7's MP40
+[skipnotify]: (^6HACKNEY MAN DEM E8)^3(Upper Base): ^5Danke.
+[skipnotify]: (^0K^5id^0S^5lug)^3(Basement Barracks): ^5Danke.
+[skipnotify]^7[Xt^1S]*^2ThraiN^7 was revived by ^4o^0==^4>^0Mr^4D
+[skipnotify]^ddiscomachinegun^7 was gibbed by ^0K^5id^0S^5lug^7
+[skipnotify]BROKEDASS^7 was killed by ^8jo^7n^10^7's Thompson
+[skipnotify]: ^2On.offense ^3(unknown): ^2Hello.
+[skipnotify]: naveen+hedream ^3(unknown): ^2Hi.
+[skipnotify]: ^2On.offense ^3(Upper Base): ^2I'm a soldier.
+[skipnotify]^8jo^7n^10^7 was killed by ^6HACKNEY MAN DEM E8^7's MP40
+[skipnotify]^8jo^7n^10^7 was revived by ^7Old^2:^7Geezer
+[skipnotify]: (BROKEDASS)^3(Upper Base): ^5Medic!
+[skipnotify]^3Allies left: 6, Axis left: 7
+[skipnotify]^2On.offense^7 was killed by ^7Old^2:^7Geezer^7's Thompson
+[skipnotify]: ^2Doctor_^3Iskembe ^3(Back Stairway): ^2Great shot.
+[skipnotify]^8jo^7n^10^7 was killed by BROKEDASS^7's MP40
+[skipnotify]: ^2On.offense ^3(Upper Base): ^2YES!
+[skipnotify]^2Try !stats to view your live player stats
+[skipnotify]^0K^5id^0S^5lug^7 was killed by Capone^7's Thompson
+[skipnotify]^8jo^7n^10^7 was revived by ^ddiscomachinegun
+[skipnotify]^7Old^2:^7Geezer^7 was killed by ^2Doctor_^3Iskembe^7's MP40
+[skipnotify]^8jo^7n^10^7 was killed by BROKEDASS^7's Luger 9mm
+[skipnotify]^0K^5id^0S^5lug^7 was gibbed by Capone^7
+[skipnotify]: (^6HACKNEY MAN DEM E8)^3(Upper Base): ^5Danke.
+[skipnotify]BROKEDASS^7 was killed by ^ddiscomachinegun^7's Thompson
+[skipnotify]: ^2On.offense ^3(Upper Base): ^2Hello.
+[skipnotify]: (BROKEDASS)^3(Upper Base): ^5Incoming!
+[skipnotify]Stats for ^6HACKNEY MAN DEM E8 ^7this round:
+[skipnotify]^3Kills:^7 6 (^11^7), ^3Deaths:^7 2, ^3Kill Ratio: ^73.00, ^3Gibs:^7 0
+[skipnotify]^3Revived:^7 1, ^3Packs Given:^7 0 Health, 0 Ammo
+[skipnotify]^3Accuracy:^7 34.93 (51/146), ^3Headshots: ^78
+[skipnotify]^3Binoculars:^7 3, ^3Property Damage:^7 $0.00
+[skipnotify]^2On.offense^7 was exploded by ^7Old^2:^7Geezer^7's grenade
+[skipnotify]: ^2On.offense ^3(Trenches): ^2Oops.
+[skipnotify]: ^2On.offense ^3(Trenches): ^2I'm a medic.
+[skipnotify]^3Allies left: 7, Axis left: 7
+[skipnotify]^4o^0==^4>^0Mr^4D^7 was killed by naveen+hedream^7's Thompson
+[skipnotify]^4o^0==^4>^0Mr^4D^7 was revived by ^7[Xt^1S]*^2ThraiN
+[skipnotify]naveen+hedream^7 was killed by ^6HACKNEY MAN DEM E8^7's Sten
+[skipnotify]Stats for ^6HACKNEY MAN DEM E8 ^7this round:
+[skipnotify]^3Kills:^7 7 (^11^7), ^3Deaths:^7 2, ^3Kill Ratio: ^73.50, ^3Gibs:^7 0
+[skipnotify]^3Revived:^7 1, ^3Packs Given:^7 0 Health, 0 Ammo
+[skipnotify]^3Accuracy:^7 34.18 (54/158), ^3Headshots: ^78
+[skipnotify]^3Binoculars:^7 4, ^3Property Damage:^7 $0.00
+[skipnotify]^2On.offense^7 was killed by ^0grom^7's sniper rifle
+[skipnotify]Capone^7 was killed by ^4o^0==^4>^0Mr^4D^7's MP40
+[skipnotify]^2 Type /cl_allowdownload 1 to auto-download custom maps
+[skipnotify]: ^2On.offense ^3(Upper Bunker): ^2Great shot.
+[skipnotify]: (BROKEDASS)^3(Upper Base): ^5Medic!
+[skipnotify]: (^2On.offense)^3(Upper Bunker): ^5Medic!
+[skipnotify]BROKEDASS^7 was killed by ^0grom^7's sniper rifle
+[skipnotify]^2Doctor_^3Iskembe^7 was killed by ^ddiscomachinegun^7's Thompson
+[skipnotify]^0K^5id^0S^5lug^7 was killed by ^7Old^2:^7Geezer^7's Thompson
+[skipnotify]: (^4o^0==^4>^0Mr^4D)^3(War Room): ^5I need ammo!
+[skipnotify]BROKEDASS^7 was killed by naveen+hedream^7's Thompson
+[skipnotify]^2On.offense^7 was revived by ^2Doctor_^3Iskembe
+[skipnotify]: (^2On.offense)^3(Upper Bunker): ^5Danke.
+[skipnotify]BROKEDASS^7 was gibbed by naveen+hedream^7
+[skipnotify]^2Doctor_^3Iskembe^7 was killed by ^0grom^7's sniper rifle
+[skipnotify]^2On.offense^7 was killed by ^8jo^7n^10^7's Thompson
+[skipnotify]: (BROKEDASS)^3(Upper Base): ^5Incoming!
+[skipnotify]^2On.offense^7 was gibbed by ^7Old^2:^7Geezer^7
+[skipnotify]^2Doctor_^3Iskembe^7 was gibbed by ^7Old^2:^7Geezer^7
+[skipnotify]^6HACKNEY MAN DEM E8^7 was killed by ^8Jabone_Yard^7's Thompson
+[skipnotify]^4o^0==^4>^0Mr^4D^7 was killed by ^ddiscomachinegun^7's Thompson
+[skipnotify]Stats for ^6HACKNEY MAN DEM E8 ^7this round:
+[skipnotify]^3Kills:^7 7 (^11^7), ^3Deaths:^7 3, ^3Kill Ratio: ^72.33, ^3Gibs:^7 0
+[skipnotify]^3Revived:^7 1, ^3Packs Given:^7 0 Health, 0 Ammo
+[skipnotify]^3Accuracy:^7 33.92 (58/171), ^3Headshots: ^79
+[skipnotify]^3Binoculars:^7 4, ^3Property Damage:^7 $0.00
+^3[^5 FORWARD BUNKER ^3] 
+^3[^5 LOWER BUNKER ^3] 
+^3[^5 AXIS BARRACKS ^3] 
+[skipnotify]: ^2On.offense ^3(Upper Bunker): ^2Hello.
+[skipnotify]^3Allies left: 7, Axis left: 8
+[skipnotify]^2On.offense^7 was killed by naveen+hedream^7's MP40
+[skipnotify]naveen+hedream^7 was cooked by ^2On.offense^7's flamethrower
+[skipnotify]: (^2On.offense)^3(Upper Bunker): ^5Medic!
+[skipnotify]naveen+hedream^7 was gibbed by BROKEDASS^7
+[skipnotify]^2On.offense^7 ^3WAS GIBBED BY TEAMMATE ^7BROKEDASS^7
+[skipnotify]^7[Xt^1S]*^2ThraiN^7 was killed by ^8jo^7n^10^7's Thompson
+[skipnotify]^8jo^7n^10^7 was killed by ^2Doctor_^3Iskembe^7's MP40
+[skipnotify]^2Doctor_^3Iskembe^7 was killed by ^8Jabone_Yard^7's MP40
+[skipnotify]^8Jabone_Yard^7 was killed by ^0K^5id^0S^5lug^7's MP40
+[skipnotify]Capone^7 was ventilated by aapl1000^7's Venom
+[skipnotify]^7Old^2:^7Geezer^7 was killed by ^0K^5id^0S^5lug^7's MP40
+[skipnotify]BROKEDASS^7 was killed by ^ddiscomachinegun^7's Thompson
+[skipnotify]BROKEDASS^7 was gibbed.
+[skipnotify]^3Knives left:^7 5
+[skipnotify]: (^2Doctor_^3Iskembe)^3(Radio Room): ^5Defend our objective!
+[skipnotify]: (^7[Xt^1S]*^2ThraiN)^3(Basement): ^5Medic!
+[skipnotify]^2ECGN Public Ventrilo - 69.65.113.18:3784
+[skipnotify]aapl1000^7 was killed by ^ddiscomachinegun^7's Thompson
+[skipnotify]^8jo^7n^10^7 was gibbed by ^0K^5id^0S^5lug^7
+[skipnotify](^2On.offense^7) (Radio Stairway): ^5Affirmative, on my way!
+[skipnotify]: (^2Doctor_^3Iskembe)^3(Radio Stairway): ^5Danke.
+[skipnotify]^7[Xt^1S]*^2ThraiN^7 was revived by ^4o^0==^4>^0Mr^4D
+[skipnotify]: (^7[Xt^1S]*^2ThraiN)^3(Basement): ^5Danke.
+[skipnotify]: BROKEDASS ^3(Upper Bunker): ^2Yes!
+[skipnotify]: (BROKEDASS)^3(Upper Bunker): ^5The enemy is weakened.
+[skipnotify]: (^2On.offense)^3(Basement): ^5Fire in the hole!
+[skipnotify]: (^0K^5id^0S^5lug)^3(War Room): ^5Danke.
+[skipnotify]: (^6HACKNEY MAN DEM E8)^3(Basement): ^5Danke.
+[skipnotify]^8Jabone_Yard^7 was ventilated by aapl1000^7's Venom
+[skipnotify]^8Jabone_Yard^7 was gibbed by aapl1000^7
+[skipnotify]naveen+hedream^7 was killed by BROKEDASS^7's MP40
+[skipnotify]aapl1000^7 was killed by ^0grom^7's Thompson
+[skipnotify]: ^0K^5id^0S^5lug ^3(Basement): ^2Heh heh.
+[skipnotify]BROKEDASS^7 was killed by ^0grom^7's Thompson
+[skipnotify]: ^2On.offense ^3(Basement): ^2Affirmative.
+[skipnotify]BROKEDASS^7 was gibbed by ^0grom^7
+[skipnotify]^2Doctor_^3Iskembe^7 was killed by Capone^7's Thompson
+[skipnotify]: ^8Jabone_Yard ^3(unknown): ^2I'm on offense.
+[skipnotify]: (^4o^0==^4>^0Mr^4D)^3(Radio Stairway): ^5I'm a medic.
+[skipnotify]: ^2On.offense ^3(Basement): ^2I'm on offense.
+[skipnotify]^0grom^7 was ventilated by aapl1000^7's Venom
+[skipnotify]^8jo^7n^10^7 was killed by ^0K^5id^0S^5lug^7's MP40
+[skipnotify]: ^2On.offense ^3(Basement): ^2Affirmative.
+[skipnotify](^6HACKNEY MAN DEM E8^7) (Basement): ^51 ducts
+[skipnotify]^0K^5id^0S^5lug^7 was killed by Capone^7's Thompson
+[skipnotify]: (^4o^0==^4>^0Mr^4D)^3(Radio Stairway): ^5I'm a medic.
+[skipnotify]: (^4o^0==^4>^0Mr^4D)^3(Radio Stairway): ^5I'm a medic.
+[skipnotify]^2On.offense^7 was gibbed by ^7Old^2:^7Geezer^7
+[skipnotify]Capone^7 ^1WAS KILLED BY TEAMMATE^7 ^7Old^2:^7Geezer^7
+[skipnotify]^2On.offense^7 was exploded by ^7Old^2:^7Geezer^7's grenade
+[skipnotify]^0K^5id^0S^5lug^7 ^3WAS GIBBED BY TEAMMATE ^7^2On.offense^7
+[skipnotify]Capone^7 was gibbed by ^2On.offense^7
+[skipnotify]: ^4o^0==^4>^0Mr^4D ^3(Radio Stairway): ^2You're welcome.
+[skipnotify]^6HACKNEY MAN DEM E8^7 was killed by ^8Jabone_Yard^7's Thompson
+[skipnotify]: ^2On.offense ^3(Back Stairway): ^2Hey!
+[skipnotify]Stats for ^6HACKNEY MAN DEM E8 ^7this round:
+[skipnotify]^3Kills:^7 7 (^11^7), ^3Deaths:^7 4, ^3Kill Ratio: ^71.75, ^3Gibs:^7 0
+[skipnotify]^3Revived:^7 1, ^3Packs Given:^7 5 Health, 0 Ammo
+[skipnotify]^3Accuracy:^7 27.85 (61/219), ^3Headshots: ^710
+[skipnotify]^3Binoculars:^7 5, ^3Property Damage:^7 $0.00
+[skipnotify]: ^2On.offense ^3(Upper Bunker): ^2I'm on offense.
+[skipnotify]: ^0K^5id^0S^5lug ^3(Upper Bunker): ^2Hello.
+[skipnotify]^2Chat with us on IRC...#ecgn on EnterTheGame
+[skipnotify]naveen+hedream^7 was killed by ^2Doctor_^3Iskembe^7's MP40
+[skipnotify]: ^0K^5id^0S^5lug ^3(Radio Stairway): ^2Great shot.
+[skipnotify]BROKEDASS^7 was killed by ^8jo^7n^10^7's Thompson
+[skipnotify]: ^2On.offense ^3(Radio Stairway): ^2YES!
+[skipnotify]^7[Xt^1S]*^2ThraiN^7 was killed by ^8Jabone_Yard^7's MP40
+[skipnotify]BROKEDASS^7 was gibbed.
+[skipnotify]BROKEDASS^7: ^2radio
+[skipnotify]: (^7[Xt^1S]*^2ThraiN)^3(War Room): ^5Defend our objective!
+[skipnotify]^30:38: ^7Allies have stolen the War Documents!
+[skipnotify]: (^7[Xt^1S]*^2ThraiN)^3(War Room): ^5Defend our objective!
+[skipnotify]^0K^5id^0S^5lug^7 was killed by ^8jo^7n^10^7's Thompson
+[skipnotify]^8jo^7n^10^7 was killed by ^2Doctor_^3Iskembe^7's MP40
+[skipnotify]^0K^5id^0S^5lug^7 was revived by ^4o^0==^4>^0Mr^4D
+[skipnotify]: (^0K^5id^0S^5lug)^3(Radio Stairway): ^5Danke.
+[skipnotify]^2On.offense^7 was killed by ^7Old^2:^7Geezer^7's Thompson
+[skipnotify]^2On.offense^7 was gibbed by ^7Old^2:^7Geezer^7
+[skipnotify]Capone^7 was killed by ^7[Xt^1S]*^2ThraiN^7's MP40
+[skipnotify]^2Doctor_^3Iskembe^7 ^1WAS KILLED BY TEAMMATE^7 ^0K^5id^0S^5lug^7
+[skipnotify]^0K^5id^0S^5lug^7 ^1WAS KILLED BY TEAMMATE^7 ^4o^0==^4>^0Mr^4D^7
+[skipnotify]^4o^0==^4>^0Mr^4D^7 was killed by ^8Jabone_Yard^7's MP40
+[skipnotify]^4o^0==^4>^0Mr^4D^7 was gibbed by ^8Jabone_Yard^7
+[skipnotify]Capone^7 was gibbed by ^7[Xt^1S]*^2ThraiN^7
+[skipnotify]: (^2On.offense)^3(Basement): ^5Incoming!
+[skipnotify]: (^4o^0==^4>^0Mr^4D)^3(Basement): ^5Sorry.
+[skipnotify]: (^4o^0==^4>^0Mr^4D)^3(Basement): ^5Sorry.
+[skipnotify](^0K^5id^0S^5lug^7) (Basement): ^5short
+[skipnotify]^ddiscomachinegun^7 was ventilated by aapl1000^7's Venom
+[skipnotify]^ddiscomachinegun^7 was gibbed by BROKEDASS^7
+[skipnotify]aapl1000^7 ^1WAS KILLED BY TEAMMATE^7 BROKEDASS^7
+[skipnotify]^0K^5id^0S^5lug^7 was revived by ^6HACKNEY MAN DEM E8
+[skipnotify]^0grom^7 was killed by ^7[Xt^1S]*^2ThraiN^7's MP40
+[skipnotify]^8Jabone_Yard^7 was killed by ^6HACKNEY MAN DEM E8^7's MP40
+[skipnotify]^30:16: ^7Axis have returned the War Documents!
+[skipnotify]^8Jabone_Yard^7 was gibbed by BROKEDASS^7
+[skipnotify]^6HACKNEY MAN DEM E8^7 ^3WAS GIBBED BY TEAMMATE ^7BROKEDASS^7
+[skipnotify]^6HACKNEY MAN DEM E8^7 ^1WAS KILLED BY TEAMMATE^7 BROKEDASS^7
+[skipnotify]^0grom^7 was revived by ^7Old^2:^7Geezer
+[skipnotify]: ^2On.offense ^3(Upper Bunker): ^2All clear.
+[skipnotify]^7[Xt^1S]*^2ThraiN^7 was exploded by ^8jo^7n^10^7's grenade
+[skipnotify]naveen+hedream^7 ^1WAS KILLED BY TEAMMATE^7 ^8jo^7n^10^7
+[skipnotify]: (^2Doctor_^3Iskembe)^3(Upper Bunker): ^5Affirmative.
+[skipnotify]^8jo^7n^10^7 was ventilated by aapl1000^7's Venom
+[skipnotify]^7Old^2:^7Geezer^7 was exploded by BROKEDASS^7's grenade
+[skipnotify]No vote in progress.
+[skipnotify]^7[Xt^1S]*^2ThraiN^7 was revived by ^4o^0==^4>^0Mr^4D
+[skipnotify]^0K^5id^0S^5lug^7 was killed by ^0grom^7's Thompson
+[skipnotify]^0K^5id^0S^5lug^7 was gibbed by ^0grom^7
+[skipnotify]: ^2On.offense ^3(Radio Stairway): ^2Heh heh.
+[skipnotify]^8jo^7n^10^7 was gibbed by ^7[Xt^1S]*^2ThraiN^7
+[skipnotify]^8Jabone_Yard^7 dove on his own grenade.
+[skipnotify]BROKEDASS^7 was gibbed.
+[skipnotify]BROKEDASS^7 dove on his own grenade.
+[skipnotify]Timelimit hit.
+[skipnotify]: ^8Jabone_Yard ^3(unknown): ^2YEE-HAW!
+[skipnotify]: ^0K^5id^0S^5lug ^3(Basement): ^2Yes!
+[skipnotify]: ^7[Xt^1S]*^2ThraiN ^3(Radio Room): ^2Affirmative.
+[skipnotify]: BROKEDASS ^3(Radio Stairway): ^2Heh heh.
+[skipnotify]: ^7[Xt^1S]*^2ThraiN ^3(Radio Room): ^2Affirmative.
+[skipnotify]: BROKEDASS ^3(Beach): ^2YES!
+[skipnotify]: ^2On.offense ^3(Radio Stairway): ^2All clear.
+[skipnotify]: ^7[Xt^1S]*^2ThraiN ^3(Radio Room): ^2Affirmative.
+[skipnotify]: BROKEDASS ^3(Beach): ^2Heh heh.
+[skipnotify]: ^2On.offense ^3(Radio Stairway): ^2Affirmative.
+[skipnotify]: BROKEDASS ^3(Beach): ^2YES!
+[skipnotify]^3Stats for this round:
+[skipnotify]^3-----------------------------------------------------------------------------
+[skipnotify]^1Axis Team
+[skipnotify]^3T Name            |  K  D   KR T | G R H  A |   DG  TD  TDR    DR | B PD     
+[skipnotify]^3-----------------------------------------------------------------------------
+[skipnotify]^1R^7 BROKEDASS       ^3|^7  5 10 0.50 3 ^3|^7 4 0 0  0 ^3|^7 1730 855 0.33  3023 ^3|^7 4 $150.00
+[skipnotify]^1R^7 HACKNEY MAN DEM ^3|^7  8  4 2.00 1 ^3|^7 0 2 5  0 ^3|^7 1708   0 0.00  1813 ^3|^7 5 $0.00
+[skipnotify]^1R^7 KidSlug         ^3|^7  3  9 0.33 1 ^3|^7 2 0 0 11 ^3|^7 1525 148 0.09  2246 ^3|^7 5 $85.00
+[skipnotify]^1R^7 [XtS]*ThraiN    ^3|^7  3  6 0.50 0 ^3|^7 2 3 1  0 ^3|^7 1338  11 0.01  1690 ^3|^7 0 $85.00
+[skipnotify]^1R^7 Doctor_Iskembe  ^3|^7  6  7 0.86 0 ^3|^7 0 2 4  0 ^3|^7 1037  14 0.01  1986 ^3|^7 5 $409.00
+[skipnotify]^1R^7 aapl1000        ^3|^7  5  2 2.50 0 ^3|^7 1 0 0  0 ^3|^7  960  40 0.04   645 ^3|^7 3 $75.00
+[skipnotify]^1R^7 o==>MrD         ^3|^7  2  8 0.25 1 ^3|^7 0 5 0  0 ^3|^7  888 232 0.21  1634 ^3|^7 4 $418.00
+[skipnotify]^1R^7 On.offense      ^3|^7  1  7 0.14 0 ^3|^7 1 0 0  0 ^3|^7  740 190 0.20 11826 ^3|^7 0 $0.00
+[skipnotify]^3-----------------------------------------------------------------------------
+[skipnotify]^4Allied Team
+[skipnotify]^3T Name            |  K  D   KR T | G R H  A |   DG  TD  TDR    DR | B PD     
+[skipnotify]^3-----------------------------------------------------------------------------
+[skipnotify]^4B^7 grom            ^3|^7 11  3 3.67 1 ^3|^7 2 0 0  0 ^3|^7 2672   0 0.00   844 ^3|^7 3 $0.00
+[skipnotify]^4B^7 discomachinegun ^3|^7 10  3 3.33 4 ^3|^7 1 1 0  0 ^3|^7 2208 108 0.05  1414 ^3|^7 5 $0.00
+[skipnotify]^4B^7 jon0            ^3|^7  9 10 0.90 2 ^3|^7 0 1 2  0 ^3|^7 1836 369 0.17  3152 ^3|^7 7 $100.00
+[skipnotify]^4B^7 Old:Geezer      ^3|^7  6  3 2.00 1 ^3|^7 4 2 1  0 ^3|^7 1664 158 0.09   936 ^3|^7 4 $0.00
+[skipnotify]^4B^7 naveen+hedream  ^3|^7  7  5 1.40 0 ^3|^7 1 1 7  0 ^3|^7 1423  18 0.01  1948 ^3|^7 2 $0.00
+[skipnotify]^4B^7 Capone          ^3|^7  6  6 1.00 0 ^3|^7 1 0 0  4 ^3|^7 1397   0 0.00  1966 ^3|^7 7 $137.00
+[skipnotify]^4B^7 Jabone_Yard     ^3|^7  5  3 1.67 1 ^3|^7 1 0 2  0 ^3|^7 1265 125 0.09  1485 ^3|^7 3 $0.00
+[skipnotify]^4B^7 [HP]abi-Lookgir ^3|^7  0  0 0.00 0 ^3|^7 0 0 0  0 ^3|^7    0   0 0.00     0 ^3|^7 0 $0.00
+[skipnotify]^3-----------------------------------------------------------------------------
+[skipnotify]
+Type ^3/? stats^7 for info on column labels
+
+[skipnotify]Stats for ^6HACKNEY MAN DEM E8 ^7this round:
+[skipnotify]^3Kills:^7 8 (^11^7), ^3Deaths:^7 4, ^3Kill Ratio: ^72.00, ^3Gibs:^7 0
+[skipnotify]^3Revived:^7 2, ^3Packs Given:^7 5 Health, 0 Ammo
+[skipnotify]^3Accuracy:^7 29.20 (73/250), ^3Headshots: ^712
+[skipnotify]^3Binoculars:^7 5, ^3Property Damage:^7 $0.00
+[skipnotify]Server: timelimit changed to 25
+[skipnotify]Server: g_warmup changed to 44
+[skipnotify]: ^7[Xt^1S]*^2ThraiN ^3(Upper Bunker): ^2Affirmative.
+[skipnotify]^2Check the RTCW forum @ http://forums.powervs.com
+[skipnotify]: ^2On.offense ^3(Forward Bunker): ^2I'm a soldier.
+[skipnotify]: ^7[Xt^1S]*^2ThraiN ^3(Upper Bunker): ^2Affirmative.
+[skipnotify]: (^2Doctor_^3Iskembe)^3(Forward Bunker): ^5Taking fire!
+^5PunkBuster Client: Server's local PB Log File /home/beach/.wolf/pb/svlogs/00000040.log has MD5 of 38B5F7804D66F981AC7BB64F4E91D54F (3954 bytes)
+[skipnotify]: ^7[Xt^1S]*^2ThraiN ^3(Upper Bunker): ^2Affirmative.
+[skipnotify]: (^2Doctor_^3Iskembe)^3(Forward Bunker): ^5Taking fire!
+[skipnotify]^0K^5id^0S^5lug^7 ^1WAS KILLED BY TEAMMATE^7 ^7[Xt^1S]*^2ThraiN^7
+[skipnotify]: ^2On.offense ^3(Forward Bunker): ^2Taking fire!
+[skipnotify]: ^7[Xt^1S]*^2ThraiN ^3(Radio Room): ^2Affirmative.
+[skipnotify]: ^0K^5id^0S^5lug ^3(Radio Room): ^2Great shot.
+[skipnotify]aapl1000^7 died.
+[skipnotify]^4o^0==^4>^0Mr^4D^7 ^1WAS KILLED BY TEAMMATE^7 ^2On.offense^7
+[skipnotify]: ^2On.offense ^3(Forward Bunker): ^2Hold your fire!
+[skipnotify]^2On.offense^7 died.
+[skipnotify]: ^2On.offense ^3(Forward Bunker): ^2YES!
+[skipnotify]^0grom^7 disconnected
+[skipnotify]^4o^0==^4>^0Mr^4D^7 ^1WAS KILLED BY TEAMMATE^7 aapl1000^7
+[skipnotify]aapl1000^7 ^1WAS KILLED BY TEAMMATE^7 ^7[Xt^1S]*^2ThraiN^7
+[skipnotify]: ^2On.offense ^3(Upper Bunker): ^2Hello.
+[skipnotify]^6HACKNEY MAN DEM E8^7 ^1WAS KILLED BY TEAMMATE^7 ^2Doctor_^3Iskembe^7
+[skipnotify]^8Jabone_Yard^7 ^1WAS KILLED BY TEAMMATE^7 ^8jo^7n^10^7
+[skipnotify]^8jo^7n^10^7 ^1WAS KILLED BY TEAMMATE^7 [HP]^2a^1b^5i^6-^8Look^2girl^7
+[skipnotify]^2On.offense^7 died.
+[skipnotify]^7[Xt^1S]*^2ThraiN^7 fell to his death.
+[skipnotify]^8Jabone_Yard^7 ^1WAS KILLED BY TEAMMATE^7 ^8jo^7n^10^7
+[skipnotify]^4o^0==^4>^0Mr^4D^7 fell to his death.
+[skipnotify][HP]^2a^1b^5i^6-^8Look^2girl^7 ^1WAS KILLED BY TEAMMATE^7 ^8jo^7n^10^7
+[skipnotify]^8jo^7n^10^7 ^3WAS GIBBED BY TEAMMATE ^7[HP]^2a^1b^5i^6-^8Look^2girl^7
+[skipnotify][HP]^2a^1b^5i^6-^8Look^2girl^7 was gibbed.
+[skipnotify]^8jo^7n^10^7 ^1WAS KILLED BY TEAMMATE^7 [HP]^2a^1b^5i^6-^8Look^2girl^7
+[skipnotify]: ^2On.offense ^3(Upper Bunker): ^2I'm a soldier.
+[skipnotify]^2On.offense^7 fell to his death.
+[skipnotify]^ddiscomachinegun^7 was gibbed.
+[skipnotify]^ddiscomachinegun^7 dove on his own grenade.
+[skipnotify]^6HACKNEY MAN DEM E8^7 ^1WAS KILLED BY TEAMMATE^7 aapl1000^7
+[skipnotify]^8wTh^7-^8SShooter^7 disconnected
+[skipnotify]aapl1000^7 fell to his death.
+[skipnotify]^7[Xt^1S]*^2ThraiN^7 fell to his death.
+[skipnotify]^8jo^7n^10^7 was gibbed.
+[skipnotify]^8jo^7n^10^7 dove on his own grenade.
+[skipnotify]^4o^0==^4>^0Mr^4D^7 fell to his death.
+[skipnotify]aapl1000^7 ^1WAS KILLED BY TEAMMATE^7 ^7[Xt^1S]*^2ThraiN^7
+[skipnotify]: ^2On.offense ^3(Upper Bunker): ^2Heh heh.
+[skipnotify]^2On.offense^7 ^1WAS KILLED BY TEAMMATE^7 ^4o^0==^4>^0Mr^4D^7
+[skipnotify]BROKEDASS^7 ^1WAS KILLED BY TEAMMATE^7 ^6HACKNEY MAN DEM E8^7
+[skipnotify]: ^0K^5id^0S^5lug ^3(Back Stairway): ^2Heh heh.
+[skipnotify]: ^2On.offense ^3(Forward Bunker): ^2Affirmative.
+[skipnotify]: ^2On.offense ^3(Forward Bunker Door): ^2I'm on offense.
+[skipnotify]: (BROKEDASS)^3(Forward Bunker Door): ^5I need ammo!
+[skipnotify]: (^2Doctor_^3Iskembe)^3(Forward Bunker Door): ^5All clear.
+[skipnotify]: (^0K^5id^0S^5lug)^3(Trenches): ^5I'm a lieutenant.
+[skipnotify]aapl1000^7 was killed by ^8Jabone_Yard^7's Thompson
+[skipnotify]^8jo^7n^10^7 was killed by ^6HACKNEY MAN DEM E8^7's MP40
+[skipnotify]: ^2On.offense ^3(Forward Bunker Door): ^2I'm a soldier.
+[skipnotify]BROKEDASS^7 was killed by Capone^7's sniper rifle
+[skipnotify]Stats for ^6HACKNEY MAN DEM E8 ^7this round:
+[skipnotify]^3Kills:^7 1, ^3Deaths:^7 0, ^3Kill Ratio: ^71.00, ^3Gibs:^7 0
+[skipnotify]^3Revived:^7 0, ^3Packs Given:^7 0 Health, 0 Ammo
+[skipnotify]^3Accuracy:^7 28.57 (8/28), ^3Headshots: ^71
+[skipnotify]^3Binoculars:^7 0, ^3Property Damage:^7 $0.00
+[skipnotify][HP]^2a^1b^5i^6-^8Look^2girl^7 was killed by ^4o^0==^4>^0Mr^4D^7's sniper rifle
+[skipnotify]: (BROKEDASS)^3(Forward Bunker): ^5Medic!
+[skipnotify]^3Allies left: 7, Axis left: 8
+[skipnotify]: (BROKEDASS)^3(Forward Bunker): ^5Medic!
+[skipnotify]: (BROKEDASS)^3(Forward Bunker): ^5Medic!
+[skipnotify]BROKEDASS^7 was revived by ^2Doctor_^3Iskembe
+[skipnotify]^7[Xt^1S]*^2ThraiN^7 was killed by naveen+hedream^7's Thompson
+[skipnotify]^2Anti-TK system active - watch your fire
+[skipnotify]Stats for ^6HACKNEY MAN DEM E8 ^7this round:
+[skipnotify]^3Kills:^7 1, ^3Deaths:^7 0, ^3Kill Ratio: ^71.00, ^3Gibs:^7 0
+[skipnotify]^3Revived:^7 0, ^3Packs Given:^7 0 Health, 0 Ammo
+[skipnotify]^3Accuracy:^7 28.57 (8/28), ^3Headshots: ^71
+[skipnotify]^3Binoculars:^7 0, ^3Property Damage:^7 $0.00
+[skipnotify]^7[Xt^1S]*^2ThraiN^7 was gibbed by ^8Jabone_Yard^7
+[skipnotify]^8jo^7n^10^7 was killed.
+[skipnotify]: aapl1000 ^3(Beach): ^2Heh heh.
+[skipnotify]: ^2On.offense ^3(Trenches): ^2Dynamite planted.
+[skipnotify]: (BROKEDASS)^3(Forward Bunker Door): ^5Medic!
+[skipnotify]^6HACKNEY MAN DEM E8^7 was killed by Capone^7's sniper rifle
+[skipnotify]Stats for ^6HACKNEY MAN DEM E8 ^7this round:
+[skipnotify]^3Kills:^7 1, ^3Deaths:^7 1, ^3Kill Ratio: ^71.00, ^3Gibs:^7 0
+[skipnotify]^3Revived:^7 0, ^3Packs Given:^7 0 Health, 0 Ammo
+[skipnotify]^3Accuracy:^7 28.89 (13/45), ^3Headshots: ^71
+[skipnotify]^3Binoculars:^7 0, ^3Property Damage:^7 $0.00
+[skipnotify](aapl1000^7) (Beach): ^5Lt
+[skipnotify]: ^8jo^7n^10 ^3(unknown): ^2WOOHOOO!
+[skipnotify]: ^2On.offense ^3(Trenches): ^2Affirmative.
+[skipnotify][HP]^2a^1b^5i^6-^8Look^2girl^7 was killed by ^4o^0==^4>^0Mr^4D^7's sniper rifle
+[skipnotify]: ^2On.offense ^3(Trenches): ^2We need an engineer!
+[skipnotify][HP]^2a^1b^5i^6-^8Look^2girl^7 was revived by ^8jo^7n^10
+[skipnotify]: (^2Doctor_^3Iskembe)^3(Sea Wall): ^5Where to?
+[skipnotify]: ^2On.offense ^3(Trenches): ^2I'm on offense.
+[skipnotify]^324:09: ^7Dynamite planted near the Sea Wall door!
+[skipnotify]^8Jabone_Yard^7 was killed by aapl1000^7's MP40
+[skipnotify]^ddiscomachinegun^7 was exploded by BROKEDASS^7's grenade
+[skipnotify]aapl1000^7 was killed by Capone^7's sniper rifle
+[skipnotify]Stats for ^6HACKNEY MAN DEM E8 ^7this round:
+[skipnotify]^3Kills:^7 1, ^3Deaths:^7 1, ^3Kill Ratio: ^71.00, ^3Gibs:^7 0
+[skipnotify]^3Revived:^7 0, ^3Packs Given:^7 0 Health, 0 Ammo
+[skipnotify]^3Accuracy:^7 26.15 (17/65), ^3Headshots: ^72
+[skipnotify]^3Binoculars:^7 0, ^3Property Damage:^7 $0.00
+[skipnotify]: (^2On.offense)^3(Trenches): ^5I need ammo!
+[skipnotify]Stats for ^6HACKNEY MAN DEM E8 ^7this round:
+[skipnotify]^3Kills:^7 1, ^3Deaths:^7 1, ^3Kill Ratio: ^71.00, ^3Gibs:^7 0
+[skipnotify]^3Revived:^7 0, ^3Packs Given:^7 0 Health, 0 Ammo
+[skipnotify]^3Accuracy:^7 26.15 (17/65), ^3Headshots: ^72
+[skipnotify]^3Binoculars:^7 0, ^3Property Damage:^7 $0.00
+[skipnotify]: (^0K^5id^0S^5lug)^3(Trenches): ^5I'm a lieutenant.
+[skipnotify]BROKEDASS^7 was exploded by [HP]^2a^1b^5i^6-^8Look^2girl^7's grenade
+[skipnotify]^8Jabone_Yard^7 was revived by ^8jo^7n^10
+[skipnotify]: (^2On.offense)^3(Trenches): ^5Danke.
+[skipnotify]: (BROKEDASS)^3(Forward Bunker Door): ^5Medic!
+[skipnotify]: ^8Jabone_Yard ^3(unknown): ^2Thanks.
+[skipnotify]: (BROKEDASS)^3(Forward Bunker Door): ^5Medic!
+[skipnotify]: (BROKEDASS)^3(Forward Bunker Door): ^5Medic!
+[skipnotify]^6HACKNEY MAN DEM E8^7 was killed by ^8jo^7n^10^7's Thompson
+[skipnotify]Stats for ^6HACKNEY MAN DEM E8 ^7this round:
+[skipnotify]^3Kills:^7 1, ^3Deaths:^7 2, ^3Kill Ratio: ^70.50, ^3Gibs:^7 0
+[skipnotify]^3Revived:^7 0, ^3Packs Given:^7 0 Health, 0 Ammo
+[skipnotify]^3Accuracy:^7 24.10 (20/83), ^3Headshots: ^72
+[skipnotify]^3Binoculars:^7 0, ^3Property Damage:^7 $0.00
+----- CL_Shutdown -----
+RE_Shutdown( 1 )
+Shutting down OpenGL subsystem
+...wglMakeCurrent( NULL, NULL ): success
+...deleting GL context: success
+...releasing DC: success
+...destroying window
+...resetting display
+...shutting down QGL
+...unloading OpenGL DLL
+-----------------------
