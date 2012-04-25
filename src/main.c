@@ -2,14 +2,8 @@
 #include "parser.h"
 
 int main(int argc, char **argv) {
-	int result = open_file(argv[1]);
-	if (result == 1) {
-		printf ("ok\n");
-	} else {
-		printf ("error");
-	}
-
-	return 0;
+    open_file(argv[1]);
+    return 0;
 }
 /*#include <mongo.h>
 
