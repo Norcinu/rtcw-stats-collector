@@ -1,14 +1,17 @@
-program_NAME := rtcwstats
-program_SRCS := $(wildcard *.c)
-program_SRCS_OBJS := src/${program_SRCS:.c=.o}
-program_OBJS := src/$(program_SRCS_OBJS)
-program_INC_DIRS := /usr/local/include
-program_LIB_DIRS := /usr/local/lib
-program_LIBS := mongoc
+CC := clang
+program_NAME := myprogram
+program_C_SRCS := $(wildcard *.c)
+program_CXX_SRCS := $(wildcard *.cpp)
+program_C_OBJS := ${program_C_SRCS:.c=.o}
+program_CXX_OBJS := ${program_CXX_SRCS:.cpp=.o}
+program_OBJS := $(program_C_OBJS) $(program_CXX_OBJS)
+program_INCLUDE_DIRS := /usr/local/include
+program_LIBRARY_DIRS := /usr/local/lib
+program_LIBRARIES := mongoc
 
-CFLAGS += -g -Wall $(foreach includedir, $(program_INC_DIRS), -I$(includedir))
-LDFLAGS += $(foreach librarydir, $(program_LIB_DIRS), -L$(librarydir))
-LDFLAGS += $(foreach library, $(program_LIBS), -l$(library))
+CPPFLAGS += $(foreach includedir,$(program_INCLUDE_DIRS),-I$(includedir))
+LDFLAGS += $(foreach librarydir,$(program_LIBRARY_DIRS),-L$(librarydir))
+LDFLAGS += $(foreach library,$(program_LIBRARIES),-l$(library))
 
 .PHONY: all clean distclean
 

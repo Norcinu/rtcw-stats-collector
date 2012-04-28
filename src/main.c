@@ -1,11 +1,17 @@
 #include <stdio.h>
 #include "parser.h"
 
-int main(int argc, char **argv) {
-    open_file(argv[1]);
+/*int main(int argc, char **argv) {
+    if (argc < 2) {
+        printf ("Please enter the location of the log file to parse. ");
+        printf ("%s path/to/file\n", argv[0]);
+        return 0;
+    }
+    
+    //open_file(argv[1]);
     return 0;
-}
-/*#include <mongo.h>
+}*/
+#include <mongo.h>
 
 void insert_data(mongo * conn);
 
@@ -70,4 +76,4 @@ void insert_data(mongo * conn) {
         printf("insert_data != ok\n");
     }
     bson_destroy(b);
-}*/
+}
