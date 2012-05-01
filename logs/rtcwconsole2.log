@@ -1,0 +1,2270 @@
+logfile opened on Tue May 01 20:54:24 2012
+
+...detecting CPU, found AMD w/ 3DNow!
+Bypassing CD checks
+----- Client Initialization -----
+----- Initializing Renderer ----
+-------------------------------
+Loaded 714 translation strings from scripts/translation.cfg
+Loaded 97 translation strings from translations/rocket.cfg
+Loaded 86 translation strings from translations/dam.cfg
+Loaded 114 translation strings from translations/tram.cfg
+Loaded 57 translation strings from translations/chateau.cfg
+Loaded 54 translation strings from translations/keep.cfg
+Loaded 73 translation strings from translations/icelab.cfg
+Loaded 6 translation strings from translations/translation-1_4.cfg
+----- Client Initialization Complete -----
+----- R_Init -----
+Initializing OpenGL subsystem
+...initializing QGL
+...calling LoadLibrary( 'C:\Windows\system32\opengl32.dll' ): succeeded
+...setting mode 6: 1024 768 FS
+...using colorsbits of 32
+...calling CDS: ok
+...registered window class
+...created window@0,0 (1024x768)
+Initializing OpenGL driver
+...getting DC: succeeded
+...GLW_ChoosePFD( 32, 24, 0 )
+...133 PFDs found
+...hardware acceleration found
+...PIXELFORMAT 7 selected
+...creating GL context: succeeded
+...making context current: succeeded
+Initializing OpenGL extensions
+...using GL_EXT_texture_compression_s3tc
+...using GL_EXT_texture_env_add
+...using WGL_EXT_swap_control
+...using GL_ARB_multitexture
+...using GL_EXT_compiled_vertex_array
+...WGL_3DFX_gamma_control not found
+...ignoring GL_NV_fog_distance
+
+GL_VENDOR: NVIDIA Corporation
+GL_RENDERER: GeForce GTX 460/PCIe/SSE2
+GL_VERSION: 4.2.0
+GL_EXTENSIONS: GL_ARB_color_buffer_float GL_ARB_compatibility GL_ARB_copy_buffer GL_ARB_depth_buffer_float GL_ARB_depth_texture GL_ARB_draw_buffers GL_ARB_draw_instanced GL_ARB_fragment_program GL_ARB_fragment_program_shadow GL_ARB_fragment_shader GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_geometry_shader4 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_imaging GL_ARB_map_buffer_range GL_ARB_multisample GL_ARB_multitexture GL_ARB_occlusion_query GL_ARB_pixel_buffer_object GL_ARB_point_parameters GL_ARB_point_sprite GL_ARB_shader_objects GL_ARB_shading_language_100 GL_ARB_shadow GL_ARB_texture_border_clamp GL_ARB_texture_buffer_object GL_ARB_texture_compression GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map GL_ARB_texture_env_add GL_ARB_texture_env_combine GL_ARB_texture_env_crossbar GL_ARB_texture_env_dot3 GL_ARB_texture_float GL_ARB_texture_mirrored_repeat GL_ARB_texture_non_power_of_two GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_transpose_matrix GL_ARB_vertex_array_object GL_ARB_vertex_buffer_object GL_ARB_vertex_program GL_ARB_vertex_shader GL_ARB_window_pos GL_ATI_draw_buffers GL_ATI_texture_float GL_ATI_texture_mirror_once GL_S3_s3tc GL_EXT_texture_env_add GL_EXT_abgr GL_EXT_bgra GL_EXT_bindable_uniform GL_EXT_blend_color GL_EXT_blend_equation_separate GL_EXT_blend_func_separate GL_EXT_blend_minmax GL_EXT_blend_subtract GL_EXT_compiled_vertex_array GL_EXT_Cg_shader GL_EXT_depth_bounds_test GL_EXT_direct_state_access GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_draw_range_elements GL_EXT_fog_coord GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXTX_framebuffer_mixed_formats GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_geometry_shader4 GL_EXT_gpu_program_parameters GL_EXT_gpu_shader4 GL_EXT_multi_draw_arrays GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_packed_pixels GL_EXT_pixel_buffer_object GL_EXT_point_parameters GL_EXT_provoking_vertex GL_EXT_rescale_normal GL_EXT_secondary_color GL_EXT_separate_specular_color GL_EXT_shadow_funcs GL_EXT_stencil_two_side GL_EXT_stencil_wrap GL_EXT_texture3D GL_EXT_texture_array GL_EXT_texture_buffer_object GL_EXT_texture_compression_latc GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_cube_map GL_EXT_texture_edge_clamp GL_EXT_texture_env_combine GL_EXT_texture_env_dot3 GL_EXT_texture_filter_anisotropic GL_EXT_texture_integer GL_EXT_texture_lod GL_EXT_texture_lod_bias GL_EXT_texture_mirror_clamp GL_EXT_texture_object GL_EXT_texture_shared_exponent GL_EXT_texture_sRGB GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_vertex_array GL_EXT_vertex_array_bgra GL_IBM_rasterpos_clip GL_IBM_texture_mirrored_repeat GL_KTX_buffer_region GL_NV_blend_square GL_NV_conditional_render GL_NV_copy_depth_to_color GL_NV_depth_buffer_float GL_NV_depth_clamp GL_NV_explicit_multisample GL_NV_fence GL_NV_float_buffer GL_NV_fog_distance GL_NV_fragment_program GL_NV_fragment_program_option GL_NV_fragment_program2 GL_NV_framebuffer_multisample_coverage GL_NV_geometry_shader4 GL_NV_gpu_program4 GL_NV_gpu_program4_1 GL_NV_gpu_program5 GL_NV_gpu_program_fp64 GL_NV_half_float GL_NV_light_max_exponent GL_NV_multisample_coverage GL_NV_multisample_filter_hint GL_NV_occlusion_query GL_NV_packed_depth_stencil GL_NV_parameter_buffer_object GL_NV_pixel_data_range GL_NV_point_sprite GL_NV_primitive_restart GL_NV_register_combiners GL_NV_register_combiners2 GL_NV_shader_buffer_load GL_NV_texgen_reflection GL_NV_texture_compression_vtc GL_NV_texture_env_combine4 GL_NV_texture_expand_normal GL_NV_texture_rectangle GL_NV_texture_shader GL_NV_texture_shader2 GL_NV_texture_shader3 GL_NV_transform_feedback GL_NV_transform_feedback2 GL_NV_vertex_array_range GL_NV_vertex_array_range2 GL_NV_vertex_buffer_unified_memory GL_NV_vertex_program GL_NV_vertex_program1_1 GL_NV_vertex_program2 GL_NV_vertex_program2_option GL_NV_vertex_program3 GL_NVX_conditional_render GL_SGIS_generate_mipmap GL_SGIS_texture_lod GL_SGIX_depth_texture GL_SGIX_shadow GL_SUN_slice_accum GL_WIN_swap_hint WGL_EXT_swap_control 
+GL_MAX_TEXTURE_SIZE: 16384
+GL_MAX_ACTIVE_TEXTURES_ARB: 4
+
+PIXELFORMAT: color(32-bits) Z(24-bit) stencil(0-bits)
+MODE: 6, 1024 x 768 fullscreen hz:60
+GAMMA: software w/ 0 overbright bits
+CPU: AMD w/ 3DNow!
+rendering primitives: single glDrawElements
+texturemode: GL_LINEAR_MIPMAP_NEAREST
+picmip: 1
+texture bits: 32
+multitexture: enabled
+compiled vertex arrays: enabled
+texenv add: enabled
+compressed textures: enabled
+NV distance fog: disabled
+Initializing Shaders
+^3WARNING: unknown general shader parameter 'map' in 'projectionShadow'
+^3WARNING: expecting '{', found 'surfaceparm' instead in shader 'flareShader'
+----- finished R_Init -----
+
+------- sound initialization -------
+Initializing DirectSound
+DirectSound initialized successfully
+------------------------------------
+----- Sound Info -----
+sound system is muted
+    1 stereo
+32768 samples
+   16 samplebits
+    1 submission_chunk
+22050 speed
+0x2bbb0050 dma buffer
+No background file.
+----------------------
+Sound memory manager started
+--- Common Initialization Complete ---
+Winsock Initialized
+Opening IP socket: localhost:27960
+Hostname: Steven-PC
+IP: 192.168.1.65
+IP: 192.168.56.1
+Working directory: C:\Program Files (x86)\Return to Castle Wolfenstein
+^5PunkBuster Client: Changing (Vista) homepath to [C:\Users\Steven\AppData\Local\PunkBuster\RTCW\pb\]
+^5PunkBuster Client: Error: Failed to locate resource (A)
+^5PunkBuster Client: Attempting to resolve master7.evenbalance.com
+^5PunkBuster Client: Resolved to [216.240.146.139] (16)
+^5PunkBuster Client: PunkBuster Client (v2.164 | A0) Enabled
+Resolving wolfmotd.idsoftware.com
+wolfmotd.idsoftware.com resolved to 199.107.64.171:27951
+69.65.113.18:27960 resolved to 69.65.113.18:27960
+Resolving wolfauthorize.idsoftware.com
+wolfauthorize.idsoftware.com resolved to 199.107.64.171:27952
+^5PunkBuster Client: Game Version [Wolf 1.41b-MP win-x86 May  8 2006]
+^5PunkBuster Client: Connected to Server 69.65.113.18:27960
+^5PunkBuster Client: Error: Unable to set cl_guid
+^5PunkBuster Client: PB Services socket initialized
+Current search path:
+C:\Program Files (x86)\Return to Castle Wolfenstein\main\mp_pakmaps6.pk3 (81 files)
+    on the pure list
+C:\Program Files (x86)\Return to Castle Wolfenstein\main\mp_pakmaps5.pk3 (35 files)
+    on the pure list
+C:\Program Files (x86)\Return to Castle Wolfenstein\main\mp_pakmaps4.pk3 (52 files)
+    on the pure list
+C:\Program Files (x86)\Return to Castle Wolfenstein\main\mp_pakmaps3.pk3 (83 files)
+    on the pure list
+C:\Program Files (x86)\Return to Castle Wolfenstein\main\mp_pakmaps2.pk3 (47 files)
+    on the pure list
+C:\Program Files (x86)\Return to Castle Wolfenstein\main\mp_pakmaps1.pk3 (34 files)
+    on the pure list
+C:\Program Files (x86)\Return to Castle Wolfenstein\main\mp_pakmaps0.pk3 (21 files)
+    on the pure list
+C:\Program Files (x86)\Return to Castle Wolfenstein\main\mp_pak5.pk3 (77 files)
+    on the pure list
+C:\Program Files (x86)\Return to Castle Wolfenstein\main\mp_pak4.pk3 (5 files)
+    on the pure list
+C:\Program Files (x86)\Return to Castle Wolfenstein\main\mp_pak3.pk3 (76 files)
+    on the pure list
+C:\Program Files (x86)\Return to Castle Wolfenstein\main\mp_pak2.pk3 (3 files)
+    on the pure list
+C:\Program Files (x86)\Return to Castle Wolfenstein\main\mp_pak1.pk3 (308 files)
+    on the pure list
+C:\Program Files (x86)\Return to Castle Wolfenstein\main\mp_pak0.pk3 (783 files)
+    on the pure list
+C:\Program Files (x86)\Return to Castle Wolfenstein\main\mp_bin.pk3 (4 files)
+    on the pure list
+C:\Program Files (x86)\Return to Castle Wolfenstein\main\te_ufo.pk3 (32 files)
+    on the pure list
+C:\Program Files (x86)\Return to Castle Wolfenstein\main\te_frostbite.pk3 (99 files)
+    on the pure list
+C:\Program Files (x86)\Return to Castle Wolfenstein\main\pak0.pk3 (4775 files)
+    on the pure list
+C:\Program Files (x86)\Return to Castle Wolfenstein/shrubmod
+C:\Program Files (x86)\Return to Castle Wolfenstein\main\mp_theriver.pk3 (49 files)
+    not on the pure list
+C:\Program Files (x86)\Return to Castle Wolfenstein\main\mp_skin_xmashelm.pk3 (15 files)
+    not on the pure list
+C:\Program Files (x86)\Return to Castle Wolfenstein\main\te_escape2.pk3 (11 files)
+    not on the pure list
+C:\Program Files (x86)\Return to Castle Wolfenstein/main
+
+handle 1: rtcwconsole.log
+----------------------
+13180 files in pk3 files
+RE_Shutdown( 0 )
+Hunk_Clear: reset the hunk ok
+----- R_Init -----
+
+GL_VENDOR: NVIDIA Corporation
+GL_RENDERER: GeForce GTX 460/PCIe/SSE2
+GL_VERSION: 4.2.0
+GL_EXTENSIONS: GL_ARB_color_buffer_float GL_ARB_compatibility GL_ARB_copy_buffer GL_ARB_depth_buffer_float GL_ARB_depth_texture GL_ARB_draw_buffers GL_ARB_draw_instanced GL_ARB_fragment_program GL_ARB_fragment_program_shadow GL_ARB_fragment_shader GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_geometry_shader4 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_imaging GL_ARB_map_buffer_range GL_ARB_multisample GL_ARB_multitexture GL_ARB_occlusion_query GL_ARB_pixel_buffer_object GL_ARB_point_parameters GL_ARB_point_sprite GL_ARB_shader_objects GL_ARB_shading_language_100 GL_ARB_shadow GL_ARB_texture_border_clamp GL_ARB_texture_buffer_object GL_ARB_texture_compression GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map GL_ARB_texture_env_add GL_ARB_texture_env_combine GL_ARB_texture_env_crossbar GL_ARB_texture_env_dot3 GL_ARB_texture_float GL_ARB_texture_mirrored_repeat GL_ARB_texture_non_power_of_two GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_transpose_matrix GL_ARB_vertex_array_object GL_ARB_vertex_buffer_object GL_ARB_vertex_program GL_ARB_vertex_shader GL_ARB_window_pos GL_ATI_draw_buffers GL_ATI_texture_float GL_ATI_texture_mirror_once GL_S3_s3tc GL_EXT_texture_env_add GL_EXT_abgr GL_EXT_bgra GL_EXT_bindable_uniform GL_EXT_blend_color GL_EXT_blend_equation_separate GL_EXT_blend_func_separate GL_EXT_blend_minmax GL_EXT_blend_subtract GL_EXT_compiled_vertex_array GL_EXT_Cg_shader GL_EXT_depth_bounds_test GL_EXT_direct_state_access GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_draw_range_elements GL_EXT_fog_coord GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXTX_framebuffer_mixed_formats GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_geometry_shader4 GL_EXT_gpu_program_parameters GL_EXT_gpu_shader4 GL_EXT_multi_draw_arrays GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_packed_pixels GL_EXT_pixel_buffer_object GL_EXT_point_parameters GL_EXT_provoking_vertex GL_EXT_rescale_normal GL_EXT_secondary_color GL_EXT_separate_specular_color GL_EXT_shadow_funcs GL_EXT_stencil_two_side GL_EXT_stencil_wrap GL_EXT_texture3D GL_EXT_texture_array GL_EXT_texture_buffer_object GL_EXT_texture_compression_latc GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_cube_map GL_EXT_texture_edge_clamp GL_EXT_texture_env_combine GL_EXT_texture_env_dot3 GL_EXT_texture_filter_anisotropic GL_EXT_texture_integer GL_EXT_texture_lod GL_EXT_texture_lod_bias GL_EXT_texture_mirror_clamp GL_EXT_texture_object GL_EXT_texture_shared_exponent GL_EXT_texture_sRGB GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_vertex_array GL_EXT_vertex_array_bgra GL_IBM_rasterpos_clip GL_IBM_texture_mirrored_repeat GL_KTX_buffer_region GL_NV_blend_square GL_NV_conditional_render GL_NV_copy_depth_to_color GL_NV_depth_buffer_float GL_NV_depth_clamp GL_NV_explicit_multisample GL_NV_fence GL_NV_float_buffer GL_NV_fog_distance GL_NV_fragment_program GL_NV_fragment_program_option GL_NV_fragment_program2 GL_NV_framebuffer_multisample_coverage GL_NV_geometry_shader4 GL_NV_gpu_program4 GL_NV_gpu_program4_1 GL_NV_gpu_program5 GL_NV_gpu_program_fp64 GL_NV_half_float GL_NV_light_max_exponent GL_NV_multisample_coverage GL_NV_multisample_filter_hint GL_NV_occlusion_query GL_NV_packed_depth_stencil GL_NV_parameter_buffer_object GL_NV_pixel_data_range GL_NV_point_sprite GL_NV_primitive_restart GL_NV_register_combiners GL_NV_register_combiners2 GL_NV_shader_buffer_load GL_NV_texgen_reflection GL_NV_texture_compression_vtc GL_NV_texture_env_combine4 GL_NV_texture_expand_normal GL_NV_texture_rectangle GL_NV_texture_shader GL_NV_texture_shader2 GL_NV_texture_shader3 GL_NV_transform_feedback GL_NV_transform_feedback2 GL_NV_vertex_array_range GL_NV_vertex_array_range2 GL_NV_vertex_buffer_unified_memory GL_NV_vertex_program GL_NV_vertex_program1_1 GL_NV_vertex_program2 GL_NV_vertex_program2_option GL_NV_vertex_program3 GL_NVX_conditional_render GL_SGIS_generate_mipmap GL_SGIS_texture_lod GL_SGIX_depth_texture GL_SGIX_shadow GL_SUN_slice_accum GL_WIN_swap_hint WGL_EXT_swap_control 
+GL_MAX_TEXTURE_SIZE: 16384
+GL_MAX_ACTIVE_TEXTURES_ARB: 4
+
+PIXELFORMAT: color(32-bits) Z(24-bit) stencil(0-bits)
+MODE: 6, 1024 x 768 fullscreen hz:60
+GAMMA: software w/ 0 overbright bits
+CPU: AMD w/ 3DNow!
+rendering primitives: single glDrawElements
+texturemode: GL_LINEAR_MIPMAP_NEAREST
+picmip: 1
+texture bits: 32
+multitexture: enabled
+compiled vertex arrays: enabled
+texenv add: enabled
+compressed textures: enabled
+NV distance fog: disabled
+Initializing Shaders
+----- finished R_Init -----
+LOADING... collision map
+LOADING... sounds
+voice chat memory size = 0
+
+.........................
+Initializing Sound Scripts
+...loading 'sound/scripts/cutscene1.sounds'
+...loading 'sound/scripts/cutscene6.sounds'
+...loading 'sound/scripts/cutscene9.sounds'
+...loading 'sound/scripts/cutscene11.sounds'
+...loading 'sound/scripts/cutscene14.sounds'
+...loading 'sound/scripts/cutscene19.sounds'
+...loading 'sound/scripts/escape1.sounds'
+...loading 'sound/scripts/escape2.sounds'
+...loading 'sound/scripts/tram.sounds'
+...loading 'sound/scripts/village1.sounds'
+...loading 'sound/scripts/crypt1.sounds'
+...loading 'sound/scripts/crypt2.sounds'
+...loading 'sound/scripts/church.sounds'
+...loading 'sound/scripts/boss1.sounds'
+...loading 'sound/scripts/forest.sounds'
+...loading 'sound/scripts/rocket.sounds'
+...loading 'sound/scripts/assault.sounds'
+...loading 'sound/scripts/sfm.sounds'
+...loading 'sound/scripts/factory.sounds'
+...loading 'sound/scripts/trainyard.sounds'
+...loading 'sound/scripts/swf.sounds'
+...loading 'sound/scripts/norway.sounds'
+...loading 'sound/scripts/xlabs.sounds'
+...loading 'sound/scripts/boss2.sounds'
+...loading 'sound/scripts/dam.sounds'
+...loading 'sound/scripts/village2.sounds'
+...loading 'sound/scripts/chateau.sounds'
+...loading 'sound/scripts/dark.sounds'
+...loading 'sound/scripts/castle.sounds'
+...loading 'sound/scripts/end.sounds'
+...loading 'sound/scripts/ai.sounds'
+...loading 'sound/scripts/general.sounds'
+...loading 'sound/scripts/combat.sounds'
+...loading 'sound/scripts/movers.sounds'
+done.
+LOADING... graphics
+LOADING... maps/mp_beach.bsp
+^3WARNING: expecting '{', found 'surfaceparm' instead in shader 'flareShader'
+stitched 0 LoD cracks
+...loaded 5432 faces, 264 meshes, 259 trisurfs, 168 flares
+LOADING... entities
+LOADING... game media
+LOADING...  - textures
+LOADING...  - models
+LOADING...  - weapons
+LOADING...  - items
+LOADING...  - inline models
+LOADING...  - server models
+LOADING...  - particles
+LOADING...  - game media done
+LOADING... flamechunks
+LOADING... clients
+LOADING... spl
+LOADING... Dino
+LOADING... mel
+LOADING... Kosse Bosse
+LOADING... Kelly.be
+LOADING... HACKNEY MAN DEM E8
+LOADING... Soon.
+LOADING... BLASTOWICZ
+LOADING... newarman
+LOADING... Luftschiff
+LOADING... PhukYuh
+LOADING... Mikaku (cat)
+LOADING... pt.random fps
+LOADING... [n*]UGod!*
+LOADING... dupovian
+LOADING... Capone
+LOADING... Heisenberg
+LOADING... TEK_KILLA.QC
+LOADING... Mr.Dogday
+LOADING... m@$73ry
+LOADING... SS_Maria   
+UI menu load time = 2 milli seconds
+CL_InitCGame:  1.66 seconds
+10 msec to draw all images
+Com_TouchMemory: 0 msec
+execing wolfconfig_mp.cfg
+usage: seta <variable> <value>
+^5PunkBuster Client: PnkBstrA successfully loaded PnkBstrB
+[skipnotify]^323:43: ^7The Sea Wall has been breached!
+[skipnotify]Mikaku (cat)^7 was gibbed by ^7K^6e^7l^6l^7y^6.^7b^6e^7
+^5PunkBuster Client: WARNING: ^7PB Kicks for Name Spamming and Name Stealing and Level 1 PB Restrictions on this Server
+^5PunkBuster Client: PB Server assigned guid = 924c8873f1a14c3363a4456cf3605df5
+^5PunkBuster Client: Receiving from PB Server (l v1.730 | A1345 C2.164)
+[skipnotify]Kosse Bosse^7 was gibbed by ^7pt^3.^7random ^gfps^7
+[skipnotify]Kosse Bosse^7 was blasted by ^7pt^3.^7random ^gfps^7's Panzerfaust
+[skipnotify]Heisenberg^7: ^2lol
+^5PunkBuster Client: rate = "25000" : must be INSIDE 15000 to 25000 (OK)
+^5PunkBuster Client: snaps = "20" : must be INSIDE 20 to 40 (OK)
+^5PunkBuster Client: pmove_fixed = "0" : must be EQUAL to 0 (OK)
+^5PunkBuster Client: cg_bobpitch = "0" : must be INSIDE 0 to 0.002 (OK)
+^5PunkBuster Client: cg_bobroll = "0" : must be INSIDE 0 to 0.002 (OK)
+^5PunkBuster Client: cg_bobup = "0" : must be INSIDE 0 to 0.005 (OK)
+^5PunkBuster Client: cg_errordecay = "100" : must be EQUAL to 100 (OK)
+^5PunkBuster Client: cg_fov = "110" : must be INSIDE 90 to 120 (OK)
+^5PunkBuster Client: cg_shadows = "1" : must be INSIDE 0 to 1 (OK)
+^5PunkBuster Client: cg_thirdperson = "0" : must be EQUAL to 0 (OK)
+^5PunkBuster Client: 0 Current Cvar Violations
+^5PunkBuster Client: CvarList truncated; Use pb_cvarlist to see entire list
+[skipnotify]Dino^7 was gibbed by SS_Maria   ^7
+[skipnotify]Dino^7 was exploded by SS_Maria   ^7's grenade
+[skipnotify]SS_Maria   ^7 was exploded by ^8[n^7*^8]^pUG^wo^pd!^w*^7's grenade
+[skipnotify]^323:37: ^7Allies capture the Forward Bunker!
+^5PunkBuster Client: PnkBstrB service installed and started successfully
+[skipnotify]SS_Maria   ^7 ^3WAS GIBBED BY TEAMMATE ^7Kosse Bosse^7
+[skipnotify]^3BLAST^1O^3WICZ^7 was killed by newarman^7's MP40
+[skipnotify]^8[n^7*^8]^pUG^wo^pd!^w*^7 died.
+[skipnotify]^323:34: ^7Axis reclaims the Forward Bunker!
+^3[^5 DEFAULT ^3] 
+[skipnotify]^323:32: ^7The Sea Wall has been breached!
+^3[^5 FORWARD BUNKER ^3] 
+^3[^5 LOWER BUNKER ^3] 
+[skipnotify]^323:31: ^7Allies capture the Forward Bunker!
+^3[^5 AXIS BARRACKS ^3] 
+[skipnotify]^323:30: ^7Axis reclaims the Forward Bunker!
+[skipnotify]newarman^7 was killed by ^7pt^3.^7random ^gfps^7 's .45ACP 1911
+[skipnotify]^3BLAST^1O^3WICZ^7: ^2you know whats lame, the bani vchats
+[skipnotify]^323:29: ^7Allies capture the Forward Bunker!
+[skipnotify]^3Allies left: 9, Axis left: 10
+[skipnotify]newarman^7 was gibbed by ^8[n^7*^8]^pUG^wo^pd!^w*^7
+[skipnotify]^3BLAST^1O^3WICZ^7 was gibbed by Capone^7
+[skipnotify]^7pt^3.^7random ^gfps^7 was killed by ^PPhukYuh^7's MP40
+[skipnotify]Dino^7 was blasted by ^7Soon^2.^7's support fire
+[skipnotify]Mikaku (cat)^7 was killed by ^7Soon^2.^7's MP40
+[skipnotify]^0spl^7 was exploded by Heisenberg^7's grenade
+[skipnotify]Heisenberg^7 was killed by ^6HACKNEY MAN DEM E8^7's MP40
+[skipnotify]^7pt^3.^7random ^gfps^7 was revived by ^3BLAST^1O^3WICZ
+[skipnotify](^0spl^7) (Trenches): ^5^7[^0Spawnpoint 3/^3Lower Bunker^7]
+[skipnotify]Mikaku (cat)^7 was gibbed by SS_Maria   ^7
+[skipnotify]m@$73ry^7 was killed by ^4TEK^8_^5KILLA^1.QC^7's sniper rifle
+[skipnotify]Dino^7 was killed by ^7K^6e^7l^6l^7y^6.^7b^6e^7's MP40
+[skipnotify]: ^4TEK^8_^5KILLA^1.QC ^3(unknown): ^2Bye.
+[skipnotify]Dino^7 was gibbed by SS_Maria   ^7
+[skipnotify](m@$73ry^7) (Upper Bunker): ^5^>- ^7Theres a doctor in the house -
+[skipnotify]^7pt^3.^7random ^gfps^7 was gibbed by Capone^7
+[skipnotify]^7pt^3.^7random ^gfps^7 was exploded by Capone^7's grenade
+[skipnotify]^8[n^7*^8]^pUG^wo^pd!^w*^7 was killed by ^6HACKNEY MAN DEM E8^7's MP40
+[skipnotify]^2Chat with us on IRC...#ecgn on EnterTheGame
+[skipnotify]Luftschiff^7 was killed by ^6HACKNEY MAN DEM E8^7's MP40
+[skipnotify]SS_Maria   ^7 was killed by Mikaku (cat)^7's MP40
+[skipnotify]^7pt^3.^7random ^gfps^7 ^1WAS KILLED BY TEAMMATE^7 Dino^7
+[skipnotify]^3BLAST^1O^3WICZ^7 was killed by ^PPhukYuh^7's MP40
+[skipnotify]SS_Maria   ^7 was gibbed by Mikaku (cat)^7
+[skipnotify]^7pt^3.^7random ^gfps^7 was revived by Heisenberg
+[skipnotify]Capone^7 ^1WAS KILLED BY TEAMMATE^7 ^6HACKNEY MAN DEM E8^7
+[skipnotify]^8[n^7*^8]^pUG^wo^pd!^w*^7 was gibbed by ^0spl^7
+[skipnotify]: (^6HACKNEY MAN DEM E8)^3(Trenches): ^5Sorry.
+[skipnotify]: Capone ^3(Trenches): ^2Oops.
+[skipnotify]Luftschiff^7 was perforated by m@$73ry^7's crew-served MG42
+[skipnotify]Mikaku (cat)^7 was killed by ^PPhukYuh^7's MP40
+[skipnotify]Capone^7 was revived by ^6HACKNEY MAN DEM E8
+[skipnotify]: (Capone)^3(Trenches): ^5Danke.
+[skipnotify]Mikaku (cat)^7 was gibbed by ^PPhukYuh^7
+[skipnotify]^7pt^3.^7random ^gfps^7 ^1WAS KILLED BY TEAMMATE^7 ^3BLAST^1O^3WICZ^7
+[skipnotify]Mr.Dogday^7 Dropped due to inactivity
+[skipnotify]^7pt^3.^7random ^gfps^7 was revived by ^3BLAST^1O^3WICZ
+[skipnotify]: (^6HACKNEY MAN DEM E8)^3(Trenches): ^5Danke.
+[skipnotify]Heisenberg^7 was killed by Kosse Bosse^7's MP40
+[skipnotify]^3BLAST^1O^3WICZ^7 was killed by m@$73ry^7's MP40
+[skipnotify]^8[n^7*^8]^pUG^wo^pd!^w*^7 was killed by Capone^7's MP40
+[skipnotify]^3Allies left: 8, Axis left: 10
+[skipnotify]Kosse Bosse^7 ^3WAS GIBBED BY TEAMMATE ^7^7Soon^2.^7
+[skipnotify]Kosse Bosse^7 ^1WAS KILLED BY TEAMMATE^7 ^7Soon^2.^7
+[skipnotify]m@$73ry^7 was killed by Dino^7's Thompson
+[skipnotify]: (^7K^6e^7l^6l^7y^6.^7b^6e)^3(Upper Base): ^5Danke.
+[skipnotify](m@$73ry^7) (Lower Bunker): ^5^>- ^7Soldier wit^> a Mauser Rifle -
+[skipnotify](m@$73ry^7) (Lower Bunker): ^5^>- ^7jSoldier wit^>h a Venom -
+[skipnotify]^6HACKNEY MAN DEM E8^7 was killed by ^7pt^3.^7random ^gfps^7
+[skipnotify]Capone^7 was blasted by ^7pt^3.^7random ^gfps^7's Panzerfaust
+[skipnotify]^7pt^3.^7random ^gfps^7 was killed by ^PPhukYuh^7's MP40
+[skipnotify](m@$73ry^7) (Lower Bunker): ^5^7Sniper^4_^7Hill
+[skipnotify]^7pt^3.^7random ^gfps^7 was gibbed by ^PPhukYuh^7
+[skipnotify]: Capone ^3(Upper Base): ^2Negative.
+[skipnotify]Capone^7 was revived by ^PPhukYuh
+[skipnotify]: (newarman)^3(Upper Base): ^5I'm a medic.
+[skipnotify]: ^3BLAST^1O^3WICZ ^3(unknown): ^2Affirmative.
+[skipnotify]: (Capone)^3(Upper Base): ^5Danke.
+[skipnotify]Mikaku (cat)^7 was killed by ^7Soon^2.^7's MP40
+[skipnotify]Mikaku (cat)^7 was gibbed by ^7K^6e^7l^6l^7y^6.^7b^6e^7
+[skipnotify]m@$73ry^7 was killed by ^3BLAST^1O^3WICZ^7's Thompson
+[skipnotify]m@$73ry^7 was gibbed by ^3BLAST^1O^3WICZ^7
+[skipnotify]: m@$73ry ^3(unknown): ^2YES!
+[skipnotify](m@$73ry^7) (Murder Hole): ^5^>- ^7Theres a doctor in the house -
+[skipnotify]^6HACKNEY MAN DEM E8^7 was killed by Heisenberg^7's Thompson
+[skipnotify]^7K^6e^7l^6l^7y^6.^7b^6e^7 was gibbed by ^7pt^3.^7random ^gfps^7
+[skipnotify]^7K^6e^7l^6l^7y^6.^7b^6e^7 was blasted by ^7pt^3.^7random ^gfps^7's Panzerfaust
+[skipnotify]^6HACKNEY MAN DEM E8^7 was revived by ^PPhukYuh
+[skipnotify]: (^6HACKNEY MAN DEM E8)^3(Upper Bunker): ^5Danke.
+[skipnotify]^3BLAST^1O^3WICZ^7 was killed by ^7Soon^2.^7's MP40
+[skipnotify]Heisenberg^7 was killed by ^PPhukYuh^7's MP40
+[skipnotify]^3BLAST^1O^3WICZ^7 was gibbed by ^7Soon^2.^7
+[skipnotify]^6HACKNEY MAN DEM E8^7 was killed by Luftschiff^7's Thompson
+[skipnotify]Luftschiff^7 was killed by ^PPhukYuh^7's MP40
+[skipnotify]Stats for ^6HACKNEY MAN DEM E8 ^7this round:
+[skipnotify]^3Kills:^7 3 (^11^7), ^3Deaths:^7 3, ^3Kill Ratio: ^71.00, ^3Gibs:^7 0
+[skipnotify]^3Revived:^7 1, ^3Packs Given:^7 3 Health, 0 Ammo
+[skipnotify]^3Accuracy:^7 37.50 (33/88), ^3Headshots: ^72
+[skipnotify]^3Binoculars:^7 3, ^3Property Damage:^7 $0.00
+[skipnotify]^6HACKNEY MAN DEM E8^7 was revived by ^PPhukYuh
+[skipnotify]: (^6HACKNEY MAN DEM E8)^3(Upper Base): ^5Danke.
+[skipnotify]^8[n^7*^8]^pUG^wo^pd!^w*^7 was killed by m@$73ry^7's MP40
+[skipnotify]^2Check the RTCW forum @ http://forums.powervs.com
+[skipnotify]Luftschiff^7 was gibbed by ^PPhukYuh^7
+[skipnotify]: (SS_Maria   )^3(Upper Base): ^5Danke.
+[skipnotify]Heisenberg^7 was gibbed by ^6HACKNEY MAN DEM E8^7
+[skipnotify]Mikaku (cat)^7 was blasted by ^0spl^7's support fire
+[skipnotify]^8[n^7*^8]^pUG^wo^pd!^w*^7 was gibbed by ^7K^6e^7l^6l^7y^6.^7b^6e^7
+[skipnotify]^3Knives left:^7 5
+[skipnotify]: (^6HACKNEY MAN DEM E8)^3(Upper Base): ^5Danke.
+[skipnotify]Stats for ^6HACKNEY MAN DEM E8 ^7this round:
+[skipnotify]^3Kills:^7 3 (^11^7), ^3Deaths:^7 3, ^3Kill Ratio: ^71.00, ^3Gibs:^7 1
+[skipnotify]^3Revived:^7 1, ^3Packs Given:^7 3 Health, 0 Ammo
+[skipnotify]^3Accuracy:^7 37.50 (33/88), ^3Headshots: ^72
+[skipnotify]^3Binoculars:^7 4, ^3Property Damage:^7 $0.00
+[skipnotify]: ^4TEK^8_^5KILLA^1.QC ^3(unknown): ^2Hold your fire!
+[skipnotify]SS_Maria   ^7 was exploded by ^3BLAST^1O^3WICZ^7's grenade
+[skipnotify]Mikaku (cat)^7 ^1WAS KILLED BY TEAMMATE^7 Heisenberg^7
+[skipnotify]SS_Maria   ^7 was revived by ^7K^6e^7l^6l^7y^6.^7b^6e
+[skipnotify]Kosse Bosse^7 was killed by ^4TEK^8_^5KILLA^1.QC^7's sniper rifle
+[skipnotify]: (SS_Maria   )^3(Upper Base): ^5Danke.
+[skipnotify]Heisenberg^7 was killed by m@$73ry^7's MP40
+[skipnotify]^3Allies left: 9, Axis left: 9
+[skipnotify]Mikaku (cat)^7 was gibbed by m@$73ry^7
+[skipnotify]Heisenberg^7 was gibbed by m@$73ry^7
+[skipnotify]Capone^7 was exploded by ^8[n^7*^8]^pUG^wo^pd!^w*^7's grenade
+[skipnotify]Luftschiff^7 ^1WAS KILLED BY TEAMMATE^7 ^8[n^7*^8]^pUG^wo^pd!^w*^7
+[skipnotify]^8[n^7*^8]^pUG^wo^pd!^w*^7 was killed by ^PPhukYuh^7's Thompson
+[skipnotify]Capone^7 was gibbed.
+[skipnotify]^8[n^7*^8]^pUG^wo^pd!^w*^7 was revived by ^3BLAST^1O^3WICZ
+[skipnotify]: Luftschiff ^3(unknown): ^2Oops.
+[skipnotify]Kosse Bosse^7 was revived by newarman
+[skipnotify]: (Kosse Bosse)^3(Upper Bunker): ^5Danke.
+[skipnotify]^3BLAST^1O^3WICZ^7 was killed by ^PPhukYuh^7's Thompson
+[skipnotify]: (SS_Maria   )^3(Upper Base): ^5Danke.
+[skipnotify]Stats for ^6HACKNEY MAN DEM E8 ^7this round:
+[skipnotify]^3Kills:^7 3 (^11^7), ^3Deaths:^7 3, ^3Kill Ratio: ^71.00, ^3Gibs:^7 1
+[skipnotify]^3Revived:^7 1, ^3Packs Given:^7 3 Health, 0 Ammo
+[skipnotify]^3Accuracy:^7 33.02 (35/106), ^3Headshots: ^72
+[skipnotify]^3Binoculars:^7 4, ^3Property Damage:^7 $0.00
+[skipnotify]Mikaku (cat)^7 was gibbed by m@$73ry^7
+[skipnotify]Mikaku (cat)^7 was exploded by m@$73ry^7's grenade
+[skipnotify]: Mikaku (cat) ^3(unknown): ^2Great shot.
+[skipnotify]^8[n^7*^8]^pUG^wo^pd!^w*^7 was killed by ^PPhukYuh^7's Thompson
+[skipnotify]^7pt^3.^7random ^gfps^7 was killed by ^PPhukYuh^7's Thompson
+[skipnotify]Heisenberg^7 was killed by m@$73ry^7's MP40
+[skipnotify]^3Allies left: 10, Axis left: 9
+[skipnotify]Kosse Bosse^7 was killed by ^4TEK^8_^5KILLA^1.QC^7's sniper rifle
+[skipnotify]^7pt^3.^7random ^gfps^7 was revived by ^7Soon^2.
+[skipnotify]: ^4TEK^8_^5KILLA^1.QC ^3(unknown): ^2Oops.
+[skipnotify]^8[n^7*^8]^pUG^wo^pd!^w*^7 was revived by ^7Soon^2.
+[skipnotify]Luftschiff^7 was exploded by Capone^7's grenade
+[skipnotify]^PPhukYuh^7 was killed by ^4TEK^8_^5KILLA^1.QC^7's sniper rifle
+[skipnotify]^4TEK^8_^5KILLA^1.QC^7 was killed by ^6HACKNEY MAN DEM E8^7's MP40
+[skipnotify]Stats for ^6HACKNEY MAN DEM E8 ^7this round:
+[skipnotify]^3Kills:^7 4 (^11^7), ^3Deaths:^7 3, ^3Kill Ratio: ^71.33, ^3Gibs:^7 1
+[skipnotify]^3Revived:^7 1, ^3Packs Given:^7 3 Health, 0 Ammo
+[skipnotify]^3Accuracy:^7 34.68 (43/124), ^3Headshots: ^73
+[skipnotify]^3Binoculars:^7 4, ^3Property Damage:^7 $0.00
+[skipnotify]Kosse Bosse^7 was revived by Capone
+[skipnotify]: (Kosse Bosse)^3(Upper Base): ^5Danke.
+[skipnotify]SS_Maria   ^7 was blasted by ^7pt^3.^7random ^gfps^7's Panzerfaust
+[skipnotify]^6HACKNEY MAN DEM E8^7 was blasted by ^7pt^3.^7random ^gfps^7's Panzerfaust
+[skipnotify]^3BLAST^1O^3WICZ^7 died.
+[skipnotify]Kosse Bosse^7 was killed by ^4TEK^8_^5KILLA^1.QC^7's Thompson
+[skipnotify]^6HACKNEY MAN DEM E8^7 was revived by Capone
+[skipnotify]: (^6HACKNEY MAN DEM E8)^3(Upper Bunker): ^5Danke.
+[skipnotify]^321:13: ^7Allies have stolen the War Documents!
+[skipnotify]SS_Maria   ^7 was revived by ^7K^6e^7l^6l^7y^6.^7b^6e
+[skipnotify]SS_Maria   ^7: ^2aliado haciwr
+[skipnotify]Mikaku (cat)^7 was killed by ^0spl^7's MP40
+[skipnotify]Kosse Bosse^7 was revived by newarman
+[skipnotify]: (Kosse Bosse)^3(Upper Base): ^5Danke.
+[skipnotify]Mikaku (cat)^7 was gibbed by m@$73ry^7
+[skipnotify]: (^7K^6e^7l^6l^7y^6.^7b^6e)^3(Back Stairway): ^5All clear.
+[skipnotify]^2Anti-TK system active - watch your fire
+[skipnotify]^3BLAST^1O^3WICZ^7 was gibbed by m@$73ry^7
+[skipnotify]SS_Maria   ^7 was ventilated by Mr.Dogday^7's Venom
+[skipnotify]^7pt^3.^7random ^gfps^7 was killed by ^PPhukYuh^7's MP40
+[skipnotify]^PPhukYuh^7 was killed by Heisenberg^7's Thompson
+[skipnotify]Mr.Dogday^7 was cooked by SS_Maria   ^7's flamethrower
+[skipnotify]Dino^7 was killed by Capone^7's MP40
+[skipnotify]Dino^7 was gibbed by newarman^7
+[skipnotify]Heisenberg^7 was killed by ^0spl^7's MP40
+[skipnotify]Heisenberg^7 was gibbed by ^0spl^7
+[skipnotify]^320:53: ^7Axis have returned the War Documents!
+[skipnotify]Mr.Dogday^7 was revived by ^4TEK^8_^5KILLA^1.QC
+[skipnotify]SS_Maria   ^7 was gibbed by ^3BLAST^1O^3WICZ^7
+[skipnotify]Mr.Dogday^7: ^2muy ardiente
+[skipnotify]Mr.Dogday^7 was killed by ^PPhukYuh^7's MP40
+[skipnotify]: (Capone)^3(Basement): ^5Incoming!
+[skipnotify]: (newarman)^3(Basement): ^5Affirmative.
+[skipnotify]^4TEK^8_^5KILLA^1.QC^7 was killed by ^0spl^7's MP40
+[skipnotify]: (^7K^6e^7l^6l^7y^6.^7b^6e)^3(Radio Stairway): ^5Where to?
+[skipnotify]: ^4TEK^8_^5KILLA^1.QC ^3(unknown): ^2Oops.
+[skipnotify]^0spl^7 was gibbed by ^7pt^3.^7random ^gfps^7
+[skipnotify]^0spl^7 was blasted by ^7pt^3.^7random ^gfps^7's Panzerfaust
+[skipnotify]: ^4TEK^8_^5KILLA^1.QC ^3(unknown): ^2Yeah!
+[skipnotify]: ^4TEK^8_^5KILLA^1.QC ^3(unknown): ^2YEE-HAW!
+[skipnotify]SS_Maria   ^7: ^2y tu tambien jajaja
+[skipnotify]Luftschiff^7 was exploded by m@$73ry^7's grenade
+[skipnotify]Luftschiff^7 was gibbed.
+[skipnotify]Mikaku (cat)^7 was killed by ^PPhukYuh^7's MP40
+[skipnotify]^3BLAST^1O^3WICZ^7 was killed by ^6HACKNEY MAN DEM E8^7's MP40
+[skipnotify]Mikaku (cat)^7 was revived by Heisenberg
+[skipnotify]Dino^7 was killed by ^PPhukYuh^7's MP40
+[skipnotify]Stats for ^6HACKNEY MAN DEM E8 ^7this round:
+[skipnotify]^3Kills:^7 5 (^11^7), ^3Deaths:^7 4, ^3Kill Ratio: ^71.25, ^3Gibs:^7 1
+[skipnotify]^3Revived:^7 1, ^3Packs Given:^7 4 Health, 0 Ammo
+[skipnotify]^3Accuracy:^7 36.43 (51/140), ^3Headshots: ^74
+[skipnotify]^3Binoculars:^7 4, ^3Property Damage:^7 $0.00
+[skipnotify]: ^3BLAST^1O^3WICZ ^3(unknown): ^2Negative.
+[skipnotify]^4TEK^8_^5KILLA^1.QC^7 was killed by m@$73ry^7's MP40
+[skipnotify]: ^6HACKNEY MAN DEM E8 ^3(Ducts): ^2Affirmative.
+[skipnotify]^4TEK^8_^5KILLA^1.QC^7 was gibbed by m@$73ry^7
+[skipnotify]^320:20: ^7Allies have stolen the War Documents!
+[skipnotify]Dino^7 was gibbed by ^PPhukYuh^7
+[skipnotify]: m@$73ry ^3(Upper Base): ^2Hello.
+[skipnotify]: (^7K^6e^7l^6l^7y^6.^7b^6e)^3(Upper Base): ^5All clear.
+[skipnotify]^PPhukYuh^7 was killed by Mikaku (cat)^7's MP40
+[skipnotify]newarman^7 was killed by ^8[n^7*^8]^pUG^wo^pd!^w*^7's MP40
+[skipnotify]^PPhukYuh^7 was gibbed by Mikaku (cat)^7
+[skipnotify]^4TEK^8_^5KILLA^1.QC^7: ^2bull
+[skipnotify]Kosse Bosse^7 was killed by Heisenberg^7's Thompson
+[skipnotify]^8[n^7*^8]^pUG^wo^pd!^w*^7 was killed by ^6HACKNEY MAN DEM E8^7's MP40
+[skipnotify]^6HACKNEY MAN DEM E8^7 ^1WAS KILLED BY TEAMMATE^7 ^7K^6e^7l^6l^7y^6.^7b^6e^7
+[skipnotify]^4TEK^8_^5KILLA^1.QC^7: ^2shit
+[skipnotify]^320:11: ^7Axis have returned the War Documents!
+[skipnotify]: (Kosse Bosse)^3(Radio Room): ^5Incoming!
+[skipnotify]: (newarman)^3(Basement): ^5Medic!
+[skipnotify]m@$73ry^7 was killed by Mikaku (cat)^7's MP40
+[skipnotify]^6HACKNEY MAN DEM E8^7 was revived by ^7K^6e^7l^6l^7y^6.^7b^6e
+[skipnotify]: (Kosse Bosse)^3(Radio Room): ^5Incoming!
+[skipnotify]: (^6HACKNEY MAN DEM E8)^3(Basement): ^5Danke.
+[skipnotify]: (^7K^6e^7l^6l^7y^6.^7b^6e)^3(Basement): ^5Cover me!
+[skipnotify]SS_Maria   ^7 was exploded by ^3BLAST^1O^3WICZ^7's grenade
+[skipnotify]Kosse Bosse^7 was gibbed by Heisenberg^7
+[skipnotify]^2Type /s_stop in console to restore lost sound
+[skipnotify]Heisenberg^7 dove on his own grenade.
+[skipnotify]Mikaku (cat)^7 ^1WAS KILLED BY TEAMMATE^7 Heisenberg^7
+[skipnotify]newarman^7 was revived by ^6HACKNEY MAN DEM E8
+[skipnotify]m@$73ry^7 was revived by ^PPhukYuh
+[skipnotify]^8[n^7*^8]^pUG^wo^pd!^w*^7 was gibbed by ^7K^6e^7l^6l^7y^6.^7b^6e^7
+[skipnotify]: Mikaku (cat) ^3(unknown): ^2Oops.
+[skipnotify]Stats for ^6HACKNEY MAN DEM E8 ^7this round:
+[skipnotify]^3Kills:^7 6 (^11^7), ^3Deaths:^7 4, ^3Kill Ratio: ^71.50, ^3Gibs:^7 1
+[skipnotify]^3Revived:^7 2, ^3Packs Given:^7 4 Health, 0 Ammo
+[skipnotify]^3Accuracy:^7 35.71 (55/154), ^3Headshots: ^76
+[skipnotify]^3Binoculars:^7 4, ^3Property Damage:^7 $0.00
+[skipnotify]SS_Maria   ^7 was gibbed by ^3BLAST^1O^3WICZ^7
+[skipnotify]Heisenberg^7: ^2lol
+[skipnotify]Mikaku (cat)^7 was gibbed by ^PPhukYuh^7
+[skipnotify]m@$73ry^7 was killed by ^7Soon^2.^7's Thompson
+[skipnotify]: Mikaku (cat) ^3(unknown): ^2Woohooo!
+[skipnotify]^3BLAST^1O^3WICZ^7 was killed by ^0spl^7's Sten
+[skipnotify]^7Soon^2.^7 was killed by ^0spl^7's Sten
+[skipnotify]^0spl^7 was ventilated by Mr.Dogday^7's Venom
+[skipnotify](m@$73ry^7) (Upper Base): ^5^7Ax^4is
+[skipnotify]Mr.Dogday^7 was killed by ^7K^6e^7l^6l^7y^6.^7b^6e^7's MP40
+[skipnotify]^0spl^7 was revived by ^7K^6e^7l^6l^7y^6.^7b^6e
+^5PunkBuster Client: Master Query Sent to (MASTER3.EVENBALANCE.COM) 216.240.146.139
+[skipnotify]Dino^7 was killed by m@$73ry^7's MP40
+[skipnotify]^7pt^3.^7random ^gfps^7 was killed by ^0spl^7's Sten
+[skipnotify]^7K^6e^7l^6l^7y^6.^7b^6e^7 was killed by Luftschiff^7's Sten
+[skipnotify]Dino^7 was gibbed by m@$73ry^7
+[skipnotify]^8[n^7*^8]^pUG^wo^pd!^w*^7 was killed by ^PPhukYuh^7's MP40
+[skipnotify]: (^7K^6e^7l^6l^7y^6.^7b^6e)^3(Upper Base): ^5Incoming!
+[skipnotify]Luftschiff^7 was killed by ^0spl^7's Sten
+[skipnotify]: Dino ^3(unknown): ^2Oops.
+[skipnotify](^7K^6e^7l^6l^7y^6.^7b^6e^7) (Upper Base): ^5MLONG
+[skipnotify]^7K^6e^7l^6l^7y^6.^7b^6e^7 was revived by ^6HACKNEY MAN DEM E8
+[skipnotify]Heisenberg^7 was killed by m@$73ry^7's MP40
+[skipnotify]^0spl^7 ^1WAS KILLED BY TEAMMATE^7 ^6HACKNEY MAN DEM E8^7
+[skipnotify]m@$73ry^7 was killed by Mikaku (cat)^7's MP40
+[skipnotify]^8[n^7*^8]^pUG^wo^pd!^w*^7 was revived by ^3BLAST^1O^3WICZ
+[skipnotify]^3Knives left:^7 4
+[skipnotify]Mr.Dogday^7 was revived by ^4TEK^8_^5KILLA^1.QC
+[skipnotify]: Heisenberg ^3(unknown): ^2Yeah!
+[skipnotify]: (^0spl)^3(Back Stairway): ^5Danke.
+[skipnotify]: m@$73ry ^3(Lower Bunker): ^2Oops.
+[skipnotify]^0spl^7 was revived by ^6HACKNEY MAN DEM E8
+[skipnotify]^7pt^3.^7random ^gfps^7 was revived by ^4TEK^8_^5KILLA^1.QC
+[skipnotify]^3Private Message from UDPB:
+[skipnotify]^3forgive^7: You have been automatically forgiven for TK-Reviving ^0spl
+[skipnotify](m@$73ry^7) (Lower Bunker): ^5^7Sniper^4_^7Hill
+[skipnotify]: Mikaku (cat) ^3(unknown): ^2Affirmative.
+[skipnotify]^7K^6e^7l^6l^7y^6.^7b^6e^7 was blasted by ^7pt^3.^7random ^gfps^7's Panzerfaust
+[skipnotify]Mikaku (cat)^7 was killed by m@$73ry^7's MP40
+[skipnotify]^7pt^3.^7random ^gfps^7 was killed by ^6HACKNEY MAN DEM E8^7's MP40
+[skipnotify]^7pt^3.^7random ^gfps^7 was revived by ^3BLAST^1O^3WICZ
+[skipnotify]Mikaku (cat)^7 was gibbed by m@$73ry^7
+[skipnotify]^6HACKNEY MAN DEM E8^7 was killed by ^8[n^7*^8]^pUG^wo^pd!^w*^7's MP40
+[skipnotify]Stats for ^6HACKNEY MAN DEM E8 ^7this round:
+[skipnotify]^3Kills:^7 7 (^12^7), ^3Deaths:^7 5, ^3Kill Ratio: ^71.40, ^3Gibs:^7 1
+[skipnotify]^3Revived:^7 4, ^3Packs Given:^7 5 Health, 0 Ammo
+[skipnotify]^3Accuracy:^7 36.16 (64/177), ^3Headshots: ^77
+[skipnotify]^3Binoculars:^7 4, ^3Property Damage:^7 $0.00
+[skipnotify]: Mikaku (cat) ^3(unknown): ^2Negative.
+[skipnotify]^6HACKNEY MAN DEM E8^7 was gibbed by ^3BLAST^1O^3WICZ^7
+[skipnotify]Capone^7 was killed by Heisenberg^7's Thompson
+[skipnotify]: ^6HACKNEY MAN DEM E8 ^3(Back Stairway): ^2Affirmative.
+[skipnotify]^0spl^7 was killed by ^3BLAST^1O^3WICZ^7's Thompson
+[skipnotify]^0spl^7 was gibbed by ^3BLAST^1O^3WICZ^7
+[skipnotify]^7Soon^2.^7 was killed by ^7K^6e^7l^6l^7y^6.^7b^6e^7's MP40
+[skipnotify]: (Capone)^3(Upper Base): ^5Danke.
+[skipnotify]Capone^7 was revived by Kosse Bosse
+[skipnotify]: (Capone)^3(Upper Base): ^5Danke.
+[skipnotify](^0spl^7) (Basement): ^5^7[^0LT^7-^0Mp40^7]
+[skipnotify]^7pt^3.^7random ^gfps^7 was cooked by SS_Maria   ^7's flamethrower
+[skipnotify]^7pt^3.^7random ^gfps^7 was gibbed by SS_Maria   ^7
+[skipnotify]Kosse Bosse^7 was exploded by Heisenberg^7's grenade
+[skipnotify]Dino^7 was killed by m@$73ry^7's MP40
+[skipnotify]Heisenberg^7 was killed by ^0spl^7's MP40
+[skipnotify]^2Try !stats to view your live player stats
+[skipnotify]Heisenberg^7 was gibbed by ^6HACKNEY MAN DEM E8^7
+[skipnotify]Mikaku (cat)^7 was killed by m@$73ry^7's Luger 9mm
+[skipnotify]Mikaku (cat)^7 was gibbed by m@$73ry^7
+[skipnotify]^4TEK^8_^5KILLA^1.QC^7 was killed by ^0spl^7's MP40
+[skipnotify]: Mikaku (cat) ^3(unknown): ^2Negative.
+[skipnotify]Mr.Dogday^7 was killed by ^7K^6e^7l^6l^7y^6.^7b^6e^7's MP40
+[skipnotify]^7K^6e^7l^6l^7y^6.^7b^6e^7 ^1WAS KILLED BY TEAMMATE^7 SS_Maria   ^7
+[skipnotify]: (newarman)^3(Basement): ^5I'm a medic.
+[skipnotify]Stats for ^6HACKNEY MAN DEM E8 ^7this round:
+[skipnotify]^3Kills:^7 7 (^12^7), ^3Deaths:^7 5, ^3Kill Ratio: ^71.40, ^3Gibs:^7 2
+[skipnotify]^3Revived:^7 4, ^3Packs Given:^7 5 Health, 0 Ammo
+[skipnotify]^3Accuracy:^7 37.56 (74/197), ^3Headshots: ^77
+[skipnotify]^3Binoculars:^7 4, ^3Property Damage:^7 $0.00
+[skipnotify]^4TEK^8_^5KILLA^1.QC^7 was gibbed by ^0spl^7
+[skipnotify]SS_Maria   ^7: ^2sorry
+[skipnotify]: (^7K^6e^7l^6l^7y^6.^7b^6e)^3(Back Stairway): ^5Medic!
+[skipnotify]^7K^6e^7l^6l^7y^6.^7b^6e^7 was revived by newarman
+[skipnotify]Mr.Dogday^7 was revived by ^3BLAST^1O^3WICZ
+[skipnotify]: (^7K^6e^7l^6l^7y^6.^7b^6e)^3(Back Stairway): ^5Danke.
+[skipnotify]^7Soon^2.^7 was killed by ^0spl^7's MP40
+[skipnotify]^6HACKNEY MAN DEM E8^7 was blasted by ^7pt^3.^7random ^gfps^7's Panzerfaust
+[skipnotify]Mikaku (cat)^7 was killed by m@$73ry^7's MP40
+[skipnotify]SS_Maria   ^7 was exploded by ^8[n^7*^8]^pUG^wo^pd!^w*^7's grenade
+[skipnotify]Mikaku (cat)^7 was gibbed by m@$73ry^7
+[skipnotify]^6HACKNEY MAN DEM E8^7 was revived by ^7K^6e^7l^6l^7y^6.^7b^6e
+[skipnotify]^7pt^3.^7random ^gfps^7 was killed by ^0spl^7's MP40
+[skipnotify]: (^6HACKNEY MAN DEM E8)^3(Back Stairway): ^5Danke.
+[skipnotify]: (newarman)^3(Basement): ^5I'm a medic.
+[skipnotify]^7pt^3.^7random ^gfps^7 was gibbed by ^0spl^7
+[skipnotify]SS_Maria   ^7: ^2aliado conductos
+[skipnotify]SS_Maria   ^7 was revived by newarman
+[skipnotify]SS_Maria   ^7: ^2aliado conductos
+[skipnotify]Luftschiff^7 was killed by Kosse Bosse^7's MP40
+[skipnotify]m@$73ry^7 was killed by ^7Soon^2.^7's Thompson
+[skipnotify]^318:35: ^7Allies have stolen the War Documents!
+[skipnotify]Luftschiff^7 was revived by Heisenberg
+[skipnotify]m@$73ry^7 was gibbed.
+[skipnotify](m@$73ry^7) (Lower Bunker): ^5^7Sniper^4_^7Hill
+[skipnotify]^7K^6e^7l^6l^7y^6.^7b^6e^7 was killed by Heisenberg^7's Thompson
+[skipnotify]: (^7K^6e^7l^6l^7y^6.^7b^6e)^3(Upper Base): ^5Where to?
+[skipnotify]Mikaku (cat)^7 was gibbed by m@$73ry^7
+[skipnotify]Mikaku (cat)^7 was exploded by m@$73ry^7's grenade
+[skipnotify]newarman^7 was killed by ^8[n^7*^8]^pUG^wo^pd!^w*^7's MP40
+[skipnotify]^PPhukYuh^7 was killed by ^3BLAST^1O^3WICZ^7's Thompson
+[skipnotify]: Mikaku (cat) ^3(unknown): ^2WOOHOOO!
+[skipnotify]^6HACKNEY MAN DEM E8^7 was killed by Luftschiff^7's Sten
+[skipnotify]^7Soon^2.^7 was killed by m@$73ry^7's MP40
+[skipnotify]^318:22: ^7Allies transmitted the documents!
+[skipnotify]: ^8[n^7*^8]^pUG^wo^pd!^w* ^3(unknown): ^2Woohooo!
+[skipnotify](m@$73ry^7) (Upper Bunker): ^5^>- ^7Soldier wit^> a Mauser Rifle -
+[skipnotify]: Heisenberg ^3(unknown): ^2Woohooo!
+[skipnotify]: Mikaku (cat) ^3(unknown): ^2Woohooo!
+[skipnotify]: ^8[n^7*^8]^pUG^wo^pd!^w* ^3(unknown): ^2Woohooo!
+[skipnotify]: Mr.Dogday ^3(unknown): ^2Yeah!
+[skipnotify]: ^8[n^7*^8]^pUG^wo^pd!^w* ^3(unknown): ^2Yeah!
+[skipnotify]: Heisenberg ^3(unknown): ^2WOOHOOO!
+[skipnotify]: Mr.Dogday ^3(unknown): ^2Yeah!
+[skipnotify]: Capone ^3(Back Stairway): ^2Negative.
+[skipnotify]: ^7K^6e^7l^6l^7y^6.^7b^6e ^3(Upper Base): ^2Great shot.
+[skipnotify]Dino^7 disconnected
+[skipnotify]: ^8[n^7*^8]^pUG^wo^pd!^w* ^3(unknown): ^2Good game.
+[skipnotify]: Mr.Dogday ^3(unknown): ^2Affirmative.
+[skipnotify]^3Stats for this round:
+[skipnotify]^3-----------------------------------------------------------------------------
+[skipnotify]^1Axis Team
+[skipnotify]^3T Name        |  K  D   KR T |  G  R  H  A |   DG  TD  TDR    DR |  B PD     
+[skipnotify]^3-----------------------------------------------------------------------------
+[skipnotify]^1R^7 m@$73ry     ^3|^7 17  7 2.43 0 ^3|^7 11  0  0  0 ^3|^7 5390   0 0.00  2198 ^3|^7 10 $0.00
+[skipnotify]^1R^7 PhukYuh     ^3|^7 15  4 3.75 0 ^3|^7  5  8 12  0 ^3|^7 2738  28 0.01  1484 ^3|^7  8 $0.00
+[skipnotify]^1R^7 Kelly.be    ^3|^7  8  5 1.60 1 ^3|^7  5  5  3  0 ^3|^7 2616 153 0.06  1658 ^3|^7  4 $0.00
+[skipnotify]^1R^7 spl         ^3|^7 12  4 3.00 0 ^3|^7  4  0  0 10 ^3|^7 2277   0 0.00  1337 ^3|^7  2 $33.00
+[skipnotify]^1R^7 HACKNEY MAN ^3|^7  7  7 1.00 2 ^3|^7  2  4  5  0 ^3|^7 1464 203 0.12  1879 ^3|^7  4 $0.00
+[skipnotify]^1R^7 SS_Maria    ^3|^7  3  8 0.38 1 ^3|^7  4  0  0  0 ^3|^7 1164 291 0.20  1962 ^3|^7  3 $0.00
+[skipnotify]^1R^7 Capone      ^3|^7  4  4 1.00 0 ^3|^7  2  2  4 17 ^3|^7 1013  28 0.03  1375 ^3|^7  2 $0.00
+[skipnotify]^1R^7 Kosse Bosse ^3|^7  3  7 0.43 0 ^3|^7  0  1  6  0 ^3|^7  808 141 0.15  2487 ^3|^7  2 $0.00
+[skipnotify]^3-----------------------------------------------------------------------------
+[skipnotify]^4Allied Team
+[skipnotify]^3T Name        |  K  D   KR T |  G  R  H  A |   DG  TD  TDR    DR |  B PD     
+[skipnotify]^3-----------------------------------------------------------------------------
+[skipnotify]^4B^7 pt.random f ^3|^7 10 10 1.00 0 ^3|^7  3  0  0  0 ^3|^7 2281 152 0.06  2455 ^3|^7  5 $0.00
+[skipnotify]^4B^7 Mikaku (cat ^3|^7  5 12 0.42 1 ^3|^7  2  0  0  4 ^3|^7 1981 408 0.17 13974 ^3|^7  5 $175.00
+[skipnotify]^4B^7 TEK_KILLA.Q ^3|^7  5  5 1.00 0 ^3|^7  0  3  0  0 ^3|^7 1931   0 0.00  1354 ^3|^7  2 $0.00
+[skipnotify]^4B^7 Heisenberg  ^3|^7  7  8 0.88 3 ^3|^7  1  3  7  0 ^3|^7 1603 229 0.12  2863 ^3|^7  2 $75.00
+[skipnotify]^4B^7 [n*]UGod!*  ^3|^7  6  8 0.75 1 ^3|^7  1  0  0 13 ^3|^7 1576  63 0.04  2009 ^3|^7  3 $100.00
+[skipnotify]^4B^7 BLASTOWICZ  ^3|^7  6  9 0.67 1 ^3|^7  5  6 18  0 ^3|^7 1459 143 0.09  2782 ^3|^7  6 $100.00
+[skipnotify]^4B^7 Luftschiff  ^3|^7  6  8 0.75 0 ^3|^7  0  0  0  6 ^3|^7 1266   0 0.00  1975 ^3|^7  4 $83.00
+[skipnotify]^4B^7 Soon.       ^3|^7  2  4 0.50 0 ^3|^7  0  2  0  0 ^3|^7  664   0 0.00   684 ^3|^7  1 $0.00
+[skipnotify]^4B^7 Mr.Dogday   ^3|^7  2  4 0.50 0 ^3|^7  0  0  0  0 ^3|^7  320   0 0.00   602 ^3|^7  0 $208.00
+[skipnotify]^3-----------------------------------------------------------------------------
+[skipnotify]
+Type ^3/? stats^7 for info on column labels
+
+[skipnotify]Server: timelimit changed to 25
+[skipnotify]: Mr.Dogday ^3(unknown): ^2Affirmative.
+[skipnotify]^4TEK^8_^5KILLA^1.QC^7 disconnected
+^5PunkBuster Client: Server's local PB Log File /home/beach/.wolf/pb/svlogs/00000724.log has MD5 of ADF0BFECB8E914D8C3C28AC345C57B88 (1619 bytes)
+[skipnotify]: ^8[n^7*^8]^pUG^wo^pd!^w* ^3(unknown): ^2Affirmative.
+[skipnotify]^3BLAST^1O^3WICZ^7: ^2remember when i said i would win in 5 minutes? I LIED
+[skipnotify]^2 Type /cl_allowdownload 1 to auto-download custom maps
+[skipnotify]: Heisenberg ^3(unknown): ^2Negative.
+[skipnotify]Mr.Dogday^7: ^2too easy
+[skipnotify]m@$73ry^7 disconnected
+[skipnotify]Mr.Dogday^7 ^1WAS KILLED BY TEAMMATE^7 Heisenberg^7
+]frogday with the trash talk
+[skipnotify]^6HACKNEY MAN DEM E8^7: ^2frogday with the trash talk
+[skipnotify]: ^6HACKNEY MAN DEM E8 ^3(Beach): ^2Hello.
+[skipnotify]^3BLAST^1O^3WICZ^7 ^3WAS GIBBED BY TEAMMATE ^7^7pt^3.^7random ^gfps^7
+[skipnotify]^3BLAST^1O^3WICZ^7 ^1WAS KILLED BY TEAMMATE^7 ^7pt^3.^7random ^gfps^7
+[skipnotify]Heisenberg^7 ^1WAS KILLED BY TEAMMATE^7 Mr.Dogday^7
+[skipnotify]^3BLAST^1O^3WICZ^7: ^2elite duct squad
+[skipnotify]^6HACKNEY MAN DEM E8^7 dove on his own grenade.
+[skipnotify]Capone^7 dove on his own grenade.
+[skipnotify]^7Soon^2.^7 disconnected
+[skipnotify]^3BLAST^1O^3WICZ^7: ^2nobody heeded the warnings of maria
+[skipnotify]Mikaku (cat)^7 ^1WAS KILLED BY TEAMMATE^7 Heisenberg^7
+[skipnotify]: Mikaku (cat) ^3(unknown): ^2Great shot.
+[skipnotify]^8[n^7*^8]^pUG^wo^pd!^w*^7 obliterated himself.
+[skipnotify]SS_Maria   ^7: ^2==??????
+[skipnotify]^7K^6e^7l^6l^7y^6.^7b^6e^7 was blasted by ^7pt^3.^7random ^gfps^7's Panzerfaust
+[skipnotify]: (^7K^6e^7l^6l^7y^6.^7b^6e)^3(Trenches): ^5Danke.
+]even up we are 4 players down
+[skipnotify]^6HACKNEY MAN DEM E8^7: ^2even up we are 4 players down
+[skipnotify]^7K^6e^7l^6l^7y^6.^7b^6e^7 was revived by ^PPhukYuh
+[skipnotify]^2ECGN Public Ventrilo - 69.65.113.18:3784
+[skipnotify]Mikaku (cat)^7 was killed.
+[skipnotify]^324:35: ^7Dynamite planted near the Sea Wall breach!
+]oh ok mr frogday left the team we are only 2 down
+[skipnotify]^6HACKNEY MAN DEM E8^7: ^2oh ok mr frogday left the team we are only 2 down
+[skipnotify]^3BLAST^1O^3WICZ^7: ^2aliados conducts. axis no escuchan
+[skipnotify]^3Knives left:^7 5
+[skipnotify]Mikaku (cat)^7 was revived by naveen+hedream
+[skipnotify]SS_Maria   ^7: ^2aha jajajja, yes yes
+[skipnotify]^PPhukYuh^7 was killed by Heisenberg^7's Thompson
+[skipnotify]^3Allies left: 7, Axis left: 7
+[skipnotify]^324:05: ^7The Sea Wall has been breached!
+[skipnotify]^3BLAST^1O^3WICZ^7 ^3WAS GIBBED BY TEAMMATE ^7^8[n^7*^8]^pUG^wo^pd!^w*^7
+[skipnotify]^3BLAST^1O^3WICZ^7 ^1WAS KILLED BY TEAMMATE^7 ^8[n^7*^8]^pUG^wo^pd!^w*^7
+[skipnotify]Heisenberg^7 was killed by ^6HACKNEY MAN DEM E8^7's MP40
+[skipnotify]: ^3BLAST^1O^3WICZ ^3(unknown): ^2Great shot.
+[skipnotify]: ^3BLAST^1O^3WICZ ^3(unknown): ^2Oops.
+[skipnotify]Stats for ^6HACKNEY MAN DEM E8 ^7this round:
+[skipnotify]^3Kills:^7 1, ^3Deaths:^7 0, ^3Kill Ratio: ^71.00, ^3Gibs:^7 0
+[skipnotify]^3Revived:^7 0, ^3Packs Given:^7 0 Health, 0 Ammo
+[skipnotify]^3Accuracy:^7 72.73 (8/11), ^3Headshots: ^70
+[skipnotify]^3Binoculars:^7 0, ^3Property Damage:^7 $0.00
+[skipnotify]: (^0spl)^3(Trenches): ^5Fire in the hole!
+[skipnotify]naveen+hedream^7 was killed by ^PPhukYuh^7's MP40
+[skipnotify]^7pt^3.^7random ^gfps^7 was killed by ^PPhukYuh^7's MP40
+[skipnotify]^7pt^3.^7random ^gfps^7 was gibbed by ^0spl^7
+[skipnotify]Mikaku (cat)^7 was gibbed by ^0spl^7
+[skipnotify]Mikaku (cat)^7 was blasted by ^0spl^7's support fire
+[skipnotify]Mr.Dogday^7 was killed by ^6HACKNEY MAN DEM E8^7's MP40
+[skipnotify]^7K^6e^7l^6l^7y^6.^7b^6e^7 was killed by ^8[n^7*^8]^pUG^wo^pd!^w*^7's MP40
+[skipnotify]: Mikaku (cat) ^3(unknown): ^2WOOHOOO!
+[skipnotify]Mr.Dogday^7 was gibbed by ^6HACKNEY MAN DEM E8^7
+[skipnotify]^323:46: ^7Dynamite planted near the Sea Wall door!
+[skipnotify]naveen+hedream^7 was gibbed by ^0spl^7
+[skipnotify]^3BLAST^1O^3WICZ^7 was killed by ^6HACKNEY MAN DEM E8^7's Luger 9mm
+[skipnotify]: ^3BLAST^1O^3WICZ ^3(unknown): ^2Hold your fire!
+[skipnotify]^2Chat with us on IRC...#ecgn on EnterTheGame
+[skipnotify]: ^6HACKNEY MAN DEM E8 ^3(Forward Bunker): ^2Hey!
+[skipnotify]Stats for ^6HACKNEY MAN DEM E8 ^7this round:
+[skipnotify]^3Kills:^7 3, ^3Deaths:^7 0, ^3Kill Ratio: ^73.00, ^3Gibs:^7 1
+[skipnotify]^3Revived:^7 0, ^3Packs Given:^7 0 Health, 0 Ammo
+[skipnotify]^3Accuracy:^7 56.90 (33/58), ^3Headshots: ^72
+[skipnotify]^3Binoculars:^7 0, ^3Property Damage:^7 $0.00
+[skipnotify]: (^7K^6e^7l^6l^7y^6.^7b^6e)^3(Trenches): ^5Cover me!
+[skipnotify]naveen+hedream^7: ^2mucho espanol blasto
+[skipnotify]: (^0spl)^3(Sea Wall): ^5Incoming!
+[skipnotify]^7pt^3.^7random ^gfps^7 was killed by ^6HACKNEY MAN DEM E8^7's MP40
+[skipnotify]Mr.Dogday^7 was exploded by ^7K^6e^7l^6l^7y^6.^7b^6e^7's grenade
+[skipnotify]^7pt^3.^7random ^gfps^7 was revived by Heisenberg
+[skipnotify]^3BLAST^1O^3WICZ^7 was killed by ^7K^6e^7l^6l^7y^6.^7b^6e^7's MP40
+[skipnotify]^3BLAST^1O^3WICZ^7 was revived by Heisenberg
+[skipnotify]^7K^6e^7l^6l^7y^6.^7b^6e^7 was killed by Heisenberg^7's Thompson
+[skipnotify]Heisenberg^7 ^3WAS GIBBED BY TEAMMATE ^7^3BLAST^1O^3WICZ^7
+[skipnotify]Heisenberg^7 ^1WAS KILLED BY TEAMMATE^7 ^3BLAST^1O^3WICZ^7
+[skipnotify]^7pt^3.^7random ^gfps^7 was killed by ^6HACKNEY MAN DEM E8^7's Luger 9mm
+[skipnotify]^3BLAST^1O^3WICZ^7 was gibbed.
+[skipnotify]Mr.Dogday^7 ^3WAS GIBBED BY TEAMMATE ^7^3BLAST^1O^3WICZ^7
+[skipnotify]^323:16: ^7The Sea Wall has been breached!
+[skipnotify]^3BLAST^1O^3WICZ^7 dynamited himself to pieces.
+[skipnotify]: Heisenberg ^3(unknown): ^2WOOHOOO!
+[skipnotify]Mikaku (cat)^7 was killed by ^PPhukYuh^7's MP40
+[skipnotify]Mikaku (cat)^7 was gibbed by ^0spl^7
+[skipnotify]^8[n^7*^8]^pUG^wo^pd!^w*^7 was killed by ^0spl^7's MP40
+[skipnotify]: ^3BLAST^1O^3WICZ ^3(unknown): ^2Oops.
+[skipnotify]^7pt^3.^7random ^gfps^7 was revived by naveen+hedream
+[skipnotify]^8[n^7*^8]^pUG^wo^pd!^w*^7 was gibbed by ^PPhukYuh^7
+[skipnotify]naveen+hedream^7 was killed by ^6HACKNEY MAN DEM E8^7's MP40
+[skipnotify]Capone^7 was gibbed by ^7pt^3.^7random ^gfps^7
+[skipnotify]Capone^7 was blasted by ^7pt^3.^7random ^gfps^7's Panzerfaust
+[skipnotify]naveen+hedream^7 ^3WAS GIBBED BY TEAMMATE ^7Mr.Dogday^7
+[skipnotify]^7pt^3.^7random ^gfps^7 ^3WAS GIBBED BY TEAMMATE ^7Mr.Dogday^7
+[skipnotify]^7pt^3.^7random ^gfps^7 ^1WAS KILLED BY TEAMMATE^7 Mr.Dogday^7
+[skipnotify]: (^0spl)^3(Trenches): ^5Fire in the hole!
+[skipnotify]^3BLAST^1O^3WICZ^7 was killed by ^PPhukYuh^7's MP40
+[skipnotify]Heisenberg^7 was killed by ^0spl^7's MP40
+[skipnotify]Stats for ^6HACKNEY MAN DEM E8 ^7this round:
+[skipnotify]^3Kills:^7 6 (^11^7), ^3Deaths:^7 0, ^3Kill Ratio: ^76.00, ^3Gibs:^7 1
+[skipnotify]^3Revived:^7 0, ^3Packs Given:^7 0 Health, 0 Ammo
+[skipnotify]^3Accuracy:^7 45.59 (62/136), ^3Headshots: ^72
+[skipnotify]^3Binoculars:^7 0, ^3Property Damage:^7 $0.00
+[skipnotify]^0spl^7 ^1WAS KILLED BY TEAMMATE^7 ^PPhukYuh^7
+[skipnotify]^PPhukYuh^7 was killed by Mikaku (cat)^7's MP40
+[skipnotify]^322:41: ^7Allies capture the Forward Bunker!
+[skipnotify]: ^PPhukYuh ^3(Trenches): ^2Sorry.
+[skipnotify]^7K^6e^7l^6l^7y^6.^7b^6e^7 was killed by naveen+hedream^7's Thompson
+[skipnotify]: ^6HACKNEY MAN DEM E8 ^3(Upper Base): ^2Negative.
+[skipnotify]^2Check the RTCW forum @ http://forums.powervs.com
+[skipnotify]SS_Maria   ^7 was killed by Mikaku (cat)^7's MP40
+[skipnotify]: ^6HACKNEY MAN DEM E8 ^3(Upper Base): ^2Negative.
+[skipnotify]: (^0spl)^3(Trenches): ^5All clear.
+[skipnotify]Mikaku (cat)^7 was killed by Kosse Bosse^7's MP40
+[skipnotify]Stats for ^6HACKNEY MAN DEM E8 ^7this round:
+[skipnotify]^3Kills:^7 6 (^12^7), ^3Deaths:^7 0, ^3Kill Ratio: ^76.00, ^3Gibs:^7 1
+[skipnotify]^3Revived:^7 0, ^3Packs Given:^7 0 Health, 0 Ammo
+[skipnotify]^3Accuracy:^7 44.60 (62/139), ^3Headshots: ^72
+[skipnotify]^3Binoculars:^7 0, ^3Property Damage:^7 $0.00
+[skipnotify]SS_Maria   ^7: ^2aliado haciawr
+[skipnotify]SS_Maria   ^7: ^2aliado hacia wr
+[skipnotify]Mr.Dogday^7 was killed by Kosse Bosse^7's MP40
+[skipnotify]Heisenberg^7 was killed by ^0spl^7's MP40
+[skipnotify]Capone^7 was gibbed by ^7pt^3.^7random ^gfps^7
+[skipnotify]Kosse Bosse^7 was gibbed by ^7pt^3.^7random ^gfps^7
+[skipnotify]Capone^7 was blasted by ^7pt^3.^7random ^gfps^7's Panzerfaust
+[skipnotify]Kosse Bosse^7 was blasted by ^7pt^3.^7random ^gfps^7's Panzerfaust
+[skipnotify]Heisenberg^7 was gibbed by ^6HACKNEY MAN DEM E8^7
+[skipnotify]^6HACKNEY MAN DEM E8^7 was killed by naveen+hedream^7's Thompson
+[skipnotify]Stats for ^6HACKNEY MAN DEM E8 ^7this round:
+[skipnotify]^3Kills:^7 6 (^12^7), ^3Deaths:^7 1, ^3Kill Ratio: ^76.00, ^3Gibs:^7 2
+[skipnotify]^3Revived:^7 0, ^3Packs Given:^7 0 Health, 0 Ammo
+[skipnotify]^3Accuracy:^7 39.52 (66/167), ^3Headshots: ^72
+[skipnotify]^3Binoculars:^7 1, ^3Property Damage:^7 $0.00
+[skipnotify]naveen+hedream^7 was killed by ^0spl^7's MP40
+[skipnotify]: ^6HACKNEY MAN DEM E8 ^3(Upper Base): ^2YES!
+[skipnotify]SS_Maria   ^7 was revived by ^PPhukYuh
+[skipnotify]: (SS_Maria   )^3(Upper Base): ^5Danke.
+[skipnotify]Mikaku (cat)^7 was killed by Capone^7's MP40
+[skipnotify]: Mikaku (cat) ^3(unknown): ^2Great shot.
+[skipnotify]Heisenberg^7 was killed by ^6HACKNEY MAN DEM E8^7's MP40
+[skipnotify]^3Allies left: 7, Axis left: 8
+[skipnotify]^321:54: ^7Axis reclaims the Forward Bunker!
+[skipnotify]Heisenberg^7 was gibbed by ^6HACKNEY MAN DEM E8^7
+[skipnotify]^321:52: ^7Allies have stolen the War Documents!
+[skipnotify]^3Knives left:^7 5
+[skipnotify]^6HACKNEY MAN DEM E8^7 was killed by naveen+hedream^7's Thompson
+[skipnotify]: Mikaku (cat) ^3(unknown): ^2Yeah!
+[skipnotify]^6HACKNEY MAN DEM E8^7 was gibbed by naveen+hedream^7
+[skipnotify]Stats for ^6HACKNEY MAN DEM E8 ^7this round:
+[skipnotify]^3Kills:^7 7 (^12^7), ^3Deaths:^7 2, ^3Kill Ratio: ^73.50, ^3Gibs:^7 3
+[skipnotify]^3Revived:^7 0, ^3Packs Given:^7 0 Health, 0 Ammo
+[skipnotify]^3Accuracy:^7 37.76 (74/196), ^3Headshots: ^73
+[skipnotify]^3Binoculars:^7 2, ^3Property Damage:^7 $0.00
+[skipnotify]Mr.Dogday^7 was killed by Kosse Bosse^7's MP40
+[skipnotify]^8[n^7*^8]^pUG^wo^pd!^w*^7 was killed by ^0spl^7's MP40
+[skipnotify]^2Anti-TK system active - watch your fire
+[skipnotify]Kosse Bosse^7 was gibbed by ^7pt^3.^7random ^gfps^7
+[skipnotify]Kosse Bosse^7 was killed by ^7pt^3.^7random ^gfps^7
+[skipnotify]^321:31: ^7Allies capture the Forward Bunker!
+[skipnotify]^7pt^3.^7random ^gfps^7 was killed by Capone^7's MP40
+[skipnotify]Mr.Dogday^7 was gibbed by Capone^7
+[skipnotify]^8[n^7*^8]^pUG^wo^pd!^w*^7 was gibbed by ^0spl^7
+[skipnotify]Juno^7 was killed by Heisenberg^7's Thompson
+[skipnotify]^6HACKNEY MAN DEM E8^7 was killed by naveen+hedream^7's Thompson
+[skipnotify]: (Capone)^3(Back Stairway): ^5All clear.
+[skipnotify]^6HACKNEY MAN DEM E8^7 was gibbed by naveen+hedream^7
+]work it sweetie
+[skipnotify]^6HACKNEY MAN DEM E8^7: ^2work it sweetie
+[skipnotify]: (^0spl)^3(Basement): ^5Where to?
+[skipnotify]^7pt^3.^7random ^gfps^7 was revived by Heisenberg
+[skipnotify]SS_Maria   ^7: ^2srot
+[skipnotify]Mikaku (cat)^7 was killed by ^7K^6e^7l^6l^7y^6.^7b^6e^7's Thompson
+[skipnotify]^8[n^7*^8]^pUG^wo^pd!^w*^7 ^1WAS KILLED BY TEAMMATE^7 naveen+hedream^7
+[skipnotify]Kosse Bosse^7 was killed by ^3BLAST^1O^3WICZ^7's Thompson
+[skipnotify]^3BLAST^1O^3WICZ^7 was killed by ^7K^6e^7l^6l^7y^6.^7b^6e^7's Thompson
+[skipnotify]: ^3BLAST^1O^3WICZ ^3(unknown): ^2Negative.
+[skipnotify]^320:59: ^7Axis have returned the War Documents!
+[skipnotify]^8[n^7*^8]^pUG^wo^pd!^w*^7 was revived by naveen+hedream
+[skipnotify]Mikaku (cat)^7 was revived by Heisenberg
+[skipnotify]: ^3BLAST^1O^3WICZ ^3(unknown): ^2Negative.
+[skipnotify]Kosse Bosse^7 was revived by ^7K^6e^7l^6l^7y^6.^7b^6e
+[skipnotify]: (Kosse Bosse)^3(Radio Stairway): ^5Danke.
+[skipnotify]Mr.Dogday^7 was killed by ^6HACKNEY MAN DEM E8^7's MP40
+[skipnotify]Mikaku (cat)^7 was killed by ^6HACKNEY MAN DEM E8^7's MP40
+[skipnotify]: (Capone)^3(Basement): ^5Incoming!
+[skipnotify]: (^7K^6e^7l^6l^7y^6.^7b^6e)^3(Radio Stairway): ^5Medic!
+[skipnotify]Mr.Dogday^7 was gibbed by Juno^7
+[skipnotify]: (^7K^6e^7l^6l^7y^6.^7b^6e)^3(Radio Stairway): ^5I need ammo!
+[skipnotify]^0spl^7 was killed by ^8[n^7*^8]^pUG^wo^pd!^w*^7's MP40
+[skipnotify]^8[n^7*^8]^pUG^wo^pd!^w*^7 was killed by Capone^7's MP40
+[skipnotify]^0spl^7 was revived by Capone
+[skipnotify]^3BLAST^1O^3WICZ^7 was killed by ^7K^6e^7l^6l^7y^6.^7b^6e^7's MP40
+[skipnotify]naveen+hedream^7 was killed by ^6HACKNEY MAN DEM E8^7's MP40
+[skipnotify]: (SS_Maria   )^3(Radio Stairway): ^5Danke.
+[skipnotify]: (SS_Maria   )^3(Radio Stairway): ^5Danke.
+[skipnotify]^3BLAST^1O^3WICZ^7 was gibbed by ^6HACKNEY MAN DEM E8^7
+[skipnotify]^8[n^7*^8]^pUG^wo^pd!^w*^7 was gibbed by ^0spl^7
+[skipnotify]^7pt^3.^7random ^gfps^7 was killed by ^PPhukYuh^7's MP40
+[skipnotify]^PPhukYuh^7 was gibbed by ^7pt^3.^7random ^gfps^7
+[skipnotify]^7pt^3.^7random ^gfps^7 was gibbed.
+[skipnotify]^PPhukYuh^7 was killed by ^7pt^3.^7random ^gfps^7
+[skipnotify]Heisenberg^7 ^1WAS KILLED BY TEAMMATE^7 ^7pt^3.^7random ^gfps^7
+[skipnotify]^3Knives left:^7 5
+[skipnotify]: Heisenberg ^3(unknown): ^2Yeah!
+[skipnotify]Stats for ^6HACKNEY MAN DEM E8 ^7this round:
+[skipnotify]^3Kills:^7 10 (^12^7), ^3Deaths:^7 3, ^3Kill Ratio: ^73.33, ^3Gibs:^7 4
+[skipnotify]^3Revived:^7 0, ^3Packs Given:^7 0 Health, 0 Ammo
+[skipnotify]^3Accuracy:^7 40.51 (111/274), ^3Headshots: ^77
+[skipnotify]^3Binoculars:^7 4, ^3Property Damage:^7 $0.00
+[skipnotify]^2Type /s_stop in console to restore lost sound
+[skipnotify]Heisenberg^7 was gibbed by Capone^7
+[skipnotify]^3BLAST^1O^3WICZ^7 was gibbed by Kosse Bosse^7
+[skipnotify]^3BLAST^1O^3WICZ^7 was exploded by Kosse Bosse^7's grenade
+[skipnotify]: ^3BLAST^1O^3WICZ ^3(unknown): ^2Great shot.
+[skipnotify]^7K^6e^7l^6l^7y^6.^7b^6e^7 was ventilated by Mr.Dogday^7's Venom
+[skipnotify]: ^3BLAST^1O^3WICZ ^3(unknown): ^2Great shot.
+[skipnotify]^7K^6e^7l^6l^7y^6.^7b^6e^7 was gibbed by Mr.Dogday^7
+[skipnotify]Mikaku (cat)^7 was killed by Kosse Bosse^7's MP40
+[skipnotify]Stats for ^6HACKNEY MAN DEM E8 ^7this round:
+[skipnotify]^3Kills:^7 10 (^12^7), ^3Deaths:^7 3, ^3Kill Ratio: ^73.33, ^3Gibs:^7 4
+[skipnotify]^3Revived:^7 0, ^3Packs Given:^7 0 Health, 0 Ammo
+[skipnotify]^3Accuracy:^7 40.51 (111/274), ^3Headshots: ^77
+[skipnotify]^3Binoculars:^7 4, ^3Property Damage:^7 $0.00
+[skipnotify]: ^3BLAST^1O^3WICZ ^3(unknown): ^2Great shot.
+[skipnotify]Mr.Dogday^7 was exploded by ^7K^6e^7l^6l^7y^6.^7b^6e^7's grenade
+[skipnotify]Mr.Dogday^7 was gibbed by ^6HACKNEY MAN DEM E8^7
+[skipnotify]^6HACKNEY MAN DEM E8^7 was gibbed by ^7pt^3.^7random ^gfps^7
+[skipnotify]^6HACKNEY MAN DEM E8^7 was blasted by ^7pt^3.^7random ^gfps^7's Panzerfaust
+[skipnotify]^7pt^3.^7random ^gfps^7 was killed by Kosse Bosse^7's MP40
+[skipnotify]^7pt^3.^7random ^gfps^7 was revived by ^3BLAST^1O^3WICZ
+[skipnotify]^8[n^7*^8]^pUG^wo^pd!^w*^7 was killed by ^0spl^7's MP40
+[skipnotify]^0spl^7 was killed by naveen+hedream^7's Thompson
+[skipnotify]Mikaku (cat)^7 was gibbed by Juno^7
+[skipnotify]^0spl^7 was gibbed by naveen+hedream^7
+[skipnotify]^7K^6e^7l^6l^7y^6.^7b^6e^7 was killed by Heisenberg^7's Thompson
+[skipnotify]^8[n^7*^8]^pUG^wo^pd!^w*^7 was revived by naveen+hedream
+[skipnotify]Heisenberg^7 was killed by Kosse Bosse^7's Luger 9mm
+[skipnotify]: (^7K^6e^7l^6l^7y^6.^7b^6e)^3(Upper Base): ^5Medic!
+[skipnotify]: (^7K^6e^7l^6l^7y^6.^7b^6e)^3(Upper Base): ^5Fire in the hole!
+[skipnotify]Kosse Bosse^7 was killed by ^8[n^7*^8]^pUG^wo^pd!^w*^7's MP40
+[skipnotify]Heisenberg^7 was revived by ^3BLAST^1O^3WICZ
+[skipnotify]^7K^6e^7l^6l^7y^6.^7b^6e^7 was revived by Juno
+[skipnotify]Kosse Bosse^7 was gibbed by ^8[n^7*^8]^pUG^wo^pd!^w*^7
+[skipnotify]Mr.Dogday^7 was killed by ^6HACKNEY MAN DEM E8^7's MP40
+[skipnotify]^PPhukYuh^7 was killed by ^3BLAST^1O^3WICZ^7's Thompson
+[skipnotify]Mr.Dogday^7 was gibbed by ^6HACKNEY MAN DEM E8^7
+[skipnotify]^3Knives left:^7 5
+[skipnotify]^7K^6e^7l^6l^7y^6.^7b^6e^7 was killed by Heisenberg^7's Thompson
+[skipnotify]naveen+hedream^7 was killed by ^6HACKNEY MAN DEM E8^7's MP40
+[skipnotify]SS_Maria   ^7 was killed by Heisenberg^7's Thompson
+[skipnotify]^6HACKNEY MAN DEM E8^7 was killed by ^8[n^7*^8]^pUG^wo^pd!^w*^7's MP40
+[skipnotify]SS_Maria   ^7 was gibbed by Heisenberg^7
+[skipnotify]^8[n^7*^8]^pUG^wo^pd!^w*^7 was killed by ^0spl^7's MP40
+]work it sweetie
+[skipnotify]^6HACKNEY MAN DEM E8^7: ^2work it sweetie
+[skipnotify]Heisenberg^7 was killed by ^0spl^7's MP40
+[skipnotify]: ^6HACKNEY MAN DEM E8 ^3(Upper Base): ^2Affirmative.
+[skipnotify]: Heisenberg ^3(unknown): ^2Negative.
+[skipnotify]Heisenberg^7 was gibbed by ^0spl^7
+[skipnotify]: Heisenberg ^3(unknown): ^2Negative.
+[skipnotify]: (^PPhukYuh)^3(Upper Bunker): ^5Danke.
+[skipnotify]^PPhukYuh^7 was revived by Capone
+[skipnotify]^319:46: ^7Allies have stolen the War Documents!
+[skipnotify]naveen+hedream^7 was gibbed by ^6HACKNEY MAN DEM E8^7
+[skipnotify]^6HACKNEY MAN DEM E8^7 dove on his own grenade.
+[skipnotify]naveen+hedream^7 was exploded by ^6HACKNEY MAN DEM E8^7's grenade
+[skipnotify]^3BLAST^1O^3WICZ^7 was killed by ^7K^6e^7l^6l^7y^6.^7b^6e^7's MP40
+[skipnotify]^3Allies left: 8, Axis left: 8
+[skipnotify]^2Try !stats to view your live player stats
+[skipnotify]: ^6HACKNEY MAN DEM E8 ^3(Upper Base): ^2Heh heh.
+[skipnotify]^319:33: ^7Axis have returned the War Documents!
+[skipnotify]Mikaku (cat)^7 was killed by Juno^7's MP40
+[skipnotify]: (Kosse Bosse)^3(Radio Stairway): ^5Where to?
+[skipnotify]Stats for ^6HACKNEY MAN DEM E8 ^7this round:
+[skipnotify]^3Kills:^7 13 (^13^7), ^3Deaths:^7 5, ^3Kill Ratio: ^72.60, ^3Gibs:^7 7
+[skipnotify]^3Revived:^7 0, ^3Packs Given:^7 0 Health, 0 Ammo
+[skipnotify]^3Accuracy:^7 40.43 (131/324), ^3Headshots: ^710
+[skipnotify]^3Binoculars:^7 5, ^3Property Damage:^7 $0.00
+[skipnotify]^6HACKNEY MAN DEM E8^7 was gibbed by Heisenberg^7
+[skipnotify]^3BLAST^1O^3WICZ^7 was gibbed by ^7K^6e^7l^6l^7y^6.^7b^6e^7
+[skipnotify]Mikaku (cat)^7 was gibbed by Juno^7
+[skipnotify]Capone^7 was killed by ^8[n^7*^8]^pUG^wo^pd!^w*^7's MP40
+[skipnotify]: (Capone)^3(Back Stairway): ^5Incoming!
+[skipnotify]Capone^7 was gibbed by Mr.Dogday^7
+[skipnotify]^3BLAST^1O^3WICZ^7 was killed by ^PPhukYuh^7's MP40
+[skipnotify]Heisenberg^7 was killed by ^6HACKNEY MAN DEM E8^7's MP40
+[skipnotify]: ^3BLAST^1O^3WICZ ^3(unknown): ^2Hold your fire!
+[skipnotify]: ^3BLAST^1O^3WICZ ^3(unknown): ^2Hold your fire!
+[skipnotify]: Heisenberg ^3(unknown): ^2Negative.
+[skipnotify]: ^3BLAST^1O^3WICZ ^3(unknown): ^2Hold your fire!
+[skipnotify]^7pt^3.^7random ^gfps^7 was exploded by ^0spl^7's grenade
+[skipnotify]naveen+hedream^7 was killed by ^PPhukYuh^7's MP40
+[skipnotify]: ^6HACKNEY MAN DEM E8 ^3(Back Stairway): ^2Affirmative.
+[skipnotify]^3BLAST^1O^3WICZ^7 was gibbed by ^PPhukYuh^7
+[skipnotify]^7pt^3.^7random ^gfps^7 was gibbed by ^0spl^7
+[skipnotify]: Heisenberg ^3(unknown): ^2Negative.
+[skipnotify]: ^3BLAST^1O^3WICZ ^3(unknown): ^2Oops.
+[skipnotify]Mikaku (cat)^7 was killed by ^7K^6e^7l^6l^7y^6.^7b^6e^7's MP40
+[skipnotify]: ^6HACKNEY MAN DEM E8 ^3(Back Stairway): ^2Affirmative.
+[skipnotify]Mikaku (cat)^7 was gibbed by ^7K^6e^7l^6l^7y^6.^7b^6e^7
+[skipnotify]: ^3BLAST^1O^3WICZ ^3(unknown): ^2Negative.
+[skipnotify]: Heisenberg ^3(unknown): ^2Negative.
+[skipnotify]^PPhukYuh^7 was killed by Mihai MD^7's Thompson
+[skipnotify]^3Knives left:^7 5
+[skipnotify]: ^6HACKNEY MAN DEM E8 ^3(Upper Base): ^2Affirmative.
+[skipnotify]SS_Maria   ^7 was exploded by ^8[n^7*^8]^pUG^wo^pd!^w*^7's grenade
+[skipnotify]^318:54: ^7Allies have stolen the War Documents!
+[skipnotify]^8[n^7*^8]^pUG^wo^pd!^w*^7 was killed by Juno^7's MP40
+[skipnotify]Juno^7 was ventilated by Mr.Dogday^7's Venom
+[skipnotify]Juno^7 was gibbed by Mr.Dogday^7
+[skipnotify]Kosse Bosse^7 was killed by naveen+hedream^7's Thompson
+[skipnotify]Kosse Bosse^7 was gibbed by Mihai MD^7
+[skipnotify]: (Kosse Bosse)^3(Upper Base): ^5Incoming!
+[skipnotify]Heisenberg^7 was killed by ^PPhukYuh^7's MP40
+[skipnotify]^8[n^7*^8]^pUG^wo^pd!^w*^7 was gibbed by ^6HACKNEY MAN DEM E8^7
+[skipnotify]^PPhukYuh^7 was killed by Mikaku (cat)^7's MP40
+[skipnotify]Mikaku (cat)^7 was killed by Capone^7's MP40
+[skipnotify]Mr.Dogday^7 was killed by ^0spl^7's MP40
+[skipnotify]^PPhukYuh^7 was revived by Capone
+[skipnotify]^318:37: ^7Axis have returned the War Documents!
+[skipnotify]: (^PPhukYuh)^3(Upper Bunker): ^5Danke.
+[skipnotify]naveen+hedream^7 was killed by ^6HACKNEY MAN DEM E8^7's MP40
+[skipnotify]^0spl^7 was gibbed by ^7pt^3.^7random ^gfps^7
+[skipnotify]^7K^6e^7l^6l^7y^6.^7b^6e^7 was gibbed by ^7pt^3.^7random ^gfps^7
+[skipnotify]^0spl^7 was blasted by ^7pt^3.^7random ^gfps^7's Panzerfaust
+[skipnotify]^6HACKNEY MAN DEM E8^7 was blasted by ^7pt^3.^7random ^gfps^7's Panzerfaust
+[skipnotify]^7K^6e^7l^6l^7y^6.^7b^6e^7 was blasted by ^7pt^3.^7random ^gfps^7's Panzerfaust
+[skipnotify]naveen+hedream^7 was revived by ^3BLAST^1O^3WICZ
+[skipnotify]^2 Type /cl_allowdownload 1 to auto-download custom maps
+[skipnotify]Mikaku (cat)^7 was gibbed by ^PPhukYuh^7
+[skipnotify]Mr.Dogday^7 was revived by ^3BLAST^1O^3WICZ
+[skipnotify]: ^7K^6e^7l^6l^7y^6.^7b^6e ^3(Basement): ^2Great shot.
+[skipnotify]: ^0spl ^3(Basement): ^2Oops.
+[skipnotify]: (^7K^6e^7l^6l^7y^6.^7b^6e)^3(Basement): ^5Incoming!
+[skipnotify]: (^7K^6e^7l^6l^7y^6.^7b^6e)^3(Basement): ^5Incoming!
+[skipnotify]Stats for ^6HACKNEY MAN DEM E8 ^7this round:
+[skipnotify]^3Kills:^7 15 (^13^7), ^3Deaths:^7 6, ^3Kill Ratio: ^72.50, ^3Gibs:^7 8
+[skipnotify]^3Revived:^7 0, ^3Packs Given:^7 0 Health, 0 Ammo
+[skipnotify]^3Accuracy:^7 39.16 (150/383), ^3Headshots: ^714
+[skipnotify]^3Binoculars:^7 5, ^3Property Damage:^7 $75.00
+[skipnotify]Capone^7 was killed by Heisenberg^7's Thompson
+[skipnotify]: (^7K^6e^7l^6l^7y^6.^7b^6e)^3(Upper Bunker): ^5Move!
+[skipnotify]: ^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1] ^3(unknown): ^2Hello.
+[skipnotify]^3Allies left: 8, Axis left: 9
+[skipnotify]Capone^7 was gibbed by Heisenberg^7
+[skipnotify]Heisenberg^7 was killed by ^6HACKNEY MAN DEM E8^7's MP40
+[skipnotify]: ^PPhukYuh ^3(Radio Stairway): ^2Hello.
+[skipnotify]^318:23: ^7Allies have stolen the War Documents!
+[skipnotify]Heisenberg^7 was gibbed by ^6HACKNEY MAN DEM E8^7
+[skipnotify]^3Knives left:^7 5
+[skipnotify]: Heisenberg ^3(unknown): ^2Hold your fire!
+[skipnotify]: ^6HACKNEY MAN DEM E8 ^3(Upper Base): ^2Affirmative.
+[skipnotify]Mihai MD^7 was exploded by Juno^7's grenade
+[skipnotify]: ^6HACKNEY MAN DEM E8 ^3(Upper Base): ^2Affirmative.
+[skipnotify]SS_Maria   ^7: ^2holaaa mad 
+[skipnotify]: ^6HACKNEY MAN DEM E8 ^3(Upper Base): ^2Affirmative.
+[skipnotify]: Heisenberg ^3(unknown): ^2Thanks.
+[skipnotify]^3BLAST^1O^3WICZ^7 was killed by Juno^7's MP40
+[skipnotify]: (^7K^6e^7l^6l^7y^6.^7b^6e)^3(Radio Stairway): ^5Where to?
+[skipnotify]Juno^7 was killed by naveen+hedream^7's Thompson
+[skipnotify]^0spl^7 was killed by ^8[n^7*^8]^pUG^wo^pd!^w*^7's MP40
+[skipnotify]^7pt^3.^7random ^gfps^7 was killed by Kosse Bosse^7's MP40
+[skipnotify]Kosse Bosse^7 was exploded by ^7pt^3.^7random ^gfps^7's grenade
+[skipnotify]^0spl^7 was gibbed.
+[skipnotify]^3BLAST^1O^3WICZ^7 was revived by naveen+hedream
+[skipnotify]Kosse Bosse^7 was revived by ^PPhukYuh
+[skipnotify]Heisenberg^7: ^2^2thx ^7for the ^1ammo ^7Mikaku (cat)^2
+[skipnotify]^7pt^3.^7random ^gfps^7 was revived by naveen+hedream
+[skipnotify]: (Kosse Bosse)^3(Basement): ^5Danke.
+[skipnotify]^6HACKNEY MAN DEM E8^7 was ventilated by Mr.Dogday^7's Venom
+[skipnotify](^0spl^7) (Axis Barracks): ^5long i othink
+[skipnotify]Juno^7 was gibbed by ^3BLAST^1O^3WICZ^7
+[skipnotify]^3BLAST^1O^3WICZ^7 was killed by ^PPhukYuh^7's MP40
+[skipnotify]^6HACKNEY MAN DEM E8^7 was gibbed by ^8[n^7*^8]^pUG^wo^pd!^w*^7
+[skipnotify]: (^7K^6e^7l^6l^7y^6.^7b^6e)^3(Radio Room): ^5Where to?
+[skipnotify]Mikaku (cat)^7 was killed by ^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^7's MP40
+[skipnotify]: (^6HACKNEY MAN DEM E8)^3(Basement): ^5Affirmative.
+[skipnotify]^3BLAST^1O^3WICZ^7 was gibbed by ^PPhukYuh^7
+[skipnotify]^7pt^3.^7random ^gfps^7 was cooked by SS_Maria   ^7's flamethrower
+[skipnotify]: (^6HACKNEY MAN DEM E8)^3(Basement): ^5Affirmative.
+[skipnotify]Mikaku (cat)^7 was gibbed by ^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1]^7
+[skipnotify]^7pt^3.^7random ^gfps^7 was gibbed by ^PPhukYuh^7
+[skipnotify]^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^7 was killed by ^8[n^7*^8]^pUG^wo^pd!^w*^7's MP40
+[skipnotify](^6HACKNEY MAN DEM E8^7) (Basement): ^5l
+[skipnotify](^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1]^7) (Back Stairway[l^5^8LONG ^7LONG ^1LONG!!!
+[skipnotify](^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1]^7) (Back Stairway[l^5^8LONG ^7LONG ^1LONG!!!
+[skipnotify]: (^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1])^3(Back Stairway): ^5Incoming!
+[skipnotify]: (^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1])^3(Back Stairway): ^5Incoming!
+[skipnotify]^7K^6e^7l^6l^7y^6.^7b^6e^7 was killed by Heisenberg^7's Thompson
+[skipnotify]Capone^7 was exploded by Mikaku (cat)^7's grenade
+[skipnotify]: (^7K^6e^7l^6l^7y^6.^7b^6e)^3(Upper Base): ^5Incoming!
+[skipnotify]Heisenberg^7 was killed by ^0spl^7's MP40
+[skipnotify]: Mikaku (cat) ^3(unknown): ^2Oops.
+[skipnotify]: Capone ^3(Upper Bunker): ^2Great shot.
+[skipnotify]: (^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1])^3(Upper Bunker): ^5I'm a soldier.
+[skipnotify]Mr.Dogday^7 was killed by ^0spl^7's MP40
+[skipnotify]^317:45: ^7Axis have returned the War Documents!
+[skipnotify]^0spl^7 was killed by naveen+hedream^7's Thompson
+[skipnotify]: Mikaku (cat) ^3(unknown): ^2Thanks.
+[skipnotify]Mihai MD^7 was killed by ^6HACKNEY MAN DEM E8^7's MP40
+[skipnotify]Heisenberg^7 was revived by ^3BLAST^1O^3WICZ
+[skipnotify]: (^0spl)^3(Upper Base): ^5All clear.
+[skipnotify]Mihai MD^7 was gibbed by ^6HACKNEY MAN DEM E8^7
+[skipnotify]Mr.Dogday^7 was revived by ^3BLAST^1O^3WICZ
+[skipnotify]^3Knives left:^7 5
+[skipnotify]: (^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1])^3(Radio Stairway): ^5Where to?
+[skipnotify]^0spl^7 was gibbed by naveen+hedream^7
+[skipnotify]Stats for ^6HACKNEY MAN DEM E8 ^7this round:
+[skipnotify]^3Kills:^7 17 (^13^7), ^3Deaths:^7 7, ^3Kill Ratio: ^72.43, ^3Gibs:^7 10
+[skipnotify]^3Revived:^7 0, ^3Packs Given:^7 0 Health, 0 Ammo
+[skipnotify]^3Accuracy:^7 37.50 (156/416), ^3Headshots: ^717
+[skipnotify]^3Binoculars:^7 8, ^3Property Damage:^7 $75.00
+[skipnotify]^2ECGN Public Ventrilo - 69.65.113.18:3784
+[skipnotify]^317:32: ^7Allies have stolen the War Documents!
+[skipnotify]Heisenberg^7 was killed by ^6HACKNEY MAN DEM E8^7's MP40
+[skipnotify]Heisenberg^7 was gibbed by ^6HACKNEY MAN DEM E8^7
+[skipnotify]^3Knives left:^7 5
+[skipnotify]^6HACKNEY MAN DEM E8^7 was killed by naveen+hedream^7's Thompson
+[skipnotify]^3BLAST^1O^3WICZ^7 was gibbed by ^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1]^7
+[skipnotify]^8[n^7*^8]^pUG^wo^pd!^w*^7 was gibbed by ^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1]^7
+[skipnotify]^7pt^3.^7random ^gfps^7 was blasted by ^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^7's Panzerfaust
+[skipnotify]^3BLAST^1O^3WICZ^7 was blasted by ^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^7's Panzerfaust
+[skipnotify]^8[n^7*^8]^pUG^wo^pd!^w*^7 was blasted by ^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^7's Panzerfaust
+[skipnotify]: ^3BLAST^1O^3WICZ ^3(unknown): ^2Negative.
+[skipnotify]: ^6HACKNEY MAN DEM E8 ^3(Back Stairway): ^2Affirmative.
+[skipnotify]^6HACKNEY MAN DEM E8^7 was revived by ^7K^6e^7l^6l^7y^6.^7b^6e
+[skipnotify]: ^6HACKNEY MAN DEM E8 ^3(Back Stairway): ^2Affirmative.
+[skipnotify]^317:25: ^7Axis have returned the War Documents!
+[skipnotify]: ^6HACKNEY MAN DEM E8 ^3(Back Stairway): ^2Affirmative.
+[skipnotify]^7pt^3.^7random ^gfps^7 was gibbed by ^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1]^7
+[skipnotify]: Capone ^3(Upper Bunker): ^2Great shot.
+[skipnotify]^1Spam Protection^7: VoiceChat ignored
+[skipnotify]: Heisenberg ^3(unknown): ^2Affirmative.
+[skipnotify]Juno^7 was killed by naveen+hedream^7's Thompson
+[skipnotify]: ^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1] ^3(Basement): ^2Heh heh.
+[skipnotify]Mihai MD^7 was killed by ^0spl^7's MP40
+[skipnotify]Juno^7 was revived by ^6HACKNEY MAN DEM E8
+[skipnotify]: ^8[n^7*^8]^pUG^wo^pd!^w* ^3(unknown): ^2Woohooo!
+[skipnotify]Mikaku (cat)^7 was killed by ^PPhukYuh^7's MP40
+[skipnotify]SS_Maria   ^7 was exploded by Mikaku (cat)^7's grenade
+[skipnotify]naveen+hedream^7 was killed by Kosse Bosse^7's MP40
+[skipnotify]Mikaku (cat)^7 was gibbed by ^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1]^7
+[skipnotify]Mihai MD^7 was revived by Heisenberg
+[skipnotify]SS_Maria   ^7 was revived by ^PPhukYuh
+[skipnotify]: (SS_Maria   )^3(Upper Bunker): ^5Danke.
+[skipnotify]Mihai MD^7 was killed by ^0spl^7's MP40
+[skipnotify]Heisenberg^7 was killed by Capone^7's MP40
+[skipnotify]: (^0spl)^3(Upper Base): ^5Fire in the hole!
+[skipnotify]Mihai MD^7 was gibbed by ^0spl^7
+[skipnotify]Heisenberg^7 was gibbed by Capone^7
+[skipnotify]Juno^7 was killed by ^3BLAST^1O^3WICZ^7's Thompson
+[skipnotify]^3BLAST^1O^3WICZ^7 ^3WAS GIBBED BY TEAMMATE ^7^7pt^3.^7random ^gfps^7
+[skipnotify]^7K^6e^7l^6l^7y^6.^7b^6e^7 was gibbed by ^7pt^3.^7random ^gfps^7
+[skipnotify]Juno^7 was gibbed by ^7pt^3.^7random ^gfps^7
+[skipnotify]^3BLAST^1O^3WICZ^7 ^1WAS KILLED BY TEAMMATE^7 ^7pt^3.^7random ^gfps^7
+[skipnotify]^7K^6e^7l^6l^7y^6.^7b^6e^7 was blasted by ^7pt^3.^7random ^gfps^7's Panzerfaust
+[skipnotify]Mikaku (cat)^7 was killed by Capone^7's MP40
+[skipnotify]^0spl^7 ^1WAS KILLED BY TEAMMATE^7 Kosse Bosse^7
+[skipnotify]^316:50: ^7Allies have stolen the War Documents!
+[skipnotify]Mr.Dogday^7 was killed by ^PPhukYuh^7's MP40
+[skipnotify]: Mikaku (cat) ^3(unknown): ^2YEE-HAW!
+[skipnotify]: (^0spl)^3(Back Stairway): ^5Danke.
+[skipnotify]^0spl^7 was revived by Kosse Bosse
+[skipnotify]Mr.Dogday^7 was gibbed by ^PPhukYuh^7
+[skipnotify]^7pt^3.^7random ^gfps^7 was killed by ^6HACKNEY MAN DEM E8^7's MP40
+[skipnotify]Capone^7 was killed by naveen+hedream^7's Thompson
+[skipnotify]^6HACKNEY MAN DEM E8^7 was killed by ^8[n^7*^8]^pUG^wo^pd!^w*^7's MP40
+[skipnotify]^7pt^3.^7random ^gfps^7 was revived by ^3BLAST^1O^3WICZ
+[skipnotify]^3BLAST^1O^3WICZ^7 was killed by ^7K^6e^7l^6l^7y^6.^7b^6e^7's MP40
+[skipnotify]^6HACKNEY MAN DEM E8^7 was gibbed by ^8[n^7*^8]^pUG^wo^pd!^w*^7
+[skipnotify]Capone^7 was gibbed by Mihai MD^7
+[skipnotify](^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1]^7) (War Room):^5docs safe
+[skipnotify]Mikaku (cat)^7 was revived by naveen+hedream
+[skipnotify]^3BLAST^1O^3WICZ^7 was revived by Heisenberg
+[skipnotify]: Mikaku (cat) ^3(unknown): ^2Bye.
+[skipnotify]Stats for ^6HACKNEY MAN DEM E8 ^7this round:
+[skipnotify]^3Kills:^7 19 (^13^7), ^3Deaths:^7 9, ^3Kill Ratio: ^72.11, ^3Gibs:^7 11
+[skipnotify]^3Revived:^7 1, ^3Packs Given:^7 0 Health, 0 Ammo
+[skipnotify]^3Accuracy:^7 36.77 (164/446), ^3Headshots: ^717
+[skipnotify]^3Binoculars:^7 9, ^3Property Damage:^7 $75.00
+[skipnotify]Kosse Bosse^7 ^3WAS GIBBED BY TEAMMATE ^7^0spl^7
+[skipnotify]Kosse Bosse^7 ^1WAS KILLED BY TEAMMATE^7 ^0spl^7
+[skipnotify]^316:34: ^7Axis have returned the War Documents!
+[skipnotify]: (^0spl)^3(Basement): ^5Sorry.
+[skipnotify]^3BLAST^1O^3WICZ^7: ^2give the docs to dogday always
+[skipnotify]: Kosse Bosse ^3(Back Stairway): ^2Great shot.
+[skipnotify]^2Chat with us on IRC...#ecgn on EnterTheGame
+[skipnotify]: (Kosse Bosse)^3(Back Stairway): ^5You're welcome.
+[skipnotify]^7pt^3.^7random ^gfps^7 was killed by Juno^7's MP40
+[skipnotify]naveen+hedream^7 ^1WAS KILLED BY TEAMMATE^7 Mihai MD^7
+[skipnotify]^7pt^3.^7random ^gfps^7 was revived by Mihai MD
+[skipnotify]Mihai MD^7 was exploded by Juno^7's grenade
+[skipnotify]Mikaku (cat)^7 was killed by ^0spl^7's MP40
+[skipnotify]^0spl^7 was killed by Heisenberg^7's Thompson
+[skipnotify]^3Allies left: 9, Axis left: 9
+[skipnotify]^7pt^3.^7random ^gfps^7 was killed by Juno^7's MP40
+[skipnotify]Mikaku (cat)^7 was revived by Heisenberg
+[skipnotify]Heisenberg^7 was killed by ^PPhukYuh^7's MP40
+[skipnotify]Mihai MD^7 was gibbed by Juno^7
+[skipnotify]^0spl^7 was revived by ^PPhukYuh
+[skipnotify](^0spl^7) (Back Stairway): ^53
+[skipnotify]Mikaku (cat)^7 was cooked by SS_Maria   ^7's flamethrower
+[skipnotify]SS_Maria   ^7 killed himself.
+[skipnotify]^316:09: ^7Allies have stolen the War Documents!
+[skipnotify]^3BLAST^1O^3WICZ^7 was killed by ^0spl^7's Luger 9mm
+[skipnotify]: ^3BLAST^1O^3WICZ ^3(unknown): ^2Negative.
+[skipnotify]^3BLAST^1O^3WICZ^7 was gibbed by ^0spl^7
+[skipnotify]^8[n^7*^8]^pUG^wo^pd!^w*^7 was killed by ^7K^6e^7l^6l^7y^6.^7b^6e^7's MP40
+[skipnotify]SS_Maria   ^7 was revived by ^PPhukYuh
+[skipnotify]Kosse Bosse^7 was killed by Luftschiff^7's Sten
+[skipnotify]naveen+hedream^7 was killed by ^6HACKNEY MAN DEM E8^7's MP40
+[skipnotify]^3BLAST^1O^3WICZ^7: ^2we got owned
+[skipnotify]Heisenberg^7 was gibbed by ^0spl^7
+[skipnotify]^8[n^7*^8]^pUG^wo^pd!^w*^7 was gibbed by ^7K^6e^7l^6l^7y^6.^7b^6e^7
+[skipnotify]: (SS_Maria   )^3(Upper Bunker): ^5Danke.
+[skipnotify]Mihai MD^7 disconnected
+[skipnotify]Kosse Bosse^7 was revived by Capone
+[skipnotify]: (Kosse Bosse)^3(Radio Room): ^5Danke.
+[skipnotify]^315:59: ^7Axis have returned the War Documents!
+[skipnotify]^3Allies left: 8, Axis left: 9
+[skipnotify]: (^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1])^3(Basement): ^5Path is cleared.
+[skipnotify]^315:57: ^7Allies have stolen the War Documents!
+[skipnotify]Luftschiff^7 was killed by Juno^7's Thompson
+[skipnotify]: ^8[n^7*^8]^pUG^wo^pd!^w* ^3(unknown): ^2Yeah!
+[skipnotify]: (^PPhukYuh)^3(Basement): ^5I need ammo!
+[skipnotify]: ^8[n^7*^8]^pUG^wo^pd!^w* ^3(unknown): ^2Yeah!
+[skipnotify]^6HACKNEY MAN DEM E8^7 was gibbed by ^7pt^3.^7random ^gfps^7
+[skipnotify]^6HACKNEY MAN DEM E8^7 was killed by ^7pt^3.^7random ^gfps^7
+[skipnotify]^PPhukYuh^7 was ventilated by Mr.Dogday^7's Venom
+[skipnotify]Mr.Dogday^7 was killed by ^7K^6e^7l^6l^7y^6.^7b^6e^7's MP40
+[skipnotify]^PPhukYuh^7 was gibbed.
+[skipnotify]Mr.Dogday^7 was gibbed by ^PPhukYuh^7
+[skipnotify]: (Kosse Bosse)^3(Radio Stairway): ^5Where to?
+[skipnotify]^315:46: ^7Axis have returned the War Documents!
+[skipnotify]Stats for ^6HACKNEY MAN DEM E8 ^7this round:
+[skipnotify]^3Kills:^7 20 (^13^7), ^3Deaths:^7 10, ^3Kill Ratio: ^72.00, ^3Gibs:^7 11
+[skipnotify]^3Revived:^7 1, ^3Packs Given:^7 0 Health, 0 Ammo
+[skipnotify]^3Accuracy:^7 37.04 (180/486), ^3Headshots: ^720
+[skipnotify]^3Binoculars:^7 10, ^3Property Damage:^7 $75.00
+[skipnotify]^3BLAST^1O^3WICZ^7 was killed by ^0spl^7's MP40
+[skipnotify]^0spl^7 was killed by ^8[n^7*^8]^pUG^wo^pd!^w*^7's Thompson
+[skipnotify]: (^0spl)^3(Back Stairway): ^5Incoming!
+[skipnotify]^2Check the RTCW forum @ http://forums.powervs.com
+[skipnotify]^0spl^7 was gibbed by ^8[n^7*^8]^pUG^wo^pd!^w*^7
+[skipnotify]^8[n^7*^8]^pUG^wo^pd!^w*^7 was killed by ^7K^6e^7l^6l^7y^6.^7b^6e^7's MP40
+[skipnotify]^3BLAST^1O^3WICZ^7: ^2missed with needle
+[skipnotify]: (^6HACKNEY MAN DEM E8)^3(Back Stairway): ^5Affirmative.
+[skipnotify]: (^7K^6e^7l^6l^7y^6.^7b^6e)^3(Basement): ^5Incoming!
+[skipnotify]: (^6HACKNEY MAN DEM E8)^3(Back Stairway): ^5Incoming!
+[skipnotify]Mr.Dogday^7 was killed by ^0spl^7's MP40
+[skipnotify]Mikaku (cat)^7 was gibbed by ^7K^6e^7l^6l^7y^6.^7b^6e^7
+[skipnotify]Heisenberg^7 was killed by ^6HACKNEY MAN DEM E8^7's MP40
+[skipnotify]^3BLAST^1O^3WICZ^7: ^2i must have caught something when i shook michael j foxs hand
+[skipnotify]naveen+hedream^7 was killed by ^7K^6e^7l^6l^7y^6.^7b^6e^7's MP40
+[skipnotify]^6HACKNEY MAN DEM E8^7 was exploded by ^7pt^3.^7random ^gfps^7's grenade
+[skipnotify]^6HACKNEY MAN DEM E8^7 was revived by ^7K^6e^7l^6l^7y^6.^7b^6e
+[skipnotify]^7K^6e^7l^6l^7y^6.^7b^6e^7 was gibbed by ^7pt^3.^7random ^gfps^7
+[skipnotify]^7K^6e^7l^6l^7y^6.^7b^6e^7 was exploded by ^7pt^3.^7random ^gfps^7's grenade
+[skipnotify]: (^6HACKNEY MAN DEM E8)^3(Back Stairway): ^5Danke.
+[skipnotify]: ^7K^6e^7l^6l^7y^6.^7b^6e ^3(Back Stairway): ^2Yes!
+[skipnotify]Heisenberg^7 was gibbed by ^0spl^7
+[skipnotify]: ^7K^6e^7l^6l^7y^6.^7b^6e ^3(Back Stairway): ^2Oops.
+[skipnotify]^7pt^3.^7random ^gfps^7 died.
+[skipnotify]Kosse Bosse^7 was killed by ^8[n^7*^8]^pUG^wo^pd!^w*^7's MP40
+[skipnotify]Stats for ^6HACKNEY MAN DEM E8 ^7this round:
+[skipnotify]^3Kills:^7 21 (^13^7), ^3Deaths:^7 11, ^3Kill Ratio: ^71.91, ^3Gibs:^7 11
+[skipnotify]^3Revived:^7 1, ^3Packs Given:^7 0 Health, 0 Ammo
+[skipnotify]^3Accuracy:^7 36.97 (193/522), ^3Headshots: ^722
+[skipnotify]^3Binoculars:^7 10, ^3Property Damage:^7 $75.00
+[skipnotify]Stats for ^6HACKNEY MAN DEM E8 ^7this round:
+[skipnotify]^3Kills:^7 21 (^13^7), ^3Deaths:^7 11, ^3Kill Ratio: ^71.91, ^3Gibs:^7 11
+[skipnotify]^3Revived:^7 1, ^3Packs Given:^7 0 Health, 0 Ammo
+[skipnotify]^3Accuracy:^7 36.97 (193/522), ^3Headshots: ^722
+[skipnotify]^3Binoculars:^7 10, ^3Property Damage:^7 $75.00
+[skipnotify]Kosse Bosse^7 was gibbed by Luftschiff^7
+[skipnotify]^3BLAST^1O^3WICZ^7 was killed by ^0spl^7's MP40
+[skipnotify]^1Jincho^w_Pez^7 disconnected
+[skipnotify]^8[n^7*^8]^pUG^wo^pd!^w*^7 was killed by ^6HACKNEY MAN DEM E8^7's MP40
+[skipnotify]^8[n^7*^8]^pUG^wo^pd!^w*^7 was gibbed by ^6HACKNEY MAN DEM E8^7
+[skipnotify]^3Knives left:^7 5
+[skipnotify]Mr.Dogday^7 was killed by ^0spl^7's MP40
+[skipnotify]^6HACKNEY MAN DEM E8^7 was killed by Mikaku (cat)^7's MP40
+[skipnotify]Luftschiff^7 was killed by ^0spl^7's MP40
+[skipnotify]^0spl^7 was killed by naveen+hedream^7's Thompson
+[skipnotify]naveen+hedream^7 was killed by Kosse Bosse^7's MP40
+[skipnotify]^6HACKNEY MAN DEM E8^7 was gibbed by Mikaku (cat)^7
+[skipnotify](^6HACKNEY MAN DEM E8^7) (Radio Stairway): ^51 rs
+[skipnotify]: (SS_Maria   )^3(Upper Bunker): ^5Danke.
+[skipnotify](^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1]^7) (Back Stairway[l^5^8SHORT ^7SHORT ^1SHORT!!!
+[skipnotify]: (SS_Maria   )^3(Upper Bunker): ^5Danke.
+[skipnotify](^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1]^7) (Back Stairway[l^5^8SHORT ^7SHORT ^1SHORT!!!
+[skipnotify]^7K^6e^7l^6l^7y^6.^7b^6e^7 was killed by Heisenberg^7's Thompson
+[skipnotify](^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1]^7) (Back Stairway[l^5^8SHORT ^7SHORT ^1SHORT!!!
+[skipnotify]: (^7K^6e^7l^6l^7y^6.^7b^6e)^3(Upper Bunker): ^5Incoming!
+[skipnotify](^0spl^7) (Upper Base): ^5Few long
+[skipnotify]Kosse Bosse^7 was gibbed by ^7pt^3.^7random ^gfps^7
+[skipnotify]Kosse Bosse^7 was blasted by ^7pt^3.^7random ^gfps^7's Panzerfaust
+[skipnotify]^7K^6e^7l^6l^7y^6.^7b^6e^7 was gibbed by Heisenberg^7
+[skipnotify]^314:31: ^7Allies have stolen the War Documents!
+[skipnotify]^0spl^7 was gibbed by ^3BLAST^1O^3WICZ^7
+[skipnotify]Mr.Dogday^7 was revived by ^3BLAST^1O^3WICZ
+[skipnotify]^2Anti-TK system active - watch your fire
+[skipnotify]Mikaku (cat)^7 was killed by Juno^7's Thompson
+[skipnotify]^314:28: ^7Axis have returned the War Documents!
+[skipnotify]Mikaku (cat)^7 was gibbed by Juno^7
+[skipnotify]^7pt^3.^7random ^gfps^7 was killed by ^6HACKNEY MAN DEM E8^7's MP40
+[skipnotify]Mr.Dogday^7 was gibbed by ^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1]^7
+[skipnotify]Mr.Dogday^7 was blasted by ^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^7's Panzerfaust
+[skipnotify]^3BLAST^1O^3WICZ^7 was blasted by ^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^7's Panzerfaust
+[skipnotify]^7pt^3.^7random ^gfps^7 was gibbed by ^6HACKNEY MAN DEM E8^7
+[skipnotify]SS_Maria   ^7 was killed by ^8[n^7*^8]^pUG^wo^pd!^w*^7's MP40
+[skipnotify]^3BLAST^1O^3WICZ^7 was gibbed by ^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1]^7
+[skipnotify]SS_Maria   ^7 was revived by Capone
+[skipnotify]^PPhukYuh^7 was killed by ^8[n^7*^8]^pUG^wo^pd!^w*^7's MP40
+[skipnotify]^3BLAST^1O^3WICZ^7: ^2maru the cat
+[skipnotify]^8[n^7*^8]^pUG^wo^pd!^w*^7 was killed by Capone^7's MP40
+[skipnotify]SS_Maria   ^7 was killed by Heisenberg^7's Thompson
+[skipnotify]^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^7 was killed by Luftschiff^7's Sten
+[skipnotify]: (^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1])^3(Basement): ^5Incoming!
+[skipnotify]Heisenberg^7 was killed by ^7K^6e^7l^6l^7y^6.^7b^6e^7's MP40
+[skipnotify]: (^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1])^3(Basement): ^5I need backup!
+[skipnotify]^PPhukYuh^7 was revived by Capone
+[skipnotify]: (^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1])^3(Basement): ^5I need backup!
+[skipnotify]Kosse Bosse^7 was killed by naveen+hedream^7's Thompson
+[skipnotify]SS_Maria   ^7 was revived by ^7K^6e^7l^6l^7y^6.^7b^6e
+[skipnotify]: (SS_Maria   )^3(Upper Bunker): ^5Danke.
+[skipnotify]Luftschiff^7 was killed by ^0spl^7's MP40
+[skipnotify]^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1]^7 was revived by ^6HACKNEY MAN DEM E8
+[skipnotify]Luftschiff^7 was gibbed by ^0spl^7
+[skipnotify]Kosse Bosse^7 was gibbed by naveen+hedream^7
+[skipnotify]Stats for ^6HACKNEY MAN DEM E8 ^7this round:
+[skipnotify]^3Kills:^7 23 (^13^7), ^3Deaths:^7 12, ^3Kill Ratio: ^71.92, ^3Gibs:^7 13
+[skipnotify]^3Revived:^7 2, ^3Packs Given:^7 1 Health, 0 Ammo
+[skipnotify]^3Accuracy:^7 37.76 (219/580), ^3Headshots: ^726
+[skipnotify]^3Binoculars:^7 11, ^3Property Damage:^7 $75.00
+[skipnotify]^7pt^3.^7random ^gfps^7 was killed by ^0spl^7's MP40
+[skipnotify]^0spl^7 was killed by ^3BLAST^1O^3WICZ^7's Thompson
+[skipnotify]Mr.Dogday^7 was killed by ^6HACKNEY MAN DEM E8^7's MP40
+[skipnotify]^7pt^3.^7random ^gfps^7 was revived by ^3BLAST^1O^3WICZ
+[skipnotify]^0spl^7 was revived by ^7K^6e^7l^6l^7y^6.^7b^6e
+[skipnotify]Mr.Dogday^7 was gibbed by ^6HACKNEY MAN DEM E8^7
+[skipnotify]^7K^6e^7l^6l^7y^6.^7b^6e^7 was killed by naveen+hedream^7's Thompson
+[skipnotify]Mikaku (cat)^7 was killed by ^PPhukYuh^7's Thompson
+[skipnotify]Kosse Bosse^7 was killed by ^8[n^7*^8]^pUG^wo^pd!^w*^7's MP40
+[skipnotify]: (^7K^6e^7l^6l^7y^6.^7b^6e)^3(Basement): ^5Incoming!
+[skipnotify]^0spl^7 was killed by naveen+hedream^7's Thompson
+[skipnotify]Mikaku (cat)^7 was gibbed by ^PPhukYuh^7
+[skipnotify]^7pt^3.^7random ^gfps^7 was exploded by ^7K^6e^7l^6l^7y^6.^7b^6e^7's grenade
+[skipnotify]naveen+hedream^7 was exploded by ^7K^6e^7l^6l^7y^6.^7b^6e^7's grenade
+[skipnotify]^2On.offense^7: ^2hola a todos
+[skipnotify]^7K^6e^7l^6l^7y^6.^7b^6e^7 was revived by Capone
+[skipnotify]: (^7K^6e^7l^6l^7y^6.^7b^6e)^3(Basement): ^5Danke.
+[skipnotify]naveen+hedream^7 was revived by ^3BLAST^1O^3WICZ
+[skipnotify]: (^0spl)^3(Basement): ^5Incoming!
+[skipnotify]^7pt^3.^7random ^gfps^7 was revived by ^3BLAST^1O^3WICZ
+[skipnotify]^0spl^7 was revived by Capone
+[skipnotify]Capone^7 was killed by ^8[n^7*^8]^pUG^wo^pd!^w*^7's MP40
+[skipnotify]: (^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1])^3(Basement): ^5Where to?
+[skipnotify]^PPhukYuh^7 was killed by Heisenberg^7's Thompson
+[skipnotify]Capone^7 was gibbed by ^8[n^7*^8]^pUG^wo^pd!^w*^7
+[skipnotify]^7K^6e^7l^6l^7y^6.^7b^6e^7 was killed by naveen+hedream^7's Thompson
+[skipnotify]^0spl^7 was killed by ^3BLAST^1O^3WICZ^7's Thompson
+[skipnotify]^2Type /s_stop in console to restore lost sound
+[skipnotify]^0spl^7 was gibbed by ^3BLAST^1O^3WICZ^7
+[skipnotify]Luftschiff^7 was killed by ^6HACKNEY MAN DEM E8^7's MP40
+[skipnotify]^PPhukYuh^7 ^3WAS GIBBED BY TEAMMATE ^7^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1]^7
+[skipnotify]^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1]^7 was gibbed.
+[skipnotify]Heisenberg^7 was gibbed by ^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1]^7
+[skipnotify]^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^7 vaporized himself.
+[skipnotify]Heisenberg^7 was blasted by ^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^7's Panzerfaust
+[skipnotify]^6HACKNEY MAN DEM E8^7 was killed by ^8[n^7*^8]^pUG^wo^pd!^w*^7's MP40
+[skipnotify]: Heisenberg ^3(unknown): ^2Yeah!
+[skipnotify]Luftschiff^7 was revived by ^3BLAST^1O^3WICZ
+[skipnotify]: ^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1] ^3(Basement): ^2Hey!
+[skipnotify]^6HACKNEY MAN DEM E8^7 was gibbed by ^8[n^7*^8]^pUG^wo^pd!^w*^7
+[skipnotify]Stats for ^6HACKNEY MAN DEM E8 ^7this round:
+[skipnotify]^3Kills:^7 25 (^13^7), ^3Deaths:^7 13, ^3Kill Ratio: ^71.92, ^3Gibs:^7 14
+[skipnotify]^3Revived:^7 2, ^3Packs Given:^7 1 Health, 0 Ammo
+[skipnotify]^3Accuracy:^7 37.83 (241/637), ^3Headshots: ^731
+[skipnotify]^3Binoculars:^7 12, ^3Property Damage:^7 $75.00
+[skipnotify]: ^2On.offense ^3(unknown): ^2Hi.
+[skipnotify]SS_Maria   ^7 was killed by ^3BLAST^1O^3WICZ^7's MP40
+[skipnotify]^3BLAST^1O^3WICZ^7 was cooked by SS_Maria   ^7's flamethrower
+[skipnotify]: Heisenberg ^3(unknown): ^2Hi.
+[skipnotify]Stats for ^6HACKNEY MAN DEM E8 ^7this round:
+[skipnotify]^3Kills:^7 25 (^13^7), ^3Deaths:^7 13, ^3Kill Ratio: ^71.92, ^3Gibs:^7 14
+[skipnotify]^3Revived:^7 2, ^3Packs Given:^7 1 Health, 0 Ammo
+[skipnotify]^3Accuracy:^7 37.83 (241/637), ^3Headshots: ^731
+[skipnotify]^3Binoculars:^7 12, ^3Property Damage:^7 $75.00
+[skipnotify]: Capone ^3(Upper Bunker): ^2Hello.
+[skipnotify]^313:08: ^7Allies have stolen the War Documents!
+[skipnotify]: ^0spl ^3(Basement): ^2Heh heh.
+[skipnotify]^7K^6e^7l^6l^7y^6.^7b^6e^7 was killed by naveen+hedream^7's Thompson
+[skipnotify]: ^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1] ^3(Basement): ^2I'm on defense.
+[skipnotify]Juno^7 was killed by ^8[n^7*^8]^pUG^wo^pd!^w*^7's MP40
+[skipnotify]: ^2On.offense ^3(unknown): ^2Hi.
+[skipnotify]: (^7K^6e^7l^6l^7y^6.^7b^6e)^3(Basement): ^5Incoming!
+[skipnotify]^3Allies left: 10, Axis left: 9
+[skipnotify]^7K^6e^7l^6l^7y^6.^7b^6e^7 was gibbed by naveen+hedream^7
+[skipnotify]: ^2On.offense ^3(unknown): ^2I'm on offense.
+[skipnotify]: ^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1] ^3(Radio Room): ^2Hello.
+[skipnotify]SS_Maria   ^7 was gibbed by ^8[n^7*^8]^pUG^wo^pd!^w*^7
+[skipnotify]Heisenberg^7 was killed by ^PPhukYuh^7's MP40
+[skipnotify]: ^2On.offense ^3(unknown): ^2Hi.
+[skipnotify]: Heisenberg ^3(unknown): ^2Negative.
+[skipnotify]Kosse Bosse^7 was killed by naveen+hedream^7's Thompson
+[skipnotify]: ^3BLAST^1O^3WICZ ^3(unknown): ^2We need an engineer!
+[skipnotify]^7pt^3.^7random ^gfps^7 was gibbed by ^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1]^7
+[skipnotify]Luftschiff^7 was blasted by ^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^7's Panzerfaust
+[skipnotify]^7pt^3.^7random ^gfps^7 was blasted by ^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^7's Panzerfaust
+[skipnotify]: ^3BLAST^1O^3WICZ ^3(unknown): ^2We need an engineer!
+[skipnotify]Heisenberg^7 was gibbed by Capone^7
+[skipnotify]: ^2On.offense ^3(unknown): ^2I'm an engineer.
+[skipnotify]: ^3BLAST^1O^3WICZ ^3(unknown): ^2We need an engineer!
+[skipnotify]^8[n^7*^8]^pUG^wo^pd!^w*^7 was killed by ^6HACKNEY MAN DEM E8^7's MP40
+[skipnotify]: ^3BLAST^1O^3WICZ ^3(unknown): ^2I'm a soldier.
+[skipnotify]Kosse Bosse^7 was gibbed by naveen+hedream^7
+[skipnotify]: ^3BLAST^1O^3WICZ ^3(unknown): ^2I'm a soldier.
+[skipnotify]^6HACKNEY MAN DEM E8^7 was killed by Mikaku (cat)^7's MP40
+[skipnotify]: ^3BLAST^1O^3WICZ ^3(unknown): ^2Dynamite defused.
+[skipnotify]: ^7K^6e^7l^6l^7y^6.^7b^6e ^3(Basement): ^2Great shot.
+[skipnotify]SS_Maria   ^7: ^2hola onnofense
+[skipnotify]Mikaku (cat)^7 was killed by ^0spl^7's MP40
+[skipnotify]^7pt^3.^7random ^gfps^7: ^2EXEC DC
+[skipnotify]^PPhukYuh^7 was killed by naveen+hedream^7's Thompson
+[skipnotify]^312:47: ^7Axis have returned the War Documents!
+[skipnotify]^PPhukYuh^7 was gibbed by naveen+hedream^7
+[skipnotify]Mikaku (cat)^7 was gibbed by ^0spl^7
+[skipnotify]^312:45: ^7Allies have stolen the War Documents!
+[skipnotify]: ^2On.offense ^3(unknown): ^2Disarm the dynamite!
+[skipnotify]: ^3BLAST^1O^3WICZ ^3(unknown): ^2Disarm the dynamite!
+[skipnotify]: (^6HACKNEY MAN DEM E8)^3(Basement): ^5Danke.
+[skipnotify]Mr.Dogday^7 was stabbed by ^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^7's knife
+[skipnotify]: ^3BLAST^1O^3WICZ ^3(unknown): ^2Dynamite defused.
+[skipnotify]naveen+hedream^7 was killed by ^7K^6e^7l^6l^7y^6.^7b^6e^7's Thompson
+[skipnotify]^312:39: ^7Axis have returned the War Documents!
+[skipnotify]Mr.Dogday^7 was gibbed by ^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1]^7
+[skipnotify]: (^6HACKNEY MAN DEM E8)^3(Basement): ^5Medic!
+[skipnotify]^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1]^7: ^2^1Do ^2you ^3like ^4my ^6gay ^5knife ^7Mr.Dogday^2 ^6???
+[skipnotify]: (^0spl)^3(Basement): ^5Medic!
+[skipnotify]: (^6HACKNEY MAN DEM E8)^3(Basement): ^5Medic!
+[skipnotify]^PPhukYuh^7: ^2u scerd me
+[skipnotify]Stats for ^6HACKNEY MAN DEM E8 ^7this round:
+[skipnotify]^3Kills:^7 26 (^13^7), ^3Deaths:^7 14, ^3Kill Ratio: ^71.86, ^3Gibs:^7 14
+[skipnotify]^3Revived:^7 2, ^3Packs Given:^7 1 Health, 0 Ammo
+[skipnotify]^3Accuracy:^7 37.76 (250/662), ^3Headshots: ^731
+[skipnotify]^3Binoculars:^7 12, ^3Property Damage:^7 $75.00
+[skipnotify]: ^2On.offense ^3(unknown): ^2Cover me!
+[skipnotify]Capone^7 was killed by ^7E^1c^7onomy^7's Thompson
+[skipnotify]: ^6HACKNEY MAN DEM E8 ^3(Back Stairway): ^2Hello.
+[skipnotify]Capone^7 was gibbed by ^7E^1c^7onomy^7
+[skipnotify]: ^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1] ^3(War Room): ^2We need an engineer!
+[skipnotify]^2Try !stats to view your live player stats
+[skipnotify]^7E^1c^7onomy^7 was killed by ^PPhukYuh^7's MP40
+[skipnotify]^7E^1c^7onomy^7: ^2^8And ^1Shove It ^8Up Your ^1ASS^8!!!
+[skipnotify]: ^2On.offense ^3(unknown): ^2I'm an engineer.
+[skipnotify]: ^3BLAST^1O^3WICZ ^3(unknown): ^2We need an engineer!
+[skipnotify]^6HACKNEY MAN DEM E8^7 was gibbed by ^7pt^3.^7random ^gfps^7
+[skipnotify]^0spl^7 was gibbed by ^7pt^3.^7random ^gfps^7
+[skipnotify]^0spl^7 was blasted by ^7pt^3.^7random ^gfps^7's Panzerfaust
+[skipnotify]: ^3BLAST^1O^3WICZ ^3(unknown): ^2I'm a soldier.
+[skipnotify]: (^0spl)^3(Back Stairway): ^5Incoming!
+[skipnotify]^312:18: ^7Allies have stolen the War Documents!
+[skipnotify]^2On.offense^7 was cooked by SS_Maria   ^7's flamethrower
+[skipnotify]SS_Maria   ^7 was exploded by ^2On.offense^7's grenade
+[skipnotify](^6HACKNEY MAN DEM E8^7) (Back Stairway): ^5lol s
+[skipnotify]^312:15: ^7Axis have returned the War Documents!
+[skipnotify]Mikaku (cat)^7 was killed by ^PPhukYuh^7's MP40
+[skipnotify]: (SS_Maria   )^3(War Room): ^5Danke.
+[skipnotify]SS_Maria   ^7 was revived by Juno
+[skipnotify]: ^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1] ^3(War Room): ^2Disarm the dynamite!
+[skipnotify]Mikaku (cat)^7 was gibbed by ^PPhukYuh^7
+[skipnotify]: ^2On.offense ^3(unknown): ^2Dynamite defused.
+[skipnotify]: (^7K^6e^7l^6l^7y^6.^7b^6e)^3(Basement): ^5Incoming!
+[skipnotify]^7K^6e^7l^6l^7y^6.^7b^6e^7 was killed by ^8[n^7*^8]^pUG^wo^pd!^w*^7's MP40
+[skipnotify]: (^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1])^3(War Room): ^5Where to?
+[skipnotify]Kosse Bosse^7 was killed by ^8[n^7*^8]^pUG^wo^pd!^w*^7's MP40
+[skipnotify]: (^7K^6e^7l^6l^7y^6.^7b^6e)^3(Basement): ^5Incoming!
+[skipnotify]Luftschiff^7 was gibbed by ^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1]^7
+[skipnotify]^8[n^7*^8]^pUG^wo^pd!^w*^7 was gibbed by ^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1]^7
+[skipnotify]Luftschiff^7 was blasted by ^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^7's Panzerfaust
+[skipnotify]^8[n^7*^8]^pUG^wo^pd!^w*^7 was blasted by ^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^7's Panzerfaust
+[skipnotify]: ^2On.offense ^3(unknown): ^2I'm on offense.
+[skipnotify]: ^8[n^7*^8]^pUG^wo^pd!^w* ^3(unknown): ^2Negative.
+[skipnotify]: ^7K^6e^7l^6l^7y^6.^7b^6e ^3(Basement): ^2Great shot.
+[skipnotify]: Luftschiff ^3(unknown): ^2Oops.
+[skipnotify]Mikaku (cat)^7 was killed by Capone^7's MP40
+[skipnotify]: (^7K^6e^7l^6l^7y^6.^7b^6e)^3(Basement): ^5Danke.
+[skipnotify]: ^8[n^7*^8]^pUG^wo^pd!^w* ^3(unknown): ^2Oops.
+[skipnotify]Kosse Bosse^7 was revived by Juno
+[skipnotify]: Mikaku (cat) ^3(unknown): ^2Oops.
+[skipnotify]: (Kosse Bosse)^3(Radio Room): ^5Danke.
+[skipnotify]: ^8[n^7*^8]^pUG^wo^pd!^w* ^3(unknown): ^2Oops.
+[skipnotify]: ^8[n^7*^8]^pUG^wo^pd!^w* ^3(unknown): ^2Oops.
+[skipnotify]^7K^6e^7l^6l^7y^6.^7b^6e^7 was revived by Juno
+[skipnotify]: Luftschiff ^3(unknown): ^2Oops.
+[skipnotify]naveen+hedream^7 was killed by Capone^7's MP40
+[skipnotify]^3BLAST^1O^3WICZ^7: ^2even if my collar bones crush or crumble, i will never fall or stumble
+[skipnotify]: ^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1] ^3(War Room): ^2Oops.
+[skipnotify]: ^2On.offense ^3(unknown): ^2Oops.
+[skipnotify]: Luftschiff ^3(unknown): ^2Oops.
+[skipnotify]^6HACKNEY MAN DEM E8^7 was killed by ^7E^1c^7onomy^7's Thompson
+[skipnotify]: ^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1] ^3(War Room): ^2Oops.
+[skipnotify]: ^3BLAST^1O^3WICZ ^3(unknown): ^2I'm a soldier.
+[skipnotify]: Luftschiff ^3(unknown): ^2Oops.
+[skipnotify]naveen+hedream^7 was gibbed by ^PPhukYuh^7
+[skipnotify]^7E^1c^7onomy^7 was killed by ^0spl^7's MP40
+[skipnotify]: ^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1] ^3(War Room): ^2Oops.
+[skipnotify]: ^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1] ^3(War Room): ^2Oops.
+[skipnotify]: (^6HACKNEY MAN DEM E8)^3(Back Stairway): ^5Medic!
+[skipnotify]: ^8[n^7*^8]^pUG^wo^pd!^w* ^3(unknown): ^2Oops.
+[skipnotify]Stats for ^6HACKNEY MAN DEM E8 ^7this round:
+[skipnotify]^3Kills:^7 26 (^13^7), ^3Deaths:^7 15, ^3Kill Ratio: ^71.73, ^3Gibs:^7 14
+[skipnotify]^3Revived:^7 2, ^3Packs Given:^7 1 Health, 0 Ammo
+[skipnotify]^3Accuracy:^7 37.77 (258/683), ^3Headshots: ^731
+[skipnotify]^3Binoculars:^7 12, ^3Property Damage:^7 $75.00
+[skipnotify]: ^6HACKNEY MAN DEM E8 ^3(Basement): ^2YES!
+[skipnotify]^2On.offense^7: ^2all drunk ?
+[skipnotify]: Luftschiff ^3(unknown): ^2Oops.
+[skipnotify]^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1]^7: ^2!admintest
+[skipnotify]^1admintest:^7 ^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1]^7 is a level 1 user (^fRegular^7)
+[skipnotify]: Capone ^3(Radio Room): ^2Oops.
+[skipnotify]^311:36: ^7Allies have stolen the War Documents!
+[skipnotify]Juno^7 was killed by ^3BLAST^1O^3WICZ^7's Thompson
+[skipnotify]Juno^7 was gibbed.
+[skipnotify]^6HACKNEY MAN DEM E8^7 was revived by Kosse Bosse
+[skipnotify]^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^7 was killed by ^7pt^3.^7random ^gfps^7 's .45ACP 1911
+[skipnotify]: (^6HACKNEY MAN DEM E8)^3(Basement): ^5Danke.
+[skipnotify]: ^2On.offense ^3(unknown): ^2Woohooo!
+[skipnotify](^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1]^7) (War Room):^5tons wr
+[skipnotify]^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1]^7 was gibbed by Heisenberg^7
+[skipnotify]^7pt^3.^7random ^gfps^7 was exploded by ^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^7's grenade
+[skipnotify]^6HACKNEY MAN DEM E8^7 was killed by ^8[n^7*^8]^pUG^wo^pd!^w*^7's MP40
+[skipnotify](^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1]^7) (War Room):^5tons wer
+[skipnotify]^7pt^3.^7random ^gfps^7 was revived by ^3BLAST^1O^3WICZ
+[skipnotify]^0spl^7 was exploded by Luftschiff^7's grenade
+[skipnotify]Mr.Dogday^7 ^1WAS KILLED BY TEAMMATE^7 Luftschiff^7
+[skipnotify]^8[n^7*^8]^pUG^wo^pd!^w*^7 was killed by Kosse Bosse^7's MP40
+[skipnotify](^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1]^7) (War Room):^5^8WARROOM ^7WARROOM ^1WARROOM!!!
+[skipnotify]^2 Type /cl_allowdownload 1 to auto-download custom maps
+[skipnotify]^6HACKNEY MAN DEM E8^7 was revived by Kosse Bosse
+[skipnotify](^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1]^7) (Upper Bunker[lo^54+
+[skipnotify]: ^2On.offense ^3(unknown): ^2Taking fire!
+[skipnotify]: (^6HACKNEY MAN DEM E8)^3(Basement): ^5Danke.
+[skipnotify]^0spl^7 was revived by Kosse Bosse
+[skipnotify]Mr.Dogday^7 was gibbed by ^7K^6e^7l^6l^7y^6.^7b^6e^7
+[skipnotify]Luftschiff^7 was killed by ^6HACKNEY MAN DEM E8^7's MP40
+[skipnotify]^311:22: ^7Axis have returned the War Documents!
+[skipnotify]: (^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1])^3(Upper Bunker): ^5Where to?
+[skipnotify]^311:21: ^7Allies have stolen the War Documents!
+[skipnotify]Luftschiff^7 was gibbed by ^6HACKNEY MAN DEM E8^7
+[skipnotify](^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1]^7) (Radio Room^5^8WARROOM ^7WARROOM ^1WARROOM!!!
+[skipnotify]^8[n^7*^8]^pUG^wo^pd!^w*^7 was gibbed by ^6HACKNEY MAN DEM E8^7
+[skipnotify]^3Knives left:^7 5
+[skipnotify]: naveen+hedream ^3(unknown): ^2Hi.
+[skipnotify]SS_Maria   ^7 was killed by Heisenberg^7's Thompson
+[skipnotify]^3BLAST^1O^3WICZ^7 ^1WAS KILLED BY TEAMMATE^7 ^2On.offense^7
+[skipnotify]^311:15: ^7Axis have returned the War Documents!
+[skipnotify]naveen+hedream^7 ^1WAS KILLED BY TEAMMATE^7 Mikaku (cat)^7
+[skipnotify]^311:15: ^7Allies have stolen the War Documents!
+[skipnotify]^3BLAST^1O^3WICZ^7 was gibbed by SS_Maria   ^7
+[skipnotify]: ^3BLAST^1O^3WICZ ^3(unknown): ^2Oops.
+[skipnotify]: (SS_Maria   )^3(Basement): ^5Danke.
+[skipnotify]naveen+hedream^7 was revived by ^7E^1c^7onomy
+[skipnotify]^2On.offense^7 was exploded by ^7K^6e^7l^6l^7y^6.^7b^6e^7's grenade
+[skipnotify]SS_Maria   ^7 was revived by ^PPhukYuh
+[skipnotify]^2On.offense^7 was gibbed by ^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1]^7
+[skipnotify]: ^8[n^7*^8]^pUG^wo^pd!^w* ^3(unknown): ^2Oops.
+[skipnotify]^311:09: ^7Axis have returned the War Documents!
+[skipnotify]^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1]^7 was gibbed by ^7pt^3.^7random ^gfps^7
+[skipnotify]Juno^7 was gibbed by ^7pt^3.^7random ^gfps^7
+[skipnotify]^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^7 was blasted by ^7pt^3.^7random ^gfps^7's Panzerfaust
+[skipnotify]Juno^7 was blasted by ^7pt^3.^7random ^gfps^7's Panzerfaust
+[skipnotify]^7K^6e^7l^6l^7y^6.^7b^6e^7 was blasted by ^7pt^3.^7random ^gfps^7's Panzerfaust
+[skipnotify]: ^3BLAST^1O^3WICZ ^3(unknown): ^2We need an engineer!
+[skipnotify]: ^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1] ^3(Basement): ^2Yes!
+[skipnotify]: ^3BLAST^1O^3WICZ ^3(unknown): ^2I'm a soldier.
+[skipnotify]: ^8[n^7*^8]^pUG^wo^pd!^w* ^3(unknown): ^2Oops.
+[skipnotify]Capone^7 was killed by Heisenberg^7's Thompson
+[skipnotify]SS_Maria   ^7 was killed by Mikaku (cat)^7's MP40
+[skipnotify]^0spl^7 ^1WAS KILLED BY TEAMMATE^7 Juno^7
+[skipnotify]: Luftschiff ^3(unknown): ^2Oops.
+[skipnotify]SS_Maria   ^7 was gibbed by Mikaku (cat)^7
+[skipnotify]: ^2On.offense ^3(unknown): ^2I'm an engineer.
+[skipnotify]^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^7 was killed by naveen+hedream^7's Thompson
+[skipnotify]Capone^7 was gibbed by Heisenberg^7
+[skipnotify]: ^3BLAST^1O^3WICZ ^3(unknown): ^2Dynamite planted.
+[skipnotify]^0spl^7 was revived by ^PPhukYuh
+[skipnotify]Juno^7 was killed by naveen+hedream^7's Thompson
+[skipnotify]^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1]^7 was revived by ^7K^6e^7l^6l^7y^6.^7b^6e
+[skipnotify]Juno^7 was revived by ^7K^6e^7l^6l^7y^6.^7b^6e
+[skipnotify]^7K^6e^7l^6l^7y^6.^7b^6e^7 was killed by Luftschiff^7's Sten
+[skipnotify]Heisenberg^7 was killed by ^0spl^7's MP40
+[skipnotify]^0spl^7 was killed by Mikaku (cat)^7's MP40
+[skipnotify]Juno^7 was killed by Luftschiff^7's Sten
+[skipnotify]^PPhukYuh^7 was exploded by Heisenberg^7's grenade
+[skipnotify]^0spl^7 was gibbed by Mikaku (cat)^7
+[skipnotify]Juno^7 was gibbed.
+[skipnotify]: Heisenberg ^3(unknown): ^2Yeah!
+[skipnotify]: ^2On.offense ^3(unknown): ^2Disarm the dynamite!
+[skipnotify]^310:48: ^7Allies have stolen the War Documents!
+[skipnotify](^0spl^7) (War Room): ^53=
+[skipnotify]^PPhukYuh^7 was gibbed by ^7pt^3.^7random ^gfps^7
+[skipnotify]: ^3BLAST^1O^3WICZ ^3(unknown): ^2Dynamite defused.
+[skipnotify]^7E^1c^7onomy^7 was blasted by ^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^7's Panzerfaust
+[skipnotify]^6HACKNEY MAN DEM E8^7 was killed by naveen+hedream^7's Thompson
+[skipnotify]^8[n^7*^8]^pUG^wo^pd!^w*^7 was killed by Kosse Bosse^7's MP40
+[skipnotify]^6HACKNEY MAN DEM E8^7 was gibbed by naveen+hedream^7
+[skipnotify]Luftschiff^7 dove on his own grenade.
+[skipnotify]Stats for ^6HACKNEY MAN DEM E8 ^7this round:
+[skipnotify]^3Kills:^7 27 (^13^7), ^3Deaths:^7 17, ^3Kill Ratio: ^71.59, ^3Gibs:^7 16
+[skipnotify]^3Revived:^7 2, ^3Packs Given:^7 1 Health, 0 Ammo
+[skipnotify]^3Accuracy:^7 37.26 (272/730), ^3Headshots: ^733
+[skipnotify]^3Binoculars:^7 13, ^3Property Damage:^7 $75.00
+[skipnotify]: Luftschiff ^3(unknown): ^2Great shot.
+[skipnotify]SS_Maria   ^7 was killed by Heisenberg^7's Thompson
+[skipnotify]Luftschiff^7 was gibbed by ^7K^6e^7l^6l^7y^6.^7b^6e^7
+[skipnotify]Heisenberg^7 was exploded by Capone^7's grenade
+[skipnotify]^8[n^7*^8]^pUG^wo^pd!^w*^7 was gibbed by Kosse Bosse^7
+[skipnotify]Mikaku (cat)^7 was killed by ^7K^6e^7l^6l^7y^6.^7b^6e^7's MP40
+[skipnotify]^310:32: ^7Axis have returned the War Documents!
+[skipnotify]SS_Maria   ^7 was revived by Capone
+[skipnotify]: (SS_Maria   )^3(Upper Base): ^5Danke.
+[skipnotify]: Mikaku (cat) ^3(unknown): ^2Oops.
+[skipnotify]Kosse Bosse^7 was killed by ^3BLAST^1O^3WICZ^7's Thompson
+[skipnotify]Mikaku (cat)^7 was gibbed by ^PPhukYuh^7
+[skipnotify]Kosse Bosse^7 was gibbed by ^3BLAST^1O^3WICZ^7
+[skipnotify]: ^6HACKNEY MAN DEM E8 ^3(Basement): ^2The enemy is weakened.
+[skipnotify]: ^2On.offense ^3(unknown): ^2Affirmative.
+[skipnotify](Kosse Bosse^7) (Upper Bunker): ^5DUCS
+[skipnotify]^2ECGN Public Ventrilo - 69.65.113.18:3784
+[skipnotify]^310:25: ^7Allies have stolen the War Documents!
+[skipnotify]^7E^1c^7onomy^7 was killed by Capone^7's MP40
+[skipnotify]: Mikaku (cat) ^3(unknown): ^2The enemy is weakened.
+[skipnotify]^7pt^3.^7random ^gfps^7 was killed by ^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^7's Luger 9mm
+[skipnotify]Luftschiff^7 was killed by ^6HACKNEY MAN DEM E8^7's MP40
+[skipnotify]^7pt^3.^7random ^gfps^7 was gibbed by ^7K^6e^7l^6l^7y^6.^7b^6e^7
+[skipnotify](^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1]^7) (Basement):^5^8WARROOM ^7WARROOM ^1WARROOM!!!
+[skipnotify]SS_Maria   ^7 was killed by Mikaku (cat)^7's MP40
+[skipnotify]Mikaku (cat)^7 was killed by Capone^7's MP40
+[skipnotify]SS_Maria   ^7 was gibbed by Mikaku (cat)^7
+[skipnotify]^3BLAST^1O^3WICZ^7 was killed by Juno^7's MP40
+[skipnotify]Juno^7 was killed by naveen+hedream^7's MP40
+[skipnotify]^7K^6e^7l^6l^7y^6.^7b^6e^7 was killed by naveen+hedream^7's MP40
+[skipnotify]Mr.Dogday^7 was exploded by ^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^7's grenade
+[skipnotify]^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^7 was killed by naveen+hedream^7's MP40
+[skipnotify]^6HACKNEY MAN DEM E8^7 was killed by ^8[n^7*^8]^pUG^wo^pd!^w*^7's Thompson
+[skipnotify]naveen+hedream^7 was killed by ^PPhukYuh^7's MP40
+[skipnotify]: ^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1] ^3(Basement): ^2Heh heh.
+[skipnotify]Mr.Dogday^7 was revived by ^2On.offense
+[skipnotify]^310:06: ^7Axis have returned the War Documents!
+[skipnotify]Juno^7 was revived by ^PPhukYuh
+[skipnotify]: (^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1])^3(Basement): ^5Medic!
+[skipnotify]^310:04: ^7Allies have stolen the War Documents!
+[skipnotify]: (^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1])^3(Basement): ^5Medic!
+[skipnotify]: (^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1])^3(Basement): ^5Medic!
+[skipnotify]^6HACKNEY MAN DEM E8^7 was gibbed by ^8[n^7*^8]^pUG^wo^pd!^w*^7
+[skipnotify]Mikaku (cat)^7 was gibbed by Capone^7
+[skipnotify](^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1]^7) (Basement):^5^8WARROOM ^7WARROOM ^1WARROOM!!!
+[skipnotify]^PPhukYuh^7 was ventilated by Mr.Dogday^7's Venom
+[skipnotify]Stats for ^6HACKNEY MAN DEM E8 ^7this round:
+[skipnotify]^3Kills:^7 28 (^13^7), ^3Deaths:^7 18, ^3Kill Ratio: ^71.56, ^3Gibs:^7 16
+[skipnotify]^3Revived:^7 2, ^3Packs Given:^7 1 Health, 0 Ammo
+[skipnotify]^3Accuracy:^7 37.52 (281/749), ^3Headshots: ^733
+[skipnotify]^3Binoculars:^7 13, ^3Property Damage:^7 $75.00
+[skipnotify]Capone^7 was killed by ^7E^1c^7onomy^7's Thompson
+[skipnotify]^PPhukYuh^7 was gibbed by Mr.Dogday^7
+[skipnotify]: ^2On.offense ^3(unknown): ^2Hi.
+[skipnotify]^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1]^7 was revived by Juno
+[skipnotify]Capone^7 was gibbed by ^7E^1c^7onomy^7
+[skipnotify]^3BLAST^1O^3WICZ^7 was revived by ^2On.offense
+[skipnotify]naveen+hedream^7 was revived by ^3BLAST^1O^3WICZ
+[skipnotify]Mr.Dogday^7 was gibbed by ^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1]^7
+[skipnotify]^2On.offense^7 was blasted by ^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^7's Panzerfaust
+[skipnotify]Mr.Dogday^7 was blasted by ^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^7's Panzerfaust
+[skipnotify]^0spl^7 was gibbed by ^7pt^3.^7random ^gfps^7
+[skipnotify]^0spl^7 was blasted by ^7pt^3.^7random ^gfps^7's Panzerfaust
+[skipnotify]: ^2On.offense ^3(unknown): ^2Hi.
+[skipnotify]^2On.offense^7 was gibbed by Juno^7
+[skipnotify]^3BLAST^1O^3WICZ^7 was exploded by ^7K^6e^7l^6l^7y^6.^7b^6e^7's grenade
+[skipnotify]: (^0spl)^3(Basement): ^5Incoming!
+[skipnotify]^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^7 ^1WAS KILLED BY TEAMMATE^7 Juno^7
+[skipnotify]^39:48: ^7Axis have returned the War Documents!
+[skipnotify]: ^2On.offense ^3(unknown): ^2Great shot.
+[skipnotify]: ^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1] ^3(War Room): ^2Heh heh.
+[skipnotify]^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1]^7 was revived by ^7K^6e^7l^6l^7y^6.^7b^6e
+[skipnotify]SS_Maria   ^7 was killed by Heisenberg^7's Thompson
+[skipnotify]: Mikaku (cat) ^3(unknown): ^2The enemy is weakened.
+[skipnotify]Kosse Bosse^7 was killed by Luftschiff^7's Sten
+[skipnotify]^7K^6e^7l^6l^7y^6.^7b^6e^7 was killed by naveen+hedream^7's MP40
+[skipnotify]naveen+hedream^7 was killed by ^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^7's Luger 9mm
+[skipnotify]naveen+hedream^7 was gibbed by ^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1]^7
+[skipnotify]^6HACKNEY MAN DEM E8^7 was killed by Mikaku (cat)^7's MP40
+[skipnotify]Juno^7 was killed by ^7E^1c^7onomy^7's Thompson
+[skipnotify]: (^7K^6e^7l^6l^7y^6.^7b^6e)^3(War Room): ^5Danke.
+[skipnotify]SS_Maria   ^7 was gibbed by Heisenberg^7
+[skipnotify]^39:38: ^7Allies have stolen the War Documents!
+[skipnotify]Mikaku (cat)^7 was killed by ^0spl^7's MP40
+[skipnotify]: (SS_Maria   )^3(War Room): ^5Danke.
+[skipnotify]^3BLAST^1O^3WICZ^7 was revived by ^7E^1c^7onomy
+[skipnotify]Mikaku (cat)^7 was gibbed by ^0spl^7
+[skipnotify]: ^6HACKNEY MAN DEM E8 ^3(Upper Base): ^2Great shot.
+[skipnotify]^7K^6e^7l^6l^7y^6.^7b^6e^7 was gibbed by ^8[n^7*^8]^pUG^wo^pd!^w*^7
+[skipnotify]^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1]^7 was gibbed by ^8[n^7*^8]^pUG^wo^pd!^w*^7
+[skipnotify]^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^7 was exploded by ^8[n^7*^8]^pUG^wo^pd!^w*^7's grenade
+[skipnotify]: ^3BLAST^1O^3WICZ ^3(unknown): ^2Affirmative.
+[skipnotify]Stats for ^6HACKNEY MAN DEM E8 ^7this round:
+[skipnotify]^3Kills:^7 28 (^13^7), ^3Deaths:^7 19, ^3Kill Ratio: ^71.47, ^3Gibs:^7 16
+[skipnotify]^3Revived:^7 2, ^3Packs Given:^7 1 Health, 0 Ammo
+[skipnotify]^3Accuracy:^7 37.47 (284/758), ^3Headshots: ^734
+[skipnotify]^3Binoculars:^7 13, ^3Property Damage:^7 $75.00
+[skipnotify]: ^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1] ^3(War Room): ^2Heh heh.
+[skipnotify]: (^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1])^3(War Room): ^5Defend our objective!
+[skipnotify]Juno^7 was gibbed by ^7E^1c^7onomy^7
+[skipnotify]: Mikaku (cat) ^3(unknown): ^2Thanks.
+[skipnotify]Kosse Bosse^7 was revived by ^PPhukYuh
+[skipnotify]: (Kosse Bosse)^3(Radio Room): ^5Danke.
+[skipnotify]: (^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1])^3(War Room): ^5Defend our objective!
+[skipnotify]: (^7K^6e^7l^6l^7y^6.^7b^6e)^3(War Room): ^5Where to?
+[skipnotify]Kosse Bosse^7 was killed by ^7E^1c^7onomy^7's Thompson
+[skipnotify]^PPhukYuh^7 was killed by Luftschiff^7's Sten
+[skipnotify]Kosse Bosse^7 was gibbed by ^7E^1c^7onomy^7
+[skipnotify]^2Chat with us on IRC...#ecgn on EnterTheGame
+[skipnotify]^2On.offense^7 was killed by ^0spl^7's MP40
+[skipnotify]^PPhukYuh^7 was gibbed by ^3BLAST^1O^3WICZ^7
+[skipnotify]: ^2On.offense ^3(unknown): ^2Taking fire!
+[skipnotify](^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1]^7) (Radio Stairway[^5^8LONG ^7LONG ^1LONG!!!
+[skipnotify]^2On.offense^7 was gibbed by ^0spl^7
+[skipnotify]: (^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1])^3(Radio Stairway): ^5Where to?
+[skipnotify]: (Capone)^3(Back Stairway): ^5All clear.
+[skipnotify]Mikaku (cat)^7 was killed by ^7K^6e^7l^6l^7y^6.^7b^6e^7's MP40
+[skipnotify]SS_Maria   ^7 was killed by ^3BLAST^1O^3WICZ^7's Thompson
+[skipnotify]^3BLAST^1O^3WICZ^7 was cooked by SS_Maria   ^7's flamethrower
+[skipnotify]Mikaku (cat)^7 was gibbed by ^6HACKNEY MAN DEM E8^7
+[skipnotify]^3Knives left:^7 5
+[skipnotify]: Mikaku (cat) ^3(unknown): ^2Woohooo!
+[skipnotify]: ^6HACKNEY MAN DEM E8 ^3(Upper Base): ^2Hello.
+[skipnotify]Heisenberg^7 was killed by ^7K^6e^7l^6l^7y^6.^7b^6e^7's MP40
+[skipnotify]: ^2On.offense ^3(unknown): ^2Hi.
+[skipnotify]^3BLAST^1O^3WICZ^7 was revived by ^8[n^7*^8]^pUG^wo^pd!^w*
+[skipnotify]: Mikaku (cat) ^3(unknown): ^2Hi.
+[skipnotify]: (^7K^6e^7l^6l^7y^6.^7b^6e)^3(Back Stairway): ^5Incoming!
+[skipnotify]^7E^1c^7onomy^7 was killed by ^0spl^7's MP40
+[skipnotify]^6HACKNEY MAN DEM E8^7 was killed by naveen+hedream^7's Thompson
+[skipnotify]SS_Maria   ^7 was gibbed by ^8[n^7*^8]^pUG^wo^pd!^w*^7
+[skipnotify]^39:01: ^7Axis have returned the War Documents!
+[skipnotify]^6HACKNEY MAN DEM E8^7 was gibbed by naveen+hedream^7
+[skipnotify]^3BLAST^1O^3WICZ^7 was gibbed by ^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1]^7
+[skipnotify]Luftschiff^7 was gibbed by ^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1]^7
+[skipnotify]^7pt^3.^7random ^gfps^7 was gibbed by ^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1]^7
+[skipnotify]^3BLAST^1O^3WICZ^7 was blasted by ^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^7's Panzerfaust
+[skipnotify]Luftschiff^7 was blasted by ^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^7's Panzerfaust
+[skipnotify]^7pt^3.^7random ^gfps^7 was blasted by ^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^7's Panzerfaust
+[skipnotify]Heisenberg^7 was gibbed by ^7K^6e^7l^6l^7y^6.^7b^6e^7
+[skipnotify]: ^3BLAST^1O^3WICZ ^3(unknown): ^2Great shot.
+[skipnotify]^38:59: ^7Allies have stolen the War Documents!
+[skipnotify]naveen+hedream^7 was killed by Kosse Bosse^7's MP40
+[skipnotify]naveen+hedream^7 was gibbed by Kosse Bosse^7
+[skipnotify]Mr.Dogday^7 was killed by ^0spl^7's MP40
+[skipnotify]Stats for ^6HACKNEY MAN DEM E8 ^7this round:
+[skipnotify]^3Kills:^7 28 (^13^7), ^3Deaths:^7 20, ^3Kill Ratio: ^71.40, ^3Gibs:^7 17
+[skipnotify]^3Revived:^7 2, ^3Packs Given:^7 1 Health, 0 Ammo
+[skipnotify]^3Accuracy:^7 36.70 (287/782), ^3Headshots: ^734
+[skipnotify]^3Binoculars:^7 14, ^3Property Damage:^7 $75.00
+[skipnotify]^38:52: ^7Axis have returned the War Documents!
+[skipnotify]: Mikaku (cat) ^3(unknown): ^2The enemy is weakened.
+[skipnotify]^8[n^7*^8]^pUG^wo^pd!^w*^7 was killed by ^0spl^7's MP40
+[skipnotify]^8[n^7*^8]^pUG^wo^pd!^w*^7 was gibbed by ^0spl^7
+[skipnotify]Mr.Dogday^7 was gibbed by ^0spl^7
+[skipnotify]: (^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1])^3(War Room): ^5Path is cleared.
+[skipnotify]Kosse Bosse^7 was killed by ^3BLAST^1O^3WICZ^7's Thompson
+[skipnotify]^6HACKNEY MAN DEM E8^7 was killed by ^7E^1c^7onomy^7's Thompson
+[skipnotify]: ^2On.offense ^3(unknown): ^2I'm on offense.
+[skipnotify]^3Allies left: 10, Axis left: 8
+[skipnotify]^6HACKNEY MAN DEM E8^7 was gibbed by ^7E^1c^7onomy^7
+[skipnotify]Mikaku (cat)^7 was cooked by SS_Maria   ^7's flamethrower
+]work it sweetie
+[skipnotify]^6HACKNEY MAN DEM E8^7: ^2work it sweetie
+[skipnotify]^3BLAST^1O^3WICZ^7 was killed by Capone^7's MP40
+[skipnotify]^2On.offense^7 was gibbed by ^7K^6e^7l^6l^7y^6.^7b^6e^7
+[skipnotify]^7pt^3.^7random ^gfps^7 was exploded by ^7K^6e^7l^6l^7y^6.^7b^6e^7's grenade
+[skipnotify]^2On.offense^7 was exploded by ^7K^6e^7l^6l^7y^6.^7b^6e^7's grenade
+[skipnotify]: ^7E^1c^7onomy ^3(unknown): ^2The enemy is weakened.
+[skipnotify]: ^2On.offense ^3(unknown): ^2Great shot.
+[skipnotify]^3BLAST^1O^3WICZ^7 was gibbed by ^7K^6e^7l^6l^7y^6.^7b^6e^7
+[skipnotify]^7pt^3.^7random ^gfps^7 was revived by ^7E^1c^7onomy
+[skipnotify]Mikaku (cat)^7 was revived by Heisenberg
+[skipnotify]: ^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1] ^3(War Room): ^2Taking fire!
+[skipnotify]Capone^7 was killed by Luftschiff^7's Sten
+[skipnotify]: ^2On.offense ^3(unknown): ^2Hold your fire!
+[skipnotify]: (Capone)^3(Back Stairway): ^5Incoming!
+[skipnotify]Capone^7 was revived by ^7K^6e^7l^6l^7y^6.^7b^6e
+[skipnotify]: (Capone)^3(Back Stairway): ^5Incoming!
+[skipnotify]: (SS_Maria   )^3(Radio Stairway): ^5Danke.
+[skipnotify]Stats for ^6HACKNEY MAN DEM E8 ^7this round:
+[skipnotify]^3Kills:^7 28 (^13^7), ^3Deaths:^7 21, ^3Kill Ratio: ^71.33, ^3Gibs:^7 17
+[skipnotify]^3Revived:^7 2, ^3Packs Given:^7 1 Health, 0 Ammo
+[skipnotify]^3Accuracy:^7 36.78 (292/794), ^3Headshots: ^736
+[skipnotify]^3Binoculars:^7 14, ^3Property Damage:^7 $75.00
+[skipnotify]: (SS_Maria   )^3(Radio Stairway): ^5Danke.
+[skipnotify]Mikaku (cat)^7 was killed by ^PPhukYuh^7's MP40
+[skipnotify]^7pt^3.^7random ^gfps^7 was killed by ^7K^6e^7l^6l^7y^6.^7b^6e^7's MP40
+[skipnotify]^2Check the RTCW forum @ http://forums.powervs.com
+[skipnotify]: Mikaku (cat) ^3(unknown): ^2Oops.
+[skipnotify]Capone^7 was killed by ^8[n^7*^8]^pUG^wo^pd!^w*^7's Thompson
+[skipnotify]Mikaku (cat)^7 was gibbed by SS_Maria   ^7
+[skipnotify]: ^2On.offense ^3(unknown): ^2Hi.
+[skipnotify]Capone^7 was gibbed by Mr.Dogday^7
+[skipnotify]^7K^6e^7l^6l^7y^6.^7b^6e^7 was killed by naveen+hedream^7's Thompson
+[skipnotify]: ^3BLAST^1O^3WICZ ^3(unknown): ^2Hi.
+[skipnotify]Stats for ^6HACKNEY MAN DEM E8 ^7this round:
+[skipnotify]^3Kills:^7 28 (^13^7), ^3Deaths:^7 21, ^3Kill Ratio: ^71.33, ^3Gibs:^7 17
+[skipnotify]^3Revived:^7 2, ^3Packs Given:^7 1 Health, 0 Ammo
+[skipnotify]^3Accuracy:^7 36.78 (292/794), ^3Headshots: ^736
+[skipnotify]^3Binoculars:^7 14, ^3Property Damage:^7 $75.00
+[skipnotify]: ^3BLAST^1O^3WICZ ^3(unknown): ^2Hold your fire!
+[skipnotify]: ^3BLAST^1O^3WICZ ^3(unknown): ^2Hold your fire!
+[skipnotify]: ^2On.offense ^3(unknown): ^2Negative.
+[skipnotify]^7pt^3.^7random ^gfps^7 was revived by naveen+hedream
+[skipnotify]^7E^1c^7onomy^7 was killed by ^0spl^7's MP40
+[skipnotify]: (Capone)^3(Back Stairway): ^5Incoming!
+[skipnotify]SS_Maria   ^7 was gibbed by Heisenberg^7
+[skipnotify]SS_Maria   ^7 was exploded by Heisenberg^7's grenade
+[skipnotify]Heisenberg^7 dove on his own grenade.
+[skipnotify]: (Capone)^3(Back Stairway): ^5Incoming!
+[skipnotify]^7E^1c^7onomy^7 was gibbed by ^0spl^7
+[skipnotify]^0spl^7 was killed by naveen+hedream^7's Thompson
+[skipnotify]: Heisenberg ^3(unknown): ^2Yeah!
+[skipnotify]^0spl^7 was gibbed by naveen+hedream^7
+[skipnotify]: ^2On.offense ^3(unknown): ^2WOOHOOO!
+[skipnotify]Heisenberg^7 was gibbed by ^PPhukYuh^7
+[skipnotify]Juno^7 was killed by ^8[n^7*^8]^pUG^wo^pd!^w*^7's Thompson
+[skipnotify]Stats for ^6HACKNEY MAN DEM E8 ^7this round:
+[skipnotify]^3Kills:^7 28 (^13^7), ^3Deaths:^7 21, ^3Kill Ratio: ^71.33, ^3Gibs:^7 17
+[skipnotify]^3Revived:^7 2, ^3Packs Given:^7 1 Health, 0 Ammo
+[skipnotify]^3Accuracy:^7 36.78 (292/794), ^3Headshots: ^736
+[skipnotify]^3Binoculars:^7 14, ^3Property Damage:^7 $75.00
+[skipnotify]^38:02: ^7Allies have stolen the War Documents!
+[skipnotify]: (^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1])^3(Radio Stairway): ^5Where to?
+[skipnotify]Kosse Bosse^7 was killed by Luftschiff^7's Sten
+[skipnotify]Juno^7 was gibbed by ^8[n^7*^8]^pUG^wo^pd!^w*^7
+[skipnotify]Luftschiff^7 was gibbed by ^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1]^7
+[skipnotify]Luftschiff^7 was blasted by ^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^7's Panzerfaust
+[skipnotify]Kosse Bosse^7 was revived by ^PPhukYuh
+[skipnotify]: (Kosse Bosse)^3(Radio Room): ^5Danke.
+[skipnotify]^7E^1c^7onomy^7 was killed by Capone^7's MP40
+[skipnotify]^7E^1c^7onomy^7: ^2:/
+[skipnotify]^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^7 was killed by ^7pt^3.^7random ^gfps^7 's .45ACP 1911
+[skipnotify]: (^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1])^3(War Room): ^5Defend our objective!
+[skipnotify]Mikaku (cat)^7 was gibbed by ^0spl^7
+[skipnotify]Mikaku (cat)^7 was exploded by ^0spl^7's grenade
+[skipnotify]^8[n^7*^8]^pUG^wo^pd!^w*^7 was exploded by ^0spl^7's grenade
+[skipnotify]: (Capone)^3(Upper Bunker): ^5Fire in the hole!
+[skipnotify]: (^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1])^3(Upper Bunker): ^5Where to?
+[skipnotify]: Mikaku (cat) ^3(unknown): ^2YEE-HAW!
+[skipnotify]^37:44: ^7Axis have returned the War Documents!
+[skipnotify]^0spl^7 was killed by naveen+hedream^7's MP40
+[skipnotify](Kosse Bosse^7) (Radio Stairway): ^5LONG
+[skipnotify]: (^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1])^3(Radio Room): ^5Where to?
+[skipnotify]^8[n^7*^8]^pUG^wo^pd!^w*^7 was revived by naveen+hedream
+[skipnotify]^7K^6e^7l^6l^7y^6.^7b^6e^7 was killed by ^3BLAST^1O^3WICZ^7's Thompson
+[skipnotify]^PPhukYuh^7 was gibbed by ^7pt^3.^7random ^gfps^7
+[skipnotify]^PPhukYuh^7 was killed by ^7pt^3.^7random ^gfps^7
+[skipnotify]^37:41: ^7Allies have stolen the War Documents!
+[skipnotify]^7pt^3.^7random ^gfps^7 was cooked by SS_Maria   ^7's flamethrower
+[skipnotify]^7K^6e^7l^6l^7y^6.^7b^6e^7 was gibbed by ^3BLAST^1O^3WICZ^7
+[skipnotify]^7pt^3.^7random ^gfps^7 was gibbed by SS_Maria   ^7
+[skipnotify]: (^7K^6e^7l^6l^7y^6.^7b^6e)^3(Basement): ^5Incoming!
+[skipnotify]: ^2On.offense ^3(unknown): ^2Taking fire!
+[skipnotify]Mr.Dogday^7 was cooked by SS_Maria   ^7's flamethrower
+[skipnotify]Kosse Bosse^7 was killed by naveen+hedream^7's MP40
+[skipnotify]Mr.Dogday^7 was gibbed by SS_Maria   ^7
+[skipnotify]Kosse Bosse^7 was gibbed by naveen+hedream^7
+[skipnotify]SS_Maria   ^7 was killed by ^3BLAST^1O^3WICZ^7's MP40
+[skipnotify]naveen+hedream^7 was killed by Juno^7's MP40
+[skipnotify]^3BLAST^1O^3WICZ^7 was blasted by ^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^7's Panzerfaust
+[skipnotify]naveen+hedream^7 was gibbed by Juno^7
+[skipnotify]: ^3BLAST^1O^3WICZ ^3(unknown): ^2Negative.
+[skipnotify]^3BLAST^1O^3WICZ^7 was gibbed by ^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1]^7
+[skipnotify]SS_Maria   ^7 was revived by Capone
+[skipnotify]: ^3BLAST^1O^3WICZ ^3(unknown): ^2Hold your fire!
+[skipnotify]^7E^1c^7onomy^7 was killed by Kosse Bosse^7's MP40
+[skipnotify]^2Anti-TK system active - watch your fire
+[skipnotify]^3BLAST^1O^3WICZ^7: ^2my cat is named tuxie
+[skipnotify]^2On.offense^7 was exploded by Juno^7's grenade
+[skipnotify]SS_Maria   ^7 ^1WAS KILLED BY TEAMMATE^7 Juno^7
+[skipnotify]^0spl^7 was killed by Mikaku (cat)^7's MP40
+[skipnotify]^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^7 ^1WAS KILLED BY TEAMMATE^7 SS_Maria   ^7
+[skipnotify]: ^2On.offense ^3(unknown): ^2WOOHOOO!
+[skipnotify]: ^0spl ^3(Upper Base): ^2Hello.
+[skipnotify]: ^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1] ^3(War Room): ^2Heh heh.
+[skipnotify]^0spl^7 was gibbed by Mikaku (cat)^7
+[skipnotify]^37:12: ^7Axis have returned the War Documents!
+[skipnotify]SS_Maria   ^7: ^2sorry
+[skipnotify](^0spl^7) (Upper Base): ^5^7[^0Medic^7]
+[skipnotify]^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1]^7 was revived by Juno
+[skipnotify]SS_Maria   ^7 was revived by Capone
+[skipnotify]Mr.Dogday^7: ^2ok
+[skipnotify]^7K^6e^7l^6l^7y^6.^7b^6e^7 was killed by Heisenberg^7's MP40
+[skipnotify]Heisenberg^7 was killed by ^PPhukYuh^7's MP40
+[skipnotify]SS_Maria   ^7 was killed by ^8[n^7*^8]^pUG^wo^pd!^w*^7's MP40
+[skipnotify]: (^7K^6e^7l^6l^7y^6.^7b^6e)^3(Basement): ^5Medic!
+[skipnotify]^7pt^3.^7random ^gfps^7 was killed by ^PPhukYuh^7's MP40
+[skipnotify]^8[n^7*^8]^pUG^wo^pd!^w*^7 was killed by Juno^7's Luger 9mm
+[skipnotify]^7K^6e^7l^6l^7y^6.^7b^6e^7 was revived by Capone
+[skipnotify]: (^7K^6e^7l^6l^7y^6.^7b^6e)^3(Basement): ^5Danke.
+[skipnotify]^7pt^3.^7random ^gfps^7 was gibbed by ^PPhukYuh^7
+[skipnotify]SS_Maria   ^7 was revived by Capone
+[skipnotify]Kosse Bosse^7 was killed by ^3BLAST^1O^3WICZ^7's Thompson
+[skipnotify]Capone^7 was killed by Luftschiff^7's Sten
+[skipnotify]Kosse Bosse^7 was gibbed.
+[skipnotify]Mr.Dogday^7: ^2mucho fuego
+[skipnotify]Heisenberg^7 was gibbed by ^PPhukYuh^7
+[skipnotify]^3BLAST^1O^3WICZ^7 was killed by ^7K^6e^7l^6l^7y^6.^7b^6e^7's MP40
+[skipnotify]^3BLAST^1O^3WICZ^7 was gibbed by ^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1]^7
+[skipnotify]naveen+hedream^7 was gibbed by ^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1]^7
+[skipnotify]^7K^6e^7l^6l^7y^6.^7b^6e^7 ^1WAS KILLED BY TEAMMATE^7 ^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^7
+[skipnotify]naveen+hedream^7 was blasted by ^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^7's Panzerfaust
+[skipnotify]Capone^7 was revived by Juno
+[skipnotify]: ^2On.offense ^3(unknown): ^2Affirmative.
+[skipnotify]: (Capone)^3(War Room): ^5Danke.
+[skipnotify]Mr.Dogday^7 was killed by ^0spl^7's MP40
+[skipnotify]: (^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1])^3(Basement): ^5Sorry.
+[skipnotify]^36:46: ^7Allies have stolen the War Documents!
+[skipnotify]^7K^6e^7l^6l^7y^6.^7b^6e^7 was revived by ^PPhukYuh
+[skipnotify]Juno^7 was exploded by Mikaku (cat)^7's grenade
+[skipnotify]SS_Maria   ^7 was exploded by Mikaku (cat)^7's grenade
+[skipnotify]naveen+hedream^7: ^2hide him from dogday
+[skipnotify]^0spl^7 was killed by ^7E^1c^7onomy^7's Thompson
+[skipnotify]SS_Maria   ^7 was gibbed by Mikaku (cat)^7
+[skipnotify]Mr.Dogday^7 was revived by ^8[n^7*^8]^pUG^wo^pd!^w*
+[skipnotify]Mikaku (cat)^7 was killed by Capone^7 's .45ACP 1911
+[skipnotify]: ^2On.offense ^3(unknown): ^2All clear.
+[skipnotify]Juno^7 was revived by ^7K^6e^7l^6l^7y^6.^7b^6e
+[skipnotify]Mikaku (cat)^7 was gibbed by ^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1]^7
+[skipnotify](^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1]^7) (War Room):^5leave docs there
+[skipnotify]Luftschiff^7 was killed by ^7K^6e^7l^6l^7y^6.^7b^6e^7's MP40
+[skipnotify]Juno^7 was exploded by Luftschiff^7's grenade
+[skipnotify]: (^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1])^3(War Room): ^5Medic!
+[skipnotify]^PPhukYuh^7 was killed by ^7E^1c^7onomy^7's MP40
+[skipnotify]: (^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1])^3(War Room): ^5Medic!
+[skipnotify]^7E^1c^7onomy^7 was killed by Kosse Bosse^7's MP40
+[skipnotify]: Luftschiff ^3(unknown): ^2Oops.
+[skipnotify]: (^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1])^3(War Room): ^5Medic!
+[skipnotify]Kosse Bosse^7 was killed by ^3BLAST^1O^3WICZ^7's Thompson
+[skipnotify]^3BLAST^1O^3WICZ^7 was killed by ^7K^6e^7l^6l^7y^6.^7b^6e^7's MP40
+[skipnotify]^2Type /s_stop in console to restore lost sound
+[skipnotify]Kosse Bosse^7 was revived by ^7K^6e^7l^6l^7y^6.^7b^6e
+[skipnotify]: (Kosse Bosse)^3(Radio Room): ^5Danke.
+[skipnotify]^PPhukYuh^7 was revived by ^7K^6e^7l^6l^7y^6.^7b^6e
+[skipnotify]: Mikaku (cat) ^3(unknown): ^2The enemy is weakened.
+[skipnotify]^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^7 was killed by ^8[n^7*^8]^pUG^wo^pd!^w*^7's Thompson
+[skipnotify]Kosse Bosse^7 was exploded by ^7pt^3.^7random ^gfps^7's grenade
+[skipnotify]: ^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1] ^3(War Room): ^2YES!
+[skipnotify]Juno^7 was revived by Capone
+[skipnotify]^PPhukYuh^7 ^1WAS KILLED BY TEAMMATE^7 ^7K^6e^7l^6l^7y^6.^7b^6e^7
+[skipnotify]^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1]^7 was revived by Capone
+[skipnotify]Capone^7 was killed by naveen+hedream^7's Thompson
+[skipnotify]^7pt^3.^7random ^gfps^7 was cooked by SS_Maria   ^7's flamethrower
+[skipnotify]^PPhukYuh^7 was revived by ^7K^6e^7l^6l^7y^6.^7b^6e
+[skipnotify]SS_Maria   ^7 was exploded by Heisenberg^7's grenade
+[skipnotify]Juno^7 was killed by naveen+hedream^7's Thompson
+[skipnotify]^2On.offense^7 was gibbed by ^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1]^7
+[skipnotify]naveen+hedream^7 was gibbed by ^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1]^7
+[skipnotify]^2On.offense^7 was blasted by ^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^7's Panzerfaust
+[skipnotify]naveen+hedream^7 was blasted by ^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^7's Panzerfaust
+[skipnotify]^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^7 was killed by ^8[n^7*^8]^pUG^wo^pd!^w*^7's Thompson
+[skipnotify]: ^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1] ^3(War Room): ^2Hey!
+[skipnotify]: Capone ^3(War Room): ^2Oops.
+[skipnotify]: ^2On.offense ^3(unknown): ^2Great shot.
+[skipnotify]Kosse Bosse^7 was revived by ^7K^6e^7l^6l^7y^6.^7b^6e
+[skipnotify]: (Kosse Bosse)^3(Radio Room): ^5Danke.
+[skipnotify]: ^2On.offense ^3(unknown): ^2Hi.
+[skipnotify]SS_Maria   ^7 was gibbed by Heisenberg^7
+[skipnotify](^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1]^7) (War Room):^5^8WARROOM ^7WARROOM ^1WARROOM!!!
+[skipnotify]^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1]^7 was revived by ^PPhukYuh
+[skipnotify]^8[n^7*^8]^pUG^wo^pd!^w*^7 was killed by ^7K^6e^7l^6l^7y^6.^7b^6e^7's MP40
+[skipnotify]Mr.Dogday^7 dove on his own grenade.
+[skipnotify]Capone^7 was revived by ^PPhukYuh
+[skipnotify]^35:59: ^7Axis have returned the War Documents!
+[skipnotify]: naveen+hedream ^3(unknown): ^2Hi.
+[skipnotify]: (Capone)^3(War Room): ^5Danke.
+[skipnotify]^7pt^3.^7random ^gfps^7 was revived by Heisenberg
+[skipnotify]Mikaku (cat)^7 was killed by ^0spl^7's MP40
+[skipnotify]Mikaku (cat)^7 was revived by ^3BLAST^1O^3WICZ
+[skipnotify]^8[n^7*^8]^pUG^wo^pd!^w*^7 was gibbed by ^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1]^7
+[skipnotify]^7pt^3.^7random ^gfps^7 was killed by Kosse Bosse^7's MP40
+[skipnotify]^7pt^3.^7random ^gfps^7 was gibbed.
+[skipnotify]Kosse Bosse^7 was exploded by ^7pt^3.^7random ^gfps^7's grenade
+[skipnotify]: naveen+hedream ^3(unknown): ^2Negative.
+[skipnotify]Mr.Dogday^7 was gibbed by ^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1]^7
+[skipnotify](^0spl^7) (War Room): ^5^7[^0LT^7-^0Mp40^7]
+[skipnotify]Kosse Bosse^7 was gibbed by Heisenberg^7
+[skipnotify]^3BLAST^1O^3WICZ^7 was killed by ^7K^6e^7l^6l^7y^6.^7b^6e^7's MP40
+[skipnotify]Heisenberg^7 was killed by ^PPhukYuh^7's Thompson
+[skipnotify]^3BLAST^1O^3WICZ^7 was gibbed by ^7K^6e^7l^6l^7y^6.^7b^6e^7
+[skipnotify]^0spl^7 was exploded by Luftschiff^7's grenade
+[skipnotify]^7K^6e^7l^6l^7y^6.^7b^6e^7 was exploded by Mikaku (cat)^7's grenade
+[skipnotify]^35:41: ^7Allies have stolen the War Documents!
+[skipnotify]Heisenberg^7 was gibbed by ^PPhukYuh^7
+[skipnotify]Juno^7 was killed by ^7E^1c^7onomy^7's Thompson
+[skipnotify]^0spl^7 was revived by Capone
+[skipnotify]SS_Maria   ^7 was killed by ^7E^1c^7onomy^7's Thompson
+[skipnotify]: ^2On.offense ^3(unknown): ^2Disarm the dynamite!
+[skipnotify]: ^3BLAST^1O^3WICZ ^3(unknown): ^2Affirmative.
+[skipnotify]Capone^7 was killed by Mikaku (cat)^7's MP40
+[skipnotify]Luftschiff^7 was killed by ^0spl^7's MP40
+[skipnotify]Juno^7 was gibbed by ^7E^1c^7onomy^7
+[skipnotify]SS_Maria   ^7 was gibbed by ^7E^1c^7onomy^7
+[skipnotify]^0spl^7 was killed by naveen+hedream^7's Thompson
+[skipnotify]Luftschiff^7 was revived by naveen+hedream
+[skipnotify]: (Kosse Bosse)^3(Radio Room): ^5Where to?
+[skipnotify]: ^3BLAST^1O^3WICZ ^3(unknown): ^2Negative.
+[skipnotify]^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^7 was killed by Mikaku (cat)^7's MP40
+[skipnotify]: ^3BLAST^1O^3WICZ ^3(unknown): ^2Affirmative.
+[skipnotify](^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1]^7) (Basement):^5^8LONG ^7LONG ^1LONG!!!
+[skipnotify]: Heisenberg ^3(unknown): ^2Affirmative.
+[skipnotify]: ^3BLAST^1O^3WICZ ^3(unknown): ^2Negative.
+[skipnotify]: ^3BLAST^1O^3WICZ ^3(unknown): ^2Affirmative.
+[skipnotify]: (^7K^6e^7l^6l^7y^6.^7b^6e)^3(Basement Barracks): ^5Medic!
+[skipnotify](^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1]^7) (Upper Bunker[lo^5^8LONG ^7LONG ^1LONG!!!
+[skipnotify]: ^3BLAST^1O^3WICZ ^3(unknown): ^2Negative.
+[skipnotify]: ^3BLAST^1O^3WICZ ^3(unknown): ^2Affirmative.
+[skipnotify](^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1]^7) (Upper Bunker[lo^5^8LONG ^7LONG ^1LONG!!!
+[skipnotify]: ^3BLAST^1O^3WICZ ^3(unknown): ^2Negative.
+[skipnotify](^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1]^7) (Upper Base^5^8LONG ^7LONG ^1LONG!!!
+[skipnotify]^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1]^7 was gibbed by ^7pt^3.^7random ^gfps^7
+[skipnotify]^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^7 was blasted by ^7pt^3.^7random ^gfps^7's Panzerfaust
+[skipnotify](^0spl^7) (Basement): ^5Looks long
+[skipnotify]: ^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1] ^3(Upper Base): ^2Heh heh.
+[skipnotify]: (^7K^6e^7l^6l^7y^6.^7b^6e)^3(Basement Barracks): ^5Medic!
+[skipnotify]^2Try !stats to view your live player stats
+[skipnotify](^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1]^7) (Upper Base^5^8LONG ^7LONG ^1LONG!!!
+[skipnotify](^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1]^7) (Upper Base^5^8LONG ^7LONG ^1LONG!!!
+[skipnotify]SS_Maria   ^7 was killed by ^7E^1c^7onomy^7's Thompson
+[skipnotify]: ^2On.offense ^3(unknown): ^2Yeah!
+[skipnotify](^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1]^7) (Upper Base^5^8LONG ^7LONG ^1LONG!!!
+[skipnotify]^PPhukYuh^7 ^1WAS KILLED BY TEAMMATE^7 SS_Maria   ^7
+[skipnotify](^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1]^7) (Upper Base^5^8LONG ^7LONG ^1LONG!!!
+[skipnotify](^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1]^7) (Upper Base^5^8LONG ^7LONG ^1LONG!!!
+[skipnotify](^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1]^7) (Upper Base^5^8LONG ^7LONG ^1LONG!!!
+[skipnotify]^PPhukYuh^7 was gibbed by ^7E^1c^7onomy^7
+[skipnotify](^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1]^7) (Upper Base^5^8LONG ^7LONG ^1LONG!!!
+[skipnotify]: ^7E^1c^7onomy ^3(unknown): ^2Oops.
+[skipnotify]: (Capone)^3(War Room): ^5Where to?
+[skipnotify]: (^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1])^3(Upper Base): ^5Defend our objective!
+[skipnotify]SS_Maria   ^7 was revived by Juno
+[skipnotify]: (SS_Maria   )^3(Radio Stairway): ^5Danke.
+[skipnotify]: (Capone)^3(Upper Bunker): ^5Where to?
+[skipnotify]^3BLAST^1O^3WICZ^7 was gibbed by ^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1]^7
+[skipnotify]Mr.Dogday^7 was gibbed by ^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1]^7
+[skipnotify]^3BLAST^1O^3WICZ^7 was blasted by ^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^7's Panzerfaust
+[skipnotify]Mr.Dogday^7 was blasted by ^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^7's Panzerfaust
+[skipnotify]Heisenberg^7 was killed by ^0spl^7's MP40
+[skipnotify]: ^3BLAST^1O^3WICZ ^3(unknown): ^2Negative.
+[skipnotify]Juno^7 was killed by ^7E^1c^7onomy^7's Thompson
+[skipnotify]Mikaku (cat)^7 was killed by Capone^7's MP40
+[skipnotify]^35:00: ^7Axis have returned the War Documents!
+[skipnotify]Heisenberg^7 was gibbed by ^0spl^7
+[skipnotify]Kosse Bosse^7 was killed by naveen+hedream^7's Thompson
+[skipnotify]: ^3BLAST^1O^3WICZ ^3(unknown): ^2Negative.
+[skipnotify]: Mikaku (cat) ^3(unknown): ^2Negative.
+[skipnotify]^34:58: ^7Allies have stolen the War Documents!
+[skipnotify]SS_Maria   ^7 was killed by naveen+hedream^7's Thompson
+[skipnotify]naveen+hedream^7 was killed by ^PPhukYuh^7's MP40
+[skipnotify]: ^3BLAST^1O^3WICZ ^3(unknown): ^2Negative.
+[skipnotify]: Mikaku (cat) ^3(unknown): ^2Negative.
+[skipnotify]Juno^7 was gibbed by ^7E^1c^7onomy^7
+[skipnotify]: ^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1] ^3(Radio Stairway): ^2The enemy is weakened.
+[skipnotify]Kosse Bosse^7 was revived by Capone
+[skipnotify]: Mikaku (cat) ^3(unknown): ^2Negative.
+[skipnotify](^7K^6e^7l^6l^7y^6.^7b^6e^7) (Basement Barracks)^5IM DEAD
+[skipnotify]: (Kosse Bosse)^3(Radio Room): ^5Danke.
+[skipnotify]SS_Maria   ^7 was revived by ^PPhukYuh
+[skipnotify]: ^6HACKNEY MAN DEM E8 ^3(Upper Base): ^2Affirmative.
+[skipnotify]: ^2On.offense ^3(unknown): ^2Affirmative.
+[skipnotify]Capone^7 was killed by ^7E^1c^7onomy^7's Thompson
+[skipnotify]Mikaku (cat)^7: ^2looooooooool
+[skipnotify]Mikaku (cat)^7 was gibbed by SS_Maria   ^7
+[skipnotify]naveen+hedream^7 was gibbed by SS_Maria   ^7
+[skipnotify]^PPhukYuh^7 ^1WAS KILLED BY TEAMMATE^7 SS_Maria   ^7
+[skipnotify]: ^2On.offense ^3(unknown): ^2Affirmative.
+[skipnotify]Capone^7 was gibbed by ^7E^1c^7onomy^7
+[skipnotify]: Heisenberg ^3(unknown): ^2Negative.
+[skipnotify]SS_Maria   ^7 was killed by Luftschiff^7's Sten
+[skipnotify]^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^7 was killed by ^7E^1c^7onomy^7's Thompson
+[skipnotify]Luftschiff^7 was killed by Kosse Bosse^7's MP40
+[skipnotify]: ^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1] ^3(Radio Room): ^2YES!
+[skipnotify]^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1]^7 was gibbed by ^7E^1c^7onomy^7
+[skipnotify]^PPhukYuh^7 was gibbed by ^7E^1c^7onomy^7
+[skipnotify]SS_Maria   ^7 was gibbed by ^7E^1c^7onomy^7
+[skipnotify]^7E^1c^7onomy^7 was gibbed by ^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1]^7
+[skipnotify]^7E^1c^7onomy^7 was blasted by ^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^7's Panzerfaust
+[skipnotify]: ^7E^1c^7onomy ^3(unknown): ^2Good game.
+[skipnotify]: ^2On.offense ^3(unknown): ^2Affirmative.
+[skipnotify]: (^7K^6e^7l^6l^7y^6.^7b^6e)^3(Basement Barracks): ^5I need backup!
+[skipnotify]^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1]^7 was gibbed by ^7pt^3.^7random ^gfps^7
+[skipnotify]^7pt^3.^7random ^gfps^7 was gibbed.
+[skipnotify]^2On.offense^7 was gibbed by ^0spl^7
+[skipnotify]^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^7 was killed by ^7pt^3.^7random ^gfps^7
+[skipnotify]^7pt^3.^7random ^gfps^7 vaporized himself.
+[skipnotify]^2On.offense^7 was exploded by ^0spl^7's grenade
+[skipnotify]: ^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1] ^3(Radio Stairway): ^2Heh heh.
+[skipnotify]: ^2On.offense ^3(unknown): ^2I'm on offense.
+[skipnotify]Juno^7 was killed by Luftschiff^7's Sten
+[skipnotify]^0spl^7 was killed by naveen+hedream^7's Thompson
+[skipnotify]: Mikaku (cat) ^3(unknown): ^2The enemy is weakened.
+[skipnotify]: (^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1])^3(Radio Stairway): ^5Where to?
+[skipnotify]Juno^7 was revived by Capone
+[skipnotify]: (^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1])^3(Radio Stairway): ^5Where to?
+[skipnotify]: (^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1])^3(Radio Stairway): ^5Where to?
+[skipnotify]Luftschiff^7 ^1WAS KILLED BY TEAMMATE^7 naveen+hedream^7
+[skipnotify]Luftschiff^7 was revived by naveen+hedream
+[skipnotify]Mikaku (cat)^7 was killed by ^PPhukYuh^7's MP40
+[skipnotify]: (^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1])^3(Upper Bunker): ^5Where to?
+[skipnotify]Juno^7 was exploded by ^3BLAST^1O^3WICZ^7's grenade
+[skipnotify]Kosse Bosse^7 was exploded by ^3BLAST^1O^3WICZ^7's grenade
+[skipnotify]: (^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1])^3(Upper Bunker): ^5Where to?
+[skipnotify]: (^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1])^3(Upper Bunker): ^5Where to?
+[skipnotify]^0spl^7 was killed by ^7E^1c^7onomy^7's Thompson
+[skipnotify]Capone^7 was exploded by Mikaku (cat)^7's grenade
+[skipnotify]^2 Type /cl_allowdownload 1 to auto-download custom maps
+[skipnotify]Kosse Bosse^7 was revived by ^PPhukYuh
+[skipnotify]: (Kosse Bosse)^3(Radio Room): ^5Danke.
+[skipnotify]Juno^7 was revived by ^PPhukYuh
+[skipnotify]Mr.Dogday^7 was gibbed by ^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1]^7
+[skipnotify]Mr.Dogday^7 was blasted by ^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^7's Panzerfaust
+[skipnotify]Mikaku (cat)^7 ^3WAS GIBBED BY TEAMMATE ^7^3BLAST^1O^3WICZ^7
+[skipnotify]^PPhukYuh^7 was gibbed by ^3BLAST^1O^3WICZ^7
+[skipnotify]^PPhukYuh^7 was exploded by ^3BLAST^1O^3WICZ^7's grenade
+[skipnotify]^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^7 was killed by Luftschiff^7's Sten
+[skipnotify]: ^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1] ^3(Radio Room): ^2Heh heh.
+[skipnotify]: ^2On.offense ^3(unknown): ^2Hi.
+[skipnotify]^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1]^7 was revived by Juno
+[skipnotify]SS_Maria   ^7 was killed by naveen+hedream^7's Thompson
+[skipnotify]: (^7K^6e^7l^6l^7y^6.^7b^6e)^3(Basement Barracks): ^5Medic!
+[skipnotify]Juno^7 was exploded by Heisenberg^7's grenade
+[skipnotify]^3BLAST^1O^3WICZ^7 was killed by Kosse Bosse^7's Sten
+[skipnotify]^3BLAST^1O^3WICZ^7 ^3WAS GIBBED BY TEAMMATE ^7^8[n^7*^8]^pUG^wo^pd!^w*^7
+[skipnotify]^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^7 was exploded by ^8[n^7*^8]^pUG^wo^pd!^w*^7's grenade
+[skipnotify]Kosse Bosse^7 was killed by Heisenberg^7's Thompson
+[skipnotify]^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1]^7 was gibbed by ^7pt^3.^7random ^gfps^7
+[skipnotify]Heisenberg^7 was killed by ^PPhukYuh^7's MP40
+[skipnotify]: ^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1] ^3(Upper Bunker): ^2Hold your fire!
+[skipnotify]Kosse Bosse^7 was revived by ^PPhukYuh
+[skipnotify]SS_Maria   ^7: ^2under stair aliado
+[skipnotify]Heisenberg^7 was revived by ^8[n^7*^8]^pUG^wo^pd!^w*
+[skipnotify]: (Kosse Bosse)^3(Radio Room): ^5Danke.
+[skipnotify]: ^3BLAST^1O^3WICZ ^3(unknown): ^2Affirmative.
+[skipnotify]: ^2On.offense ^3(unknown): ^2Hold your fire!
+[skipnotify]^PPhukYuh^7 was gibbed by ^7pt^3.^7random ^gfps^7
+[skipnotify]Juno^7 was gibbed by ^7pt^3.^7random ^gfps^7
+[skipnotify]^8[n^7*^8]^pUG^wo^pd!^w*^7 ^3WAS GIBBED BY TEAMMATE ^7^7pt^3.^7random ^gfps^7
+[skipnotify]^PPhukYuh^7 was blasted by ^7pt^3.^7random ^gfps^7's Panzerfaust
+[skipnotify]^8[n^7*^8]^pUG^wo^pd!^w*^7 ^1WAS KILLED BY TEAMMATE^7 ^7pt^3.^7random ^gfps^7
+[skipnotify]: (^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1])^3(Upper Bunker): ^5Where to?
+[skipnotify]: ^8[n^7*^8]^pUG^wo^pd!^w* ^3(unknown): ^2Woohooo!
+[skipnotify]: (^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1])^3(Upper Bunker): ^5Where to?
+[skipnotify]: (^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1])^3(Upper Bunker): ^5Where to?
+[skipnotify]: ^2On.offense ^3(unknown): ^2Taking fire!
+[skipnotify]: (^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1])^3(Upper Bunker): ^5Where to?
+[skipnotify]: (^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1])^3(Upper Bunker): ^5Where to?
+[skipnotify]^33:52: ^7Allies transmitted the documents!
+[skipnotify]: ^8[n^7*^8]^pUG^wo^pd!^w* ^3(unknown): ^2YEE-HAW!
+[skipnotify]: Mikaku (cat) ^3(unknown): ^2WOOHOOO!
+[skipnotify]: (^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1])^3(Upper Bunker): ^5Defend our objective!
+[skipnotify]: ^3BLAST^1O^3WICZ ^3(unknown): ^2Hi.
+[skipnotify]: ^7K^6e^7l^6l^7y^6.^7b^6e ^3(Basement Barracks): ^2Great shot.
+[skipnotify]: ^8[n^7*^8]^pUG^wo^pd!^w* ^3(unknown): ^2YEE-HAW!
+[skipnotify]: ^7E^1c^7onomy ^3(unknown): ^2Oops.
+[skipnotify]: Mikaku (cat) ^3(unknown): ^2YEE-HAW!
+[skipnotify]: ^8[n^7*^8]^pUG^wo^pd!^w* ^3(unknown): ^2Yeah!
+[skipnotify]: (^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1])^3(Upper Bunker): ^5Defend our objective!
+[skipnotify]: Mr.Dogday ^3(unknown): ^2YEE-HAW!
+[skipnotify]: (^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1])^3(Upper Bunker): ^5Defend our objective!
+[skipnotify]: Mr.Dogday ^3(unknown): ^2WOOHOOO!
+[skipnotify]: (^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1])^3(Beach): ^5Defend our objective!
+[skipnotify]: Mr.Dogday ^3(unknown): ^2Yeah!
+[skipnotify]: Capone ^3(Upper Base): ^2Heh heh.
+[skipnotify]: ^2On.offense ^3(unknown): ^2All clear.
+[skipnotify]: ^PPhukYuh ^3(Beach): ^2Good game.
+[skipnotify]^3Stats for this round:
+[skipnotify]^3-----------------------------------------------------------------------------
+[skipnotify]^1Axis Team
+[skipnotify]^3T Name      |  K  D   KR T |  G  R  H  A |   DG   TD  TDR     DR |  B PD     
+[skipnotify]^3-----------------------------------------------------------------------------
+[skipnotify]^1R^7 spl       ^3|^7 40 23 1.74 1 ^3|^7 22  0  0 35 ^3|^7 9922  333 0.03   6037 ^3|^7 18 $0.00
+[skipnotify]^1R^7 [[[Mad.zw ^3|^7 31 16 1.94 2 ^3|^7 31  0  0  0 ^3|^7 9521  722 0.07   4112 ^3|^7 10 $107.00
+[skipnotify]^1R^7 HACKNEY M ^3|^7 28 21 1.33 3 ^3|^7 17  2  1  0 ^3|^7 8229  103 0.01   7128 ^3|^7 14 $75.00
+[skipnotify]^1R^7 Kelly.be  ^3|^7 30 24 1.25 2 ^3|^7 11 14 14  0 ^3|^7 7668  554 0.07   6660 ^3|^7 18 $0.00
+[skipnotify]^1R^7 PhukYuh   ^3|^7 24 17 1.41 1 ^3|^7 15 18 30  0 ^3|^7 6500  318 0.05   6769 ^3|^7 16 $110.00
+[skipnotify]^1R^7 Juno      ^3|^7 13 21 0.62 3 ^3|^7  7  9 13  0 ^3|^7 4271  805 0.16 106203 ^3|^7  9 $37.00
+[skipnotify]^1R^7 Kosse Bos ^3|^7 18 26 0.69 1 ^3|^7  3  4 12  0 ^3|^7 4252  228 0.05   7719 ^3|^7  8 $0.00
+[skipnotify]^1R^7 Capone    ^3|^7 16 17 0.94 0 ^3|^7  5 18 19  1 ^3|^7 3618  265 0.07   5900 ^3|^7 11 $0.00
+[skipnotify]^1R^7 SS_Maria  ^3|^7  9 24 0.38 4 ^3|^7  6  0  0  0 ^3|^7 3124  717 0.19   5847 ^3|^7  5 $195.00
+[skipnotify]^3-----------------------------------------------------------------------------
+[skipnotify]^4Allied Team
+[skipnotify]^3T Name      |  K  D   KR T |  G  R  H  A |   DG   TD  TDR     DR |  B PD     
+[skipnotify]^3-----------------------------------------------------------------------------
+[skipnotify]^4B^7 pt.random ^3|^7 29 26 1.12 4 ^3|^7 25  0  0  0 ^3|^7 9041 1594 0.15   6845 ^3|^7  5 $118.00
+[skipnotify]^4B^7 naveen+he ^3|^7 38 22 1.73 2 ^3|^7 12 11 18  0 ^3|^7 8634  316 0.04   7341 ^3|^7 17 $0.00
+[skipnotify]^4B^7 [n*]UGod! ^3|^7 28 19 1.47 1 ^3|^7 12  3  6 12 ^3|^7 6410  852 0.12   6397 ^3|^7 18 $334.00
+[skipnotify]^4B^7 Heisenber ^3|^7 22 24 0.92 1 ^3|^7 10  9 30  0 ^3|^7 5768   90 0.02   9206 ^3|^7 10 $0.00
+[skipnotify]^4B^7 Economy   ^3|^7 15 10 1.50 0 ^3|^7 13  3  1  0 ^3|^7 5028    0 0.00   2820 ^3|^7 14 $0.00
+[skipnotify]^4B^7 Mikaku (c ^3|^7 18 31 0.58 1 ^3|^7  6  0  0 40 ^3|^7 4857  213 0.04   8151 ^3|^7  5 $403.00
+[skipnotify]^4B^7 BLASTOWIC ^3|^7 17 28 0.61 2 ^3|^7  7 15 36  0 ^3|^7 4493 1032 0.19  10013 ^3|^7 16 $200.00
+[skipnotify]^4B^7 Luftschif ^3|^7 15 13 1.15 2 ^3|^7  1  0  0 46 ^3|^7 3042  254 0.08   3533 ^3|^7  2 $103.00
+[skipnotify]^4B^7 Mr.Dogday ^3|^7  5 23 0.22 2 ^3|^7  5  0  0  0 ^3|^7 1556  798 0.34   7418 ^3|^7 11 $80.00
+[skipnotify]^4B^7 On.offens ^3|^7  1  8 0.12 1 ^3|^7  0  2  9  0 ^3|^7  511  418 0.45   2613 ^3|^7  2 $0.00
+[skipnotify]^3-----------------------------------------------------------------------------
+[skipnotify]
+Type ^3/? stats^7 for info on column labels
+
+[skipnotify]Stats for ^6HACKNEY MAN DEM E8 ^7this round:
+[skipnotify]^3Kills:^7 28 (^13^7), ^3Deaths:^7 21, ^3Kill Ratio: ^71.33, ^3Gibs:^7 17
+[skipnotify]^3Revived:^7 2, ^3Packs Given:^7 1 Health, 0 Ammo
+[skipnotify]^3Accuracy:^7 36.78 (292/794), ^3Headshots: ^736
+[skipnotify]^3Binoculars:^7 14, ^3Property Damage:^7 $75.00
+[skipnotify]Server: timelimit changed to 21.120832
+[skipnotify]Server: g_warmup changed to 40
+[skipnotify]: Heisenberg ^3(unknown): ^2Affirmative.
+[skipnotify]: ^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1] ^3(Sniper Hill): ^2Defend our objective!
+[skipnotify]: Mr.Dogday ^3(unknown): ^2Great shot.
+[skipnotify]: ^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1] ^3(Sniper Hill): ^2Defend our objective!
+^5PunkBuster Client: Server's local PB Log File /home/beach/.wolf/pb/svlogs/00000725.log has MD5 of EE4D4396A30732D88E03FA60FE3E253E (3431 bytes)
+[skipnotify]: ^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1] ^3(Sniper Hill): ^2Defend our objective!
+[skipnotify]WolfPlayer^7 renamed to Chorizos
+[skipnotify]: Mr.Dogday ^3(unknown): ^2Great shot.
+[skipnotify]: (Capone)^3(Beach Landing): ^5Where to?
+[skipnotify]: ^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1] ^3(Sniper Hill): ^2Defend our objective!
+[skipnotify]: (Capone)^3(Beach Landing): ^5Where to?
+[skipnotify]: ^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1] ^3(Sniper Hill): ^2Defend our objective!
+[skipnotify]: ^2On.offense ^3(unknown): ^2I'm a soldier.
+[skipnotify]: ^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1] ^3(Sniper Hill): ^2Defend our objective!
+[skipnotify]: ^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1] ^3(Sniper Hill): ^2Defend our objective!
+[skipnotify]: Capone ^3(Beach Landing): ^2Affirmative.
+[skipnotify]^2On.offense^7 dove on his own grenade.
+[skipnotify]: ^2On.offense ^3(unknown): ^2Negative.
+[skipnotify]: Capone ^3(Beach Landing): ^2Affirmative.
+[skipnotify]: Heisenberg ^3(unknown): ^2Negative.
+[skipnotify]: Mr.Dogday ^3(unknown): ^2Great shot.
+[skipnotify]: ^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1] ^3(Sniper Hill): ^2Defend our objective!
+[skipnotify]: Heisenberg ^3(unknown): ^2Negative.
+[skipnotify]: naveen+hedream ^3(unknown): ^2Affirmative.
+[skipnotify]: ^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1] ^3(Sniper Hill): ^2Defend our objective!
+[skipnotify]Luftschiff^7 disconnected
+[skipnotify]: ^8[n^7*^8]^pUG^wo^pd!^w* ^3(unknown): ^2Affirmative.
+[skipnotify]: Mikaku (cat) ^3(unknown): ^2The enemy is weakened.
+[skipnotify]: naveen+hedream ^3(unknown): ^2Affirmative.
+[skipnotify]: ^2On.offense ^3(unknown): ^2Negative.
+[skipnotify]: ^8[n^7*^8]^pUG^wo^pd!^w* ^3(unknown): ^2Affirmative.
+[skipnotify]^7E^1c^7onomy^7: ^2!admintest
+[skipnotify]^1admintest:^7 ^7E^1c^7onomy^7 is a level 1 user (^fRegular^7)
+[skipnotify]: naveen+hedream ^3(unknown): ^2Affirmative.
+[skipnotify]: Kosse Bosse ^3(Beach): ^2Oops.
+[skipnotify]: ^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1] ^3(Sniper Hill): ^2Defend our objective!
+[skipnotify]: ^8[n^7*^8]^pUG^wo^pd!^w* ^3(unknown): ^2Affirmative.
+[skipnotify]^2ECGN Public Ventrilo - 69.65.113.18:3784
+[skipnotify]: ^1[^3[^1[^7Mad^1.^7zwiL^1]^3]^1] ^3(Sniper Hill): ^2Defend our objective!
+[skipnotify]: Kosse Bosse ^3(Beach): ^2Oops.
+[skipnotify]^2On.offense^7 ^1WAS KILLED BY TEAMMATE^7 Heisenberg^7
+[skipnotify]: Kosse Bosse ^3(Beach): ^2Oops.
+----- CL_Shutdown -----
+RE_Shutdown( 1 )
+Shutting down OpenGL subsystem
+...wglMakeCurrent( NULL, NULL ): success
+...deleting GL context: success
+...releasing DC: success
+...destroying window
+...resetting display
+...shutting down QGL
+...unloading OpenGL DLL
+-----------------------
